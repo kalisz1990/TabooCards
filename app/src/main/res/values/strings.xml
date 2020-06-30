@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TabooCards</string>
+    <string name="start">Start</string>
+    <string name="team_1">team1</string>
+    <string name="team_2">team2</string>
+    <string name="score_1">score_1</string>
+    <string name="score_2">score_2</string>
 </resources>
