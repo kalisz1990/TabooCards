@@ -11,6 +11,7 @@ import android.widget.EditText
 private var team1: String = ""
 private var team2: String = ""
 
+
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

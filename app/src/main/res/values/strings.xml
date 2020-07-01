@@ -5,4 +5,9 @@
     <string name="team_2">team2</string>
     <string name="score_1">score_1</string>
     <string name="score_2">score_2</string>
+    <string name="easy">easy</string>
+    <string name="medium">medium</string>
+    <string name="hard">hard</string>
+    <string name="random">random</string>
+    <string name="difficult_level">Difficult level</string>
 </resources>
