@@ -1,11 +1,9 @@
-package com.example.taboocards.spash_screen
+package com.example.taboocards
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import com.example.taboocards.MenuActivity
-import com.example.taboocards.R
 
 private const val DELAY_TIME = 100L;
 

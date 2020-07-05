@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
+import android.widget.Toast
 
 private var team1: String = ""
 private var team2: String = ""
@@ -20,10 +21,7 @@ class MenuActivity : AppCompatActivity() {
     }
 
     fun startGame(view: View) {
-//        if (team1.isNullOrEmpty() || team2.isNullOrEmpty()) {
         teamDetailsDialog()
-//        } else {
-//        }
     }
 
     private fun teamDetailsDialog() {
@@ -38,10 +36,20 @@ class MenuActivity : AppCompatActivity() {
         val customDialog = dialog.create()
         customDialog.show()
         customDialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener {
-            team1 = team1EditText.text.toString()
-            team2 = team2EditText.text.toString()
-            goToGameActivity()
-            customDialog.dismiss()
+            when {
+                team1EditText.text.toString().isEmpty() -> {
+                    Toast.makeText(this, "empty Team 1 name", Toast.LENGTH_SHORT).show()
+                }
+                team2EditText.text.toString().isEmpty() -> {
+                    Toast.makeText(this, "empty Team 2 name", Toast.LENGTH_SHORT).show()
+                }
+                else -> {
+                    team1 = team1EditText.text.toString()
+                    team2 = team2EditText.text.toString()
+                    customDialog.dismiss()
+                    goToGameActivity()
+                }
+            }
         }
 
     }

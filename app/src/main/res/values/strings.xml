@@ -10,4 +10,7 @@
     <string name="hard">hard</string>
     <string name="random">random</string>
     <string name="difficult_level">Difficult level</string>
+    <string name="ok">OK</string>
+    <string name="wrong">Wrong</string>
+    <string name="skip">Skip</string>
 </resources>

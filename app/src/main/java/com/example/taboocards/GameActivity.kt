@@ -12,7 +12,6 @@ class GameActivity : AppCompatActivity() {
 
         team_1_name_game.text = intent.getStringExtra(getString(R.string.team_1))
         team_2_name_game.text = intent.getStringExtra(getString(R.string.team_2))
-
     }
 
     override fun onBackPressed() {
@@ -20,4 +19,6 @@ class GameActivity : AppCompatActivity() {
         startActivity(intent)
         finish()
     }
+
+
 }
