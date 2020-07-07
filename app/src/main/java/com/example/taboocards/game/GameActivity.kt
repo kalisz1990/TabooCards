@@ -5,30 +5,27 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.View
+import android.widget.Toast
 import com.example.taboocards.menu.MenuActivity
 import com.example.taboocards.R
 import kotlinx.android.synthetic.main.activity_game.*
 
-const val team_1_name_game: String = ""
-const val team_2_name_game: String = ""
-const val team_1_score_game: Int = 0
-const val team_2_score_game: Int = 0
-
-private var timerSeconds: Long = 12L
-private var timerMinutes: Long = 1L
+private var timerSeconds: Long = 10L
+private var timerMinutes: Long = 0L
 
 const val secondsInMinuteInMillis: Long = 60000L
+const val millisecondsInSeconds: Long = 1000L
 
 class GameActivity : AppCompatActivity() {
     private lateinit var gameService: GameService
-    private lateinit var timer: CountDownTimer
+    private lateinit var countDownTimer: CountDownTimer
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game)
 
         activitySetup()
-        timer()
+        timer(timerSeconds, timerMinutes)
 
     }
 
@@ -46,41 +43,48 @@ class GameActivity : AppCompatActivity() {
         score_team_2_game_activity.text = "0"
     }
 
-    fun timer() {
-        val timeCounter: Long = (timerSeconds * 1000L) + (timerMinutes * secondsInMinuteInMillis)
+    fun timer(timeInSeconds: Long, timeInMinutes: Long) {
+        val totalTime =
+            timeInSeconds * millisecondsInSeconds + timeInMinutes * secondsInMinuteInMillis
+        countDownTimer = object : CountDownTimer(totalTime, 1000) {
+            override fun onTick(millisUntilFinished: Long) {
+                var diff = millisUntilFinished
+                val secondsInMilli: Long = 1000
+                val minutesInMilli = secondsInMilli * 60
 
-        for (x in timerMinutes downTo -1 step 1) {
-            timer = object : CountDownTimer(timeCounter, 1000) {
-                override fun onTick(millisUntilFinished: Long) {
-                    val timeLeft = if (millisUntilFinished <= secondsInMinuteInMillis) {
-                        millisUntilFinished / 1000L
-                    } else {
-                        millisUntilFinished > secondsInMinuteInMillis && millisUntilFinished < secondsInMinuteInMillis * 2 -> timerMinutes++
+                val elapsedMinutes = diff / minutesInMilli
+                diff %= minutesInMilli
+                val elapsedSeconds = diff / secondsInMilli
+
+                timer_counter_minutes.text = elapsedMinutes.toString()
+
+                when {
+                    diff < 10000 -> {
+                        timer_counter_seconds.text = "0$elapsedSeconds"
                     }
-                    when {
-                        timerSeconds < 10 -> {
-                            timer_counter_seconds.text = "0$timeLeft"
-                        }
-                        timerSeconds < 1 -> {
-                            timer_counter_seconds.text = "00"
-                            timer_counter_minutes.text = timerMinutes.toString()
-                            timerSeconds = secondsInMinuteInMillis / 1000L
-                        }
-                        else -> {
-                            timer_counter_seconds.text = timeLeft.toString()
-                        }
+                    diff < 2000 -> {
+                        timer_counter_seconds.text = "00"
+                    }
+                    else -> {
+                        timer_counter_seconds.text = elapsedSeconds.toString()
                     }
                 }
 
-                override fun onFinish() {
+            }
 
-                }
-            }.start()
-        }
+
+            override fun onFinish() {
+                Toast.makeText(this@GameActivity, "time over", Toast.LENGTH_SHORT).show()
+                countDownTimer.cancel()
+                timer_counter_seconds.text = timeInSeconds.toString()
+                timer_counter_minutes.text = timeInMinutes.toString()
+            }
+        }.start()
     }
 
-    fun okButton(view: View) {
 
+    fun okButton(view: View) {
+        timer(timerSeconds, timerMinutes)
     }
 
 
