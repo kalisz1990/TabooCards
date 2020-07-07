@@ -8,25 +8,28 @@ import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
+import com.example.taboocards.db.CardsFileReader
 
 private var team1: String = ""
 private var team2: String = ""
-
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
+
+
     }
 
     fun startGame(view: View) {
         teamDetailsDialog()
+
     }
 
     private fun teamDetailsDialog() {
         val dialog = AlertDialog.Builder(this)
-        val dialogView = layoutInflater.inflate(R.layout.team_dialog, null)
+        val dialogView = layoutInflater.inflate(R.layout.dialog_team, null)
         val team1EditText = dialogView.findViewById<EditText>(R.id.team_1_name_dialog)
         val team2EditText = dialogView.findViewById<EditText>(R.id.team_2_name_dialog)
         dialog.setView(dialogView)

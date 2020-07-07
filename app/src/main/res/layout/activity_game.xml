@@ -5,83 +5,127 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".GameActivity">
+    tools:context=".game.GameActivity">
 
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/card_game_activity"
         android:layout_width="211dp"
         android:layout_height="268dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="164dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.395"
         app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
 
     <TextView
-        android:id="@+id/team_1_name_game"
+        android:id="@+id/team_1_name_game_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="48dp"
         android:layout_marginTop="32dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/score_team_1_game"
+        android:id="@+id/score_team_1_game_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:text="@string/score_1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/team_1_name_game" />
+        app:layout_constraintTop_toBottomOf="@+id/team_1_name_game_activity" />
 
     <TextView
-        android:id="@+id/team_2_name_game"
+        android:id="@+id/team_2_name_game_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="70dp"
+        android:layout_marginEnd="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/team_1_name_game"
+        app:layout_constraintStart_toEndOf="@+id/team_1_name_game_activity"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/score_team_2_game"
+        android:id="@+id/score_team_2_game_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="88dp"
+        android:layout_marginEnd="28dp"
         android:text="@string/score_2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/team_2_name_game" />
+        app:layout_constraintTop_toBottomOf="@+id/team_2_name_game_activity" />
 
-    <TextView
-        android:id="@+id/timer_text_view"
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginBottom="16dp"
-        android:text="Time"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/card_game_activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/timer_counter_minutes"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="2"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/timer_counter_colon"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text=":"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/timer_counter_seconds"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="00"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="172dp"
+        android:background="#3FDB17"
+        android:onClick="okButton"
+        android:text="@string/ok"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/timer_counter"
+    <Button
+        android:id="@+id/wrong_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="16dp"
-        android:text="2:00"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        android:layout_marginBottom="172dp"
+        android:background="#DB1D17"
+        android:text="@string/wrong"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.131"
-        app:layout_constraintStart_toEndOf="@+id/timer_text_view" />
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent" />
 
+    <Button
+        android:id="@+id/skip_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="88dp"
+        android:text="@string/skip"
 
-
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
