@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/spashScreenBackground"
     android:padding="16dp"
-    tools:context=".spash_screen.SplashScreen">
+    tools:context=".splash.SplashScreen">
 
     <ImageView
         android:id="@+id/pafc_dev_logo"
