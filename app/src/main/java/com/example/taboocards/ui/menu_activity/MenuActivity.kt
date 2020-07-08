@@ -1,4 +1,4 @@
-package com.example.taboocards
+package com.example.taboocards.menu
 
 import android.app.AlertDialog
 import android.content.DialogInterface
@@ -8,7 +8,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
-import com.example.taboocards.db.CardsFileReader
+import com.example.taboocards.R
+import com.example.taboocards.game.GameActivity
 
 private var team1: String = ""
 private var team2: String = ""
@@ -17,7 +18,6 @@ class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
-
 
 
     }
@@ -61,7 +61,6 @@ class MenuActivity : AppCompatActivity() {
         val intent = Intent(this@MenuActivity, GameActivity::class.java)
         intent.putExtra("team1", team1)
         intent.putExtra("team2", team2)
-        teamDetailsDialog()
         startActivity(intent)
         finish()
     }

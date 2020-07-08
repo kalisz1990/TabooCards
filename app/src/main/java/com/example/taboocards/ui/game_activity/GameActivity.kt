@@ -27,7 +27,6 @@ class GameActivity : AppCompatActivity() {
 
         activitySetup()
         timer(timerSeconds, timerMinutes)
-
     }
 
     fun startTimer() {
@@ -88,7 +87,8 @@ class GameActivity : AppCompatActivity() {
     }
 
     fun okButton(view: View) {
-
+        activitySetup()
+        timer(timerSeconds, timerMinutes)
     }
 
     override fun onBackPressed() {

@@ -5,21 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".MenuActivity">
+    tools:context=".ui.menu_activity.MenuActivity">
 
     <Button
         android:id="@+id/start_game"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginTop="200dp"
-        android:text="@string/start"
         android:onClick="startGame"
+        android:text="@string/start"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent" />
 
-    </Button>
 
     <ImageView
         android:id="@+id/imageView"
@@ -30,5 +29,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_game" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

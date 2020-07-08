@@ -13,7 +13,7 @@
         android:theme="@style/Theme.AppCompat.NoActionBar">
 
         <activity
-            android:name=".splash.SplashScreen"
+            android:name="com.example.taboocards.ui.splash_activity.SplashScreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,7 @@
         </activity>
 
         <activity
-            android:name=".menu.MenuActivity"
+            android:name="com.example.taboocards.ui.menu_activity.MenuActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,7 +30,7 @@
         </activity>
 
         <activity
-            android:name=".game.GameActivity"
+            android:name="com.example.taboocards.ui.game_activity.GameActivity"
             android:screenOrientation="portrait">
 
         </activity>
