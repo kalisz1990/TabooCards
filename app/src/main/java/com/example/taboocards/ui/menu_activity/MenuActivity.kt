@@ -1,64 +1,44 @@
-package com.example.taboocards.menu
+package com.example.taboocards.ui.menu_activity
 
-import android.app.AlertDialog
-import android.content.DialogInterface
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.EditText
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.taboocards.R
-import com.example.taboocards.game.GameActivity
+import com.example.taboocards.ui.game_activity.GameActivity
+import com.example.taboocards.ui.menu_activity.start_game.StartGameDialog
+
 
 private var team1: String = ""
 private var team2: String = ""
 
 class MenuActivity : AppCompatActivity() {
+
+    private lateinit var startGameDialog: StartGameDialog
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
+    }
+
+    fun startGameButton(view: View) {
+        showStartGameDialog()
+    }
+
+
+    private fun showStartGameDialog() {
+        val fm = supportFragmentManager
+        startGameDialog =
+            StartGameDialog()
+        startGameDialog.show(fm, "start_game_dialog")
+
 
     }
 
-    fun startGame(view: View) {
-        teamDetailsDialog()
-
-    }
-
-    private fun teamDetailsDialog() {
-        val dialog = AlertDialog.Builder(this)
-        val dialogView = layoutInflater.inflate(R.layout.dialog_team, null)
-        val team1EditText = dialogView.findViewById<EditText>(R.id.team_1_name_dialog)
-        val team2EditText = dialogView.findViewById<EditText>(R.id.team_2_name_dialog)
-        dialog.setView(dialogView)
-        dialog.setCancelable(false)
-        dialog.setPositiveButton("Start") { dialogInterface: DialogInterface?, i: Int -> }
-
-        val customDialog = dialog.create()
-        customDialog.show()
-        customDialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener {
-            when {
-                team1EditText.text.toString().isEmpty() -> {
-                    Toast.makeText(this, "empty Team 1 name", Toast.LENGTH_SHORT).show()
-                }
-                team2EditText.text.toString().isEmpty() -> {
-                    Toast.makeText(this, "empty Team 2 name", Toast.LENGTH_SHORT).show()
-                }
-                else -> {
-                    team1 = team1EditText.text.toString()
-                    team2 = team2EditText.text.toString()
-                    customDialog.dismiss()
-                    goToGameActivity()
-                }
-            }
-        }
-
-    }
 
     private fun goToGameActivity() {
-        val intent = Intent(this@MenuActivity, GameActivity::class.java)
+        val intent = Intent(this, GameActivity::class.java)
         intent.putExtra("team1", team1)
         intent.putExtra("team2", team2)
         startActivity(intent)

@@ -1,4 +1,4 @@
-package com.example.taboocards.game
+package com.example.taboocards.ui.game_activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,8 +7,11 @@ import android.os.CountDownTimer
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
-import com.example.taboocards.menu.MenuActivity
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
+import com.example.taboocards.ui.menu_activity.MenuActivity
 import com.example.taboocards.R
+import com.example.taboocards.utilities.InjectorUtils
 import kotlinx.android.synthetic.main.activity_game.*
 
 private val timerSeconds: Long = 3L
@@ -18,7 +21,6 @@ const val secondsInMinuteInMillis: Long = 60000L
 const val millisecondsInSeconds: Long = 1000L
 
 class GameActivity : AppCompatActivity() {
-    private lateinit var gameService: GameService
     private lateinit var countDownTimer: CountDownTimer
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,9 +31,21 @@ class GameActivity : AppCompatActivity() {
         timer(timerSeconds, timerMinutes)
     }
 
-    fun startTimer() {
-        gameService = GameService()
-        gameService.startTimer()
+
+    private fun initializeUI() {
+        val factory = InjectorUtils.provideCardsViewModelFactory()
+        val viewModel = ViewModelProvider(this,factory)
+            .get(GameViewModel::class.java)
+
+        viewModel.getCards().observe(this, Observer { cards ->
+            val stringBuilder = StringBuilder()
+            cards.forEach { card ->
+                stringBuilder.append("$card\n\n")
+            }
+
+
+
+        })
     }
 
     private fun activitySetup() {
