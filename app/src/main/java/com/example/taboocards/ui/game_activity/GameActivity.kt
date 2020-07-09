@@ -14,8 +14,8 @@ import com.example.taboocards.R
 import com.example.taboocards.utilities.InjectorUtils
 import kotlinx.android.synthetic.main.activity_game.*
 
-private val timerSeconds: Long = 3L
-private val timerMinutes: Long = 0L
+private val timerSeconds: Long = 10L
+private val timerMinutes: Long = 2L
 
 const val secondsInMinuteInMillis: Long = 60000L
 const val millisecondsInSeconds: Long = 1000L
@@ -34,7 +34,7 @@ class GameActivity : AppCompatActivity() {
 
     private fun initializeUI() {
         val factory = InjectorUtils.provideCardsViewModelFactory()
-        val viewModel = ViewModelProvider(this,factory)
+        val viewModel = ViewModelProvider(this, factory)
             .get(GameViewModel::class.java)
 
         viewModel.getCards().observe(this, Observer { cards ->
@@ -42,9 +42,6 @@ class GameActivity : AppCompatActivity() {
             cards.forEach { card ->
                 stringBuilder.append("$card\n\n")
             }
-
-
-
         })
     }
 
@@ -59,7 +56,7 @@ class GameActivity : AppCompatActivity() {
 
     private fun timer(timeInSeconds: Long, timeInMinutes: Long) {
         val totalTime =
-            timeInSeconds * millisecondsInSeconds + timeInMinutes * secondsInMinuteInMillis
+            (timeInSeconds * millisecondsInSeconds) + (timeInMinutes * secondsInMinuteInMillis)
 
         countDownTimer = object : CountDownTimer(totalTime, 1000) {
             override fun onTick(millisUntilFinished: Long) {
@@ -102,6 +99,7 @@ class GameActivity : AppCompatActivity() {
 
     fun okButton(view: View) {
         activitySetup()
+        countDownTimer.cancel()
         timer(timerSeconds, timerMinutes)
     }
 
