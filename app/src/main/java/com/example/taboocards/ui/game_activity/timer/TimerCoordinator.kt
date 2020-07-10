@@ -2,7 +2,7 @@ package com.example.taboocards.ui.game_activity.timer
 
 import android.os.CountDownTimer
 
-class Timer {
+class TimerCoordinator {
 
     private lateinit var countDownTimer: CountDownTimer
     private var timerLengthSeconds: Long = 120L

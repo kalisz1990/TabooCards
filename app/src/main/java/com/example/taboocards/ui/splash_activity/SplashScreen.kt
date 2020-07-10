@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.example.taboocards.R
-import com.example.taboocards.data.CardsFileReader
-import com.example.taboocards.menu.MenuActivity
+import com.example.taboocards.ui.menu_activity.MenuActivity
+
 
 private const val DELAY_TIME = 100L;
 
@@ -24,13 +24,6 @@ class SplashScreen : AppCompatActivity() {
             startActivity(intent)
             finish()
         }, DELAY_TIME)
-    }
-
-
-    fun testReadCsv(){
-        val cardsFileReader = CardsFileReader()
-        cardsFileReader.readFromFile()
-
     }
 
 }
