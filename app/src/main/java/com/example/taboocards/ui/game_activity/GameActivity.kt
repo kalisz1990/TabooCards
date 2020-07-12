@@ -4,21 +4,26 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.os.Handler
+import android.util.Log
 import android.view.View
+import android.widget.Chronometer
 import android.widget.TextView
 import android.widget.Toast
+import androidx.core.os.postDelayed
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.taboocards.ui.menu_activity.MenuActivity
 import com.example.taboocards.R
 import com.example.taboocards.utilities.InjectorUtils
 import kotlinx.android.synthetic.main.activity_game.*
+import java.util.*
 
-private val timerSeconds: Long = 10L
-private val timerMinutes: Long = 2L
+private var timerSeconds: Long = 5L
+private var timerMinutes: Long = 1L
 
-const val secondsInMinuteInMillis: Long = 60000L
-const val millisecondsInSeconds: Long = 1000L
+const val minuteInMilliseconds: Long = 60000L
+const val secondInMilliseconds: Long = 1000L
 
 class GameActivity : AppCompatActivity() {
     private lateinit var countDownTimer: CountDownTimer
@@ -30,7 +35,6 @@ class GameActivity : AppCompatActivity() {
         activitySetup()
         timer(timerSeconds, timerMinutes)
     }
-
 
     private fun initializeUI() {
         val factory = InjectorUtils.provideCardsViewModelFactory()
@@ -48,59 +52,38 @@ class GameActivity : AppCompatActivity() {
     private fun activitySetup() {
         team_1_name_game_activity.text = intent.getStringExtra(getString(R.string.team_1))
         team_2_name_game_activity.text = intent.getStringExtra(getString(R.string.team_2))
-        timer_counter_minutes.text = timerMinutes.toString()
-        timer_counter_seconds.text = timerSeconds.toString()
+//        timer_counter_minutes.text = timerMinutes.toString()
+//        timer_counter_seconds.text = timerSeconds.toString()
         score_team_1_game_activity.text = "0"
         score_team_2_game_activity.text = "0"
     }
 
     private fun timer(timeInSeconds: Long, timeInMinutes: Long) {
-        val totalTime =
-            (timeInSeconds * millisecondsInSeconds) + (timeInMinutes * secondsInMinuteInMillis)
+        var totalTime =
+            (timeInSeconds * secondInMilliseconds) + (timeInMinutes * minuteInMilliseconds)
 
-        countDownTimer = object : CountDownTimer(totalTime, 1000) {
+        countDownTimer = object : CountDownTimer(totalTime, 500) {
             override fun onTick(millisUntilFinished: Long) {
-                var diff = millisUntilFinished
-                val secondsInMilli: Long = 1000
-                val minutesInMilli = secondsInMilli * 60
-                val elapsedMinutes = diff / minutesInMilli
-                diff %= minutesInMilli
-                val elapsedSeconds = diff / secondsInMilli
-                diff %= secondsInMilli
-
-                timer_counter_minutes.text = elapsedMinutes.toString()
-                setTimeCounterSeconds(diff, elapsedSeconds)
+                totalTime = millisUntilFinished
+                updateCountDownText(totalTime)
             }
 
             override fun onFinish() {
+                Toast.makeText(this@GameActivity, "finish", Toast.LENGTH_SHORT).show()
                 countDownTimer.cancel()
             }
         }.start()
     }
 
-    private fun setTimeCounterSeconds(diff: Long, elapsedSeconds: Long) {
-        if (diff < 10000) {
-            set0BeforeNumberIfSecondsLessThan10(elapsedSeconds - 1, timer_counter_seconds)
-        }
-        if (0.compareTo(elapsedSeconds - 1) == 0) {
-            countDownTimer.cancel()
-            Toast.makeText(this, "koniec", Toast.LENGTH_SHORT).show()
-            //TODO: jak sie skonczy czas to tutaj wstawić Dialog ze Koniec
-        }
-    }
-
-    private fun set0BeforeNumberIfSecondsLessThan10(elapsedSeconds: Long, textView: TextView) {
-        if (elapsedSeconds < 10) {
-            textView.text = "0$elapsedSeconds"
-        } else {
-            textView.text = elapsedSeconds.toString()
-        }
+    private fun updateCountDownText(totalTime: Long) {
+        val minutes: Int = ((totalTime / 1000) / 60).toInt();
+        val seconds: Int = ((totalTime / 1000) % 60).toInt();
+        val timeLeftFormatted = String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds);
+        time_counter.text = timeLeftFormatted
     }
 
     fun okButton(view: View) {
-        activitySetup()
-        countDownTimer.cancel()
-        timer(timerSeconds, timerMinutes)
+
     }
 
     override fun onBackPressed() {
@@ -109,4 +92,6 @@ class GameActivity : AppCompatActivity() {
         finish()
     }
 
+    fun wrongButton(view: View) {}
+    fun skipButton(view: View) {}
 }

@@ -1,4 +1,4 @@
-package com.example.taboocards.splash
+package com.example.taboocards.ui.splash_activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

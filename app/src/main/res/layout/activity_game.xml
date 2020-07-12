@@ -70,25 +70,12 @@
         app:layout_constraintVertical_bias="1.0">
 
         <TextView
-            android:id="@+id/timer_counter_minutes"
+            android:id="@+id/time_counter"
             android:layout_width="wrap_content"
             android:layout_height="36dp"
-            android:text="2"
+            android:text="00:00"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
 
-        <TextView
-            android:id="@+id/timer_counter_colon"
-            android:layout_width="wrap_content"
-            android:layout_height="36dp"
-            android:text=":"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
-
-        <TextView
-            android:id="@+id/timer_counter_seconds"
-            android:layout_width="wrap_content"
-            android:layout_height="36dp"
-            android:text="00"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
     </LinearLayout>
 
     <Button
@@ -110,6 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="172dp"
         android:background="#DB1D17"
+        android:onClick="wrongButton"
         android:text="@string/wrong"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -121,11 +109,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="88dp"
+        android:onClick="skipButton"
         android:text="@string/skip"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
