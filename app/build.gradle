@@ -33,6 +33,10 @@ dependencies {
     implementation "com.github.doyaaaaaken:kotlin-csv-jvm:0.10.4"
     implementation 'me.zhanghai.android.materialprogressbar:library:1.6.1'
 
+    implementation "org.koin:koin-core:$koin_version"
+    implementation "org.koin:koin-android:$koin_version"
+    implementation "org.koin:koin-androidx-viewmodel:$koin_version"
+
 
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'

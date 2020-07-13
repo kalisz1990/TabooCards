@@ -1,29 +1,39 @@
 package com.example.taboocards.ui.game_activity.timer
 
 import android.os.CountDownTimer
+import android.util.Log
+import android.widget.TextView
+import com.example.taboocards.ui.game_activity.minuteInMilliseconds
+import com.example.taboocards.ui.game_activity.secondInMilliseconds
+import java.util.*
 
 class TimerCoordinator {
 
     private lateinit var countDownTimer: CountDownTimer
-    private var timerLengthSeconds: Long = 120L
-    private var secondsRemaining: Long = 0L
 
-    fun startTimer(){
-        timerPreSetup()
-        countDownTimer.start()
-    }
+    fun startTimer(timeInSeconds: Long, timeInMinutes: Long, textView: TextView) {
+       var totalTime =
+            (timeInSeconds * secondInMilliseconds) + (timeInMinutes * minuteInMilliseconds)
 
-    private fun onTimerFinished() {
-        secondsRemaining = timerLengthSeconds
-    }
-
-    fun timerPreSetup() {
-        countDownTimer = object : CountDownTimer(timerLengthSeconds * 1000, 1000) {
+        countDownTimer = object : CountDownTimer(totalTime, 500) {
             override fun onTick(millisUntilFinished: Long) {
-                secondsRemaining = millisUntilFinished / 1000
+                totalTime = millisUntilFinished
+                textView.text = updateCountDownText(totalTime)
             }
-            override fun onFinish() = onTimerFinished()
-        }
+
+            override fun onFinish() {
+                countDownTimer.cancel()
+            }
+        }.start()
+    }
+
+    private fun updateCountDownText(totalTime: Long): String {
+        val minutes: Int = ((totalTime / 1000) / 60).toInt();
+        val seconds: Int = ((totalTime / 1000) % 60).toInt();
+        val timeLeftFormatted = String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds);
+        Log.e("time", timeLeftFormatted)
+
+        return timeLeftFormatted
     }
 
 }
