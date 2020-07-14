@@ -13,7 +13,7 @@ class TabooApp : Application() {
         super.onCreate()
         startKoin {
             androidContext(this@TabooApp)
-            modules(listOf(appModule))
+            modules(listOf(appModule, viewModule))
 
         }
     }

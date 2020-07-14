@@ -4,14 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import com.example.taboocards.ui.menu_activity.MenuActivity
 import com.example.taboocards.R
-import com.example.taboocards.ui.game_activity.timer.TimerCoordinator
-import com.example.taboocards.utilities.InjectorUtils
 import kotlinx.android.synthetic.main.activity_game.*
-import org.koin.android.ext.android.inject
+import org.koin.androidx.viewmodel.ext.android.getViewModel
 
 private var timerSeconds: Long = 5L
 private var timerMinutes: Long = 1L
@@ -26,23 +22,28 @@ class GameActivity : AppCompatActivity() {
         setContentView(R.layout.activity_game)
 
         activitySetup()
-        val timerCoordinator: TimerCoordinator by inject()
-        timerCoordinator.startTimer(timerSeconds, timerMinutes, time_counter)
+        timerCountdown()
+
 
     }
 
-    private fun initializeUI() {
-        val factory = InjectorUtils.provideCardsViewModelFactory()
-        val viewModel = ViewModelProvider(this, factory)
-            .get(GameViewModel::class.java)
-
-        viewModel.getCards().observe(this, Observer { cards ->
-            val stringBuilder = StringBuilder()
-            cards.forEach { card ->
-                stringBuilder.append("$card\n\n")
-            }
-        })
+    private fun timerCountdown() {
+        val gameViewModel = getViewModel<GameViewModel>()
+        gameViewModel.startTimer(timerSeconds, timerMinutes, time_counter)
     }
+
+//    private fun initializeUI() {
+//        val factory = InjectorUtils.provideCardsViewModelFactory()
+//        val viewModel = ViewModelProvider(this, factory)
+//            .get(GameViewModel::class.java)
+//
+//        viewModel.getCards().observe(this, Observer { cards ->
+//            val stringBuilder = StringBuilder()
+//            cards.forEach { card ->
+//                stringBuilder.append("$card\n\n")
+//            }
+//        })
+//    }
 
     private fun activitySetup() {
         team_1_name_game_activity.text = intent.getStringExtra(getString(R.string.team_1))
