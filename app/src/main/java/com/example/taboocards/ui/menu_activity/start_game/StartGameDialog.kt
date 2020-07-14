@@ -12,7 +12,6 @@ import android.widget.*
 import androidx.fragment.app.DialogFragment
 import com.example.taboocards.R
 import com.example.taboocards.ui.game_activity.GameActivity
-import com.example.taboocards.ui.menu_activity.MenuActivity
 import kotlinx.android.synthetic.main.start_game_dialog.*
 
 private var team1: String = ""
@@ -27,7 +26,7 @@ class StartGameDialog : DialogFragment() {
     ): View? {
 
         val rootView: View = inflater.inflate(R.layout.start_game_dialog, container, false)
-        val startButton = rootView.findViewById<Button>(R.id.start_button_start_game_dialog)
+        val startButton = rootView.findViewById<Button>(R.id.start_game_button_start_game_dialog)
         val returnButton = rootView.findViewById<Button>(R.id.return_button_start_game_dialog)
         val difficultRadioGroup = rootView.findViewById<RadioGroup>(R.id.radio_group)
         val team1EditText = rootView.findViewById<EditText>(R.id.team_1_name_dialog)

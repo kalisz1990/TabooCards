@@ -82,7 +82,7 @@
         app:layout_constraintGuide_begin="16dp" />
 
     <Button
-        android:id="@+id/start_button_start_game_dialog"
+        android:id="@+id/start_game_button_start_game_dialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"

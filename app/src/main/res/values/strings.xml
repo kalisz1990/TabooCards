@@ -14,4 +14,11 @@
     <string name="wrong">Wrong</string>
     <string name="skip">Skip</string>
     <string name="settings">settings</string>
+    <string name="save_and_set">save and set</string>
+    <string name="team_1_name">team 1 name</string>
+    <string name="team_2_name">team 2 name</string>
+    <string name="tour_time">tour time</string>
+    <string name="minus_operator">-</string>
+    <string name="plus_operator">+</string>
+    <string name="points_to_win">points to win</string>
 </resources>

@@ -9,11 +9,9 @@ import com.example.taboocards.R
 import kotlinx.android.synthetic.main.activity_game.*
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 
-private var timerSeconds: Long = 30L
-private var timerMinutes: Long = 1L
-
-const val minuteInMilliseconds: Long = 60000L
-const val secondInMilliseconds: Long = 1000L
+private var timerSeconds: Long = 0L
+private var timerMinutes: Long = 0L
+private var totalTime:Long = 0L
 
 class GameActivity : AppCompatActivity() {
 

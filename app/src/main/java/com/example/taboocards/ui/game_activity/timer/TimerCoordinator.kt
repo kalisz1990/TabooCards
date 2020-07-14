@@ -3,9 +3,10 @@ package com.example.taboocards.ui.game_activity.timer
 import android.os.CountDownTimer
 import android.util.Log
 import android.widget.TextView
-import com.example.taboocards.ui.game_activity.minuteInMilliseconds
-import com.example.taboocards.ui.game_activity.secondInMilliseconds
 import java.util.*
+
+const val minuteInMilliseconds: Long = 60000L
+const val secondInMilliseconds: Long = 1000L
 
 class TimerCoordinator {
 

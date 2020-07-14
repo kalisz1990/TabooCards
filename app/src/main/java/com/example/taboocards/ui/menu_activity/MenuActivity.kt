@@ -9,6 +9,7 @@ import org.koin.androidx.viewmodel.ext.android.getViewModel
 
 class MenuActivity : AppCompatActivity() {
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
@@ -16,9 +17,15 @@ class MenuActivity : AppCompatActivity() {
     }
 
     fun startGameButton(view: View) {
-        val fm = supportFragmentManager
         val menuViewModel = getViewModel<MenuViewModel>()
+        val fm = supportFragmentManager
         menuViewModel.openStartDialog(fm)
+    }
+
+    fun settingsButton(view: View) {
+        val menuViewModel = getViewModel<MenuViewModel>()
+        val fm = supportFragmentManager
+        menuViewModel.openSettingsDialog(fm)
     }
 
 }
