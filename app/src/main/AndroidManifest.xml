@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".ui.game_activity.timer.TabooApp"
+        android:name=".koin.TabooApp"
         android:theme="@style/Theme.AppCompat.NoActionBar">
 
         <activity
@@ -24,16 +24,19 @@
         <activity
             android:name="com.example.taboocards.ui.menu_activity.MenuActivity"
             android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
         </activity>
 
         <activity
             android:name="com.example.taboocards.ui.game_activity.GameActivity"
             android:screenOrientation="portrait">
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
 
         </activity>
     </application>

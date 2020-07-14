@@ -1,11 +1,10 @@
-package com.example.taboocards.ui.game_activity.timer
+package com.example.taboocards.koin
 
 import android.app.Application
+import com.example.taboocards.koin.appModule
+import com.example.taboocards.koin.viewModule
 import org.koin.android.ext.koin.androidContext
-import org.koin.android.ext.koin.androidLogger
-import org.koin.core.KoinComponent
 import org.koin.core.context.startKoin
-import org.koin.core.inject
 
 class TabooApp : Application() {
 
@@ -13,7 +12,10 @@ class TabooApp : Application() {
         super.onCreate()
         startKoin {
             androidContext(this@TabooApp)
-            modules(listOf(appModule, viewModule))
+            modules(listOf(
+                appModule,
+                viewModule
+            ))
 
         }
     }

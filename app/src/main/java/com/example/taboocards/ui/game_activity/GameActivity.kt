@@ -9,7 +9,7 @@ import com.example.taboocards.R
 import kotlinx.android.synthetic.main.activity_game.*
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 
-private var timerSeconds: Long = 5L
+private var timerSeconds: Long = 30L
 private var timerMinutes: Long = 1L
 
 const val minuteInMilliseconds: Long = 60000L
@@ -23,7 +23,6 @@ class GameActivity : AppCompatActivity() {
 
         activitySetup()
         timerCountdown()
-
 
     }
 

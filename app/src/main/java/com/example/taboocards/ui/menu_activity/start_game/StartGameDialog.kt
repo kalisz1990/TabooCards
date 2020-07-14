@@ -12,6 +12,7 @@ import android.widget.*
 import androidx.fragment.app.DialogFragment
 import com.example.taboocards.R
 import com.example.taboocards.ui.game_activity.GameActivity
+import com.example.taboocards.ui.menu_activity.MenuActivity
 import kotlinx.android.synthetic.main.start_game_dialog.*
 
 private var team1: String = ""
@@ -53,6 +54,7 @@ class StartGameDialog : DialogFragment() {
                     team2 = team2EditText.text.toString()
                     dismiss()
                     goToGameActivity()
+                    activity?.finish()
                 }
             }
         }
@@ -77,13 +79,17 @@ class StartGameDialog : DialogFragment() {
 
     private fun goToGameActivity() {
         val intent = Intent(requireContext(), GameActivity::class.java)
-        intent.putExtra("team1",
+        intent.putExtra(
+            "team1",
             team1
         )
-        intent.putExtra("team2",
+        intent.putExtra(
+            "team2",
             team2
         )
         startActivity(intent)
     }
+
+
 
 }
