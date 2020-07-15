@@ -9,9 +9,7 @@ import com.example.taboocards.R
 import kotlinx.android.synthetic.main.activity_game.*
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 
-private var timerSeconds: Long = 0L
-private var timerMinutes: Long = 0L
-private var totalTime:Long = 0L
+private var totalTime:Long = 150000L
 
 class GameActivity : AppCompatActivity() {
 
@@ -26,7 +24,7 @@ class GameActivity : AppCompatActivity() {
 
     private fun timerCountdown() {
         val gameViewModel = getViewModel<GameViewModel>()
-        gameViewModel.startTimer(timerSeconds, timerMinutes, time_counter)
+        gameViewModel.startTimer(totalTime, time_counter)
     }
 
 //    private fun initializeUI() {
@@ -45,8 +43,7 @@ class GameActivity : AppCompatActivity() {
     private fun activitySetup() {
         team_1_name_game_activity.text = intent.getStringExtra(getString(R.string.team_1))
         team_2_name_game_activity.text = intent.getStringExtra(getString(R.string.team_2))
-//        timer_counter_minutes.text = timerMinutes.toString()
-//        timer_counter_seconds.text = timerSeconds.toString()
+//        time_counter.text = ""
         score_team_1_game_activity.text = "0"
         score_team_2_game_activity.text = "0"
     }

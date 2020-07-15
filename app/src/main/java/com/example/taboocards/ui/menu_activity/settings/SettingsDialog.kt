@@ -12,14 +12,13 @@ import android.widget.*
 import androidx.fragment.app.DialogFragment
 import com.example.taboocards.R
 import com.example.taboocards.ui.game_activity.GameActivity
-import kotlinx.android.synthetic.main.dialog_settings.view.*
-import kotlinx.android.synthetic.main.start_game_dialog.*
+import com.example.taboocards.ui.game_activity.timer.minuteInMilliseconds
 import java.util.*
 import java.util.concurrent.TimeUnit
 
 private var team1 = ""
 private var team2 = ""
-private var tourTimeInMillis = 150000L
+private var tourTimeInMillis = 120000L
 private var pointsToWin = 0L
 
 const val timerStep = 10000L
@@ -95,11 +94,14 @@ class SettingsDialog : DialogFragment() {
 
     }
 
-    private fun updateTourTimer(timer: Long, textView: TextView) {
-        val minutes = TimeUnit.MILLISECONDS.toMinutes(timer)
-        val seconds = TimeUnit.MILLISECONDS.toSeconds(timer)
-        val timeLeftFormatted = String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds);
+    private fun updateTourTimer(timeInMillis: Long, textView: TextView) = if (timeInMillis >= 0) {
+        val minutes = TimeUnit.MILLISECONDS.toMinutes(timeInMillis)
+        val seconds =
+            TimeUnit.MILLISECONDS.toSeconds(timeInMillis - (minutes * minuteInMilliseconds))
+        val timeLeftFormatted =
+            String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds);
         textView.text = timeLeftFormatted
-
+    } else {
+        Toast.makeText(activity, "time cannot be less than 00:00", Toast.LENGTH_SHORT).show()
     }
 }

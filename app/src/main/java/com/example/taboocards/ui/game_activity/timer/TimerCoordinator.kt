@@ -8,29 +8,28 @@ import java.util.*
 const val minuteInMilliseconds: Long = 60000L
 const val secondInMilliseconds: Long = 1000L
 
-class TimerCoordinator {
+class TimerCoordinator (){
 
     private lateinit var countDownTimer: CountDownTimer
 
-    fun startTimer(timeInSeconds: Long, timeInMinutes: Long, textView: TextView) {
-       var totalTime =
-            (timeInSeconds * secondInMilliseconds) + (timeInMinutes * minuteInMilliseconds)
+    fun startTimer(totalTime: Long, textView: TextView) {
+//            (timeInSeconds * secondInMilliseconds) + (timeInMinutes * minuteInMilliseconds)
 
-        countDownTimer = object : CountDownTimer(totalTime, 500) {
+       countDownTimer = object : CountDownTimer(totalTime, 500) {
             override fun onTick(millisUntilFinished: Long) {
-                totalTime = millisUntilFinished
-                textView.text = updateCountDownText(totalTime)
+                textView.text = updateCountDownText(millisUntilFinished)
             }
 
             override fun onFinish() {
                 countDownTimer.cancel()
             }
+
         }.start()
     }
 
     private fun updateCountDownText(totalTime: Long): String {
-        val minutes: Int = ((totalTime / 1000) / 60).toInt();
-        val seconds: Int = ((totalTime / 1000) % 60).toInt();
+        val minutes: Int = ((totalTime / secondInMilliseconds) / 60).toInt();
+        val seconds: Int = ((totalTime / secondInMilliseconds) % 60).toInt();
         val timeLeftFormatted = String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds);
         Log.e("time", timeLeftFormatted)
 
