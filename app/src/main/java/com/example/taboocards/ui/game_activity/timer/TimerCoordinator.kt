@@ -8,20 +8,18 @@ import java.util.*
 const val minuteInMilliseconds: Long = 60000L
 const val secondInMilliseconds: Long = 1000L
 
-class TimerCoordinator (){
-
-    private lateinit var countDownTimer: CountDownTimer
+class TimerCoordinator() {
 
     fun startTimer(totalTime: Long, textView: TextView) {
-//            (timeInSeconds * secondInMilliseconds) + (timeInMinutes * minuteInMilliseconds)
+        var countDownTimer: CountDownTimer? = null
 
-       countDownTimer = object : CountDownTimer(totalTime, 500) {
+        countDownTimer = object : CountDownTimer(totalTime, 500) {
             override fun onTick(millisUntilFinished: Long) {
                 textView.text = updateCountDownText(millisUntilFinished)
             }
 
             override fun onFinish() {
-                countDownTimer.cancel()
+                countDownTimer?.cancel()
             }
 
         }.start()

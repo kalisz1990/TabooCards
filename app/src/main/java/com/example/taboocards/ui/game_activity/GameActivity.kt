@@ -9,7 +9,7 @@ import com.example.taboocards.R
 import kotlinx.android.synthetic.main.activity_game.*
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 
-private var totalTime:Long = 150000L
+private var totalTime:Long = 90000L
 
 class GameActivity : AppCompatActivity() {
 
