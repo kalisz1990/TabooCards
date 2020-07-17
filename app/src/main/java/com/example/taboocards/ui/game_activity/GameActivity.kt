@@ -9,7 +9,7 @@ import com.example.taboocards.R
 import kotlinx.android.synthetic.main.activity_game.*
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 
-private var totalTime:Long = 90000L
+private var totalTime: Long = 0L
 
 class GameActivity : AppCompatActivity() {
 
@@ -43,7 +43,7 @@ class GameActivity : AppCompatActivity() {
     private fun activitySetup() {
         team_1_name_game_activity.text = intent.getStringExtra(getString(R.string.team_1))
         team_2_name_game_activity.text = intent.getStringExtra(getString(R.string.team_2))
-//        time_counter.text = ""
+        totalTime = intent.getLongExtra(getString(R.string.tour_time), 0L)
         score_team_1_game_activity.text = "0"
         score_team_2_game_activity.text = "0"
     }
@@ -59,6 +59,7 @@ class GameActivity : AppCompatActivity() {
     }
 
     fun wrongButton(view: View) {}
+
     fun skipButton(view: View) {}
 
 }

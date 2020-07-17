@@ -74,7 +74,6 @@
         android:layout_marginTop="32dp"
         android:gravity="center"
         android:inputType="number"
-        android:text="01:50"
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/minus_button_settings_dialog"
         app:layout_constraintTop_toBottomOf="@+id/team2_name_settings_editText" />
@@ -88,7 +87,6 @@
         android:ems="10"
         android:hint="@string/team_1"
         android:inputType="textPersonName"
-        android:text="@string/team_1"
         app:layout_constraintStart_toEndOf="@+id/team1_name_settings_textView"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -101,7 +99,6 @@
         android:ems="10"
         android:hint="@string/team_2"
         android:inputType="textPersonName"
-        android:text="@string/team_2"
         app:layout_constraintStart_toEndOf="@+id/team2_name_settings_textView"
         app:layout_constraintTop_toBottomOf="@+id/team1_name_settings_editText" />
 

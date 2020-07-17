@@ -11,11 +11,14 @@ import android.view.WindowManager
 import android.widget.*
 import androidx.fragment.app.DialogFragment
 import com.example.taboocards.R
+import com.example.taboocards.data.game.GameDetails
+import com.example.taboocards.data.game.GameDetails.Companion.team1
+import com.example.taboocards.data.game.GameDetails.Companion.team2
+import com.example.taboocards.data.game.GameDetails.Companion.tourTime
 import com.example.taboocards.ui.game_activity.GameActivity
+import com.example.taboocards.ui.menu_activity.settings.SettingsDialog
 import kotlinx.android.synthetic.main.start_game_dialog.*
 
-private var team1: String = ""
-private var team2: String = ""
 
 class StartGameDialog : DialogFragment() {
 
@@ -31,6 +34,9 @@ class StartGameDialog : DialogFragment() {
         val difficultRadioGroup = rootView.findViewById<RadioGroup>(R.id.radio_group)
         val team1EditText = rootView.findViewById<EditText>(R.id.team_1_name_dialog)
         val team2EditText = rootView.findViewById<EditText>(R.id.team_2_name_dialog)
+
+        team1EditText.setText(team1)
+        team2EditText.setText(team2)
 
         returnButton.setOnClickListener {
             dismiss()
@@ -78,17 +84,20 @@ class StartGameDialog : DialogFragment() {
 
     private fun goToGameActivity() {
         val intent = Intent(requireContext(), GameActivity::class.java)
+
         intent.putExtra(
-            "team1",
+            getString(R.string.tour_time),
+            tourTime
+        )
+        intent.putExtra(
+            getString(R.string.team_1),
             team1
         )
         intent.putExtra(
-            "team2",
+            getString(R.string.team_2),
             team2
         )
         startActivity(intent)
     }
-
-
 
 }

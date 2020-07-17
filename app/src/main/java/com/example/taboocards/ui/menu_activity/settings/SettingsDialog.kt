@@ -11,15 +11,14 @@ import android.view.WindowManager
 import android.widget.*
 import androidx.fragment.app.DialogFragment
 import com.example.taboocards.R
-import com.example.taboocards.ui.game_activity.GameActivity
+import com.example.taboocards.data.game.GameDetails.Companion.pointsToWin
+import com.example.taboocards.data.game.GameDetails.Companion.team1
+import com.example.taboocards.data.game.GameDetails.Companion.team2
+import com.example.taboocards.data.game.GameDetails.Companion.tourTime
 import com.example.taboocards.ui.game_activity.timer.minuteInMilliseconds
+import com.example.taboocards.ui.menu_activity.start_game.StartGameDialog
 import java.util.*
 import java.util.concurrent.TimeUnit
-
-private var team1 = ""
-private var team2 = ""
-private var tourTimeInMillis = 120000L
-private var pointsToWin = 0L
 
 const val timerStep = 10000L
 
@@ -41,26 +40,34 @@ class SettingsDialog : DialogFragment() {
         val minusButton = rootView.findViewById<Button>(R.id.minus_button_settings_dialog)
         val saveAndSetButton = rootView.findViewById<Button>(R.id.save_and_set_button_settings)
 
+
+        updateTourTimer(tourTime, timerSettingsDialog)
+
+
         plusButton.setOnClickListener {
-            tourTimeInMillis += timerStep
-            updateTourTimer(tourTimeInMillis, timerSettingsDialog)
+            if (tourTime <= minuteInMilliseconds * 4) {
+                tourTime += timerStep
+                updateTourTimer(tourTime, timerSettingsDialog)
+            }
         }
 
         minusButton.setOnClickListener {
-            tourTimeInMillis -= timerStep
-            updateTourTimer(tourTimeInMillis, timerSettingsDialog)
+            if (tourTime > 0) {
+                tourTime -= timerStep
+                updateTourTimer(tourTime, timerSettingsDialog)
+            }
         }
 
         saveAndSetButton.setOnClickListener {
             team1 = team1EditText.text.toString()
             team2 = team2EditText.text.toString()
 
-            setDetails()
+            setAndSaveDetails()
             dismiss()
         }
-
         return rootView
     }
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -77,31 +84,34 @@ class SettingsDialog : DialogFragment() {
         return alertDialog.show()
     }
 
-    private fun setDetails() {
-        val intent = Intent(requireContext(), GameActivity::class.java)
-        intent.putExtra(
-            "team1",
-            team1
-        )
-        intent.putExtra(
-            "team2",
-            team2
-        )
-        intent.putExtra(
-            "tour_time",
-            tourTimeInMillis
-        )
-
-    }
-
     private fun updateTourTimer(timeInMillis: Long, textView: TextView) = if (timeInMillis >= 0) {
         val minutes = TimeUnit.MILLISECONDS.toMinutes(timeInMillis)
         val seconds =
             TimeUnit.MILLISECONDS.toSeconds(timeInMillis - (minutes * minuteInMilliseconds))
         val timeLeftFormatted =
-            String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds);
+            String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds)
         textView.text = timeLeftFormatted
     } else {
         Toast.makeText(activity, "time cannot be less than 00:00", Toast.LENGTH_SHORT).show()
+    }
+
+    private fun setAndSaveDetails() {
+        val intent = Intent(requireContext(), StartGameDialog::class.java)
+        intent.putExtra(
+            getString(R.string.team_1),
+            team1
+        )
+        intent.putExtra(
+            getString(R.string.team_2),
+            team2
+        )
+        intent.putExtra(
+            getString(R.string.tour_time),
+            tourTime
+        )
+        intent.putExtra(
+            getString(R.string.points_to_win),
+            pointsToWin
+        )
     }
 }
