@@ -8,6 +8,4 @@ data class Card(
     val forthSuggestion: String,
     val fifthSuggestion: String
 
-) {
-
-}
+)

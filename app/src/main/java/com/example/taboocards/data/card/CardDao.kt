@@ -2,7 +2,6 @@ package com.example.taboocards.data.card
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.taboocards.data.card.Card
 
 class CardDao {
 

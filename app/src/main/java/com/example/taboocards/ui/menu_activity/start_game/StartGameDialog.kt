@@ -11,14 +11,11 @@ import android.view.WindowManager
 import android.widget.*
 import androidx.fragment.app.DialogFragment
 import com.example.taboocards.R
-import com.example.taboocards.data.game.GameDetails
 import com.example.taboocards.data.game.GameDetails.Companion.team1
 import com.example.taboocards.data.game.GameDetails.Companion.team2
 import com.example.taboocards.data.game.GameDetails.Companion.tourTime
 import com.example.taboocards.ui.game_activity.GameActivity
-import com.example.taboocards.ui.menu_activity.settings.SettingsDialog
 import kotlinx.android.synthetic.main.start_game_dialog.*
-
 
 class StartGameDialog : DialogFragment() {
 
