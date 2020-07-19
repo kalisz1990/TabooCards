@@ -14,7 +14,7 @@ import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentActivity
 import com.example.taboocards.R
 
-class BeforeStartGameDialog : DialogFragment(), DialogInterface.OnDismissListener {
+class BeforeStartGameDialog : DialogFragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -28,6 +28,8 @@ class BeforeStartGameDialog : DialogFragment(), DialogInterface.OnDismissListene
         startButton.setOnClickListener {
             dismiss()
         }
+
+        dialog?.setCanceledOnTouchOutside(false)
 
         return rootView
     }
@@ -44,7 +46,7 @@ class BeforeStartGameDialog : DialogFragment(), DialogInterface.OnDismissListene
         val alertDialog: AlertDialog.Builder = AlertDialog.Builder(requireContext())
         alertDialog.setView(R.layout.start_dialog_game_activity)
         alertDialog.create()
-        alertDialog.setCancelable(true)
+        alertDialog.setCancelable(false)
         return alertDialog.show()
     }
 
