@@ -28,4 +28,5 @@ class MenuActivity : AppCompatActivity() {
         menuViewModel.openSettingsDialog(fm)
     }
 
+
 }

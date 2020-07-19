@@ -30,7 +30,7 @@ class SettingsDialog : DialogFragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        val rootView: View = inflater.inflate(R.layout.dialog_settings, container, false)
+        val rootView: View = inflater.inflate(R.layout.settings_dialog, container, false)
         val timerSettingsDialog = rootView.findViewById<TextView>(R.id.timer_settings_dialog)
 
         val team1EditText = rootView.findViewById<EditText>(R.id.team1_name_settings_editText)
@@ -78,7 +78,7 @@ class SettingsDialog : DialogFragment() {
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val alertDialog: AlertDialog.Builder = AlertDialog.Builder(requireContext())
-        alertDialog.setView(R.layout.dialog_settings)
+        alertDialog.setView(R.layout.settings_dialog)
         alertDialog.create()
         alertDialog.setCancelable(false)
         return alertDialog.show()

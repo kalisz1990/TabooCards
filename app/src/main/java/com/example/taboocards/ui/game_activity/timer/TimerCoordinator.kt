@@ -9,8 +9,9 @@ const val secondInMilliseconds: Long = 1000L
 
 class TimerCoordinator {
 
+    var countDownTimer: CountDownTimer? = null
+
     fun startTimer(totalTime: Long, textView: TextView) {
-        var countDownTimer: CountDownTimer? = null
 
         countDownTimer = object : CountDownTimer(totalTime, 500) {
             override fun onTick(millisUntilFinished: Long) {
@@ -21,7 +22,9 @@ class TimerCoordinator {
                 countDownTimer?.cancel()
             }
 
-        }.start()
+        }
+            .start()
+        //TODO: .start() ustawić po wciśnięciu OK w oknie dialogowym w Game Activity
     }
 
     private fun updateCountDownText(totalTime: Long): String {
