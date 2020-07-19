@@ -37,8 +37,6 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         gameViewModel.startTimer(totalTime, time_counter)
     }
 
-//    }
-
     private fun activitySetup() {
         team_1_name_game_activity.text = intent.getStringExtra(getString(R.string.team_1))
         team_2_name_game_activity.text = intent.getStringExtra(getString(R.string.team_2))
@@ -48,6 +46,7 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
     }
 
     fun okButton(view: View) {
+
 
     }
 
@@ -77,5 +76,6 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
 //                stringBuilder.append("$card\n\n")
 //            }
 //        })
+//    }
 
 }
