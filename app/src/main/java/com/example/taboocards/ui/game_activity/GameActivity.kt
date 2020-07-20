@@ -5,26 +5,34 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.fragment.app.FragmentManager
+import androidx.lifecycle.ViewModelStoreOwner
 import com.example.taboocards.ui.menu_activity.MenuActivity
 import com.example.taboocards.R
+import com.example.taboocards.data.game.GameDetails.Companion.team1Score
+import com.example.taboocards.data.game.GameDetails.Companion.team2Score
 import kotlinx.android.synthetic.main.activity_game.*
+import org.koin.androidx.viewmodel.ViewModelParameter
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 
 private var totalTime: Long = 0L
 
 class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
 
+    private var fm: FragmentManager = supportFragmentManager
+    private lateinit var gameViewModel: GameViewModel
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game)
+        gameViewModel = getViewModel()
 
         activitySetup()
         openStartDialog()
+
     }
 
     private fun openStartDialog() {
-        val fm = supportFragmentManager
-        val gameViewModel = getViewModel<GameViewModel>()
         gameViewModel.openStartDialog(fm)
     }
 
@@ -33,7 +41,6 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
     }
 
     private fun timerCountdown() {
-        val gameViewModel = getViewModel<GameViewModel>()
         gameViewModel.startTimer(totalTime, time_counter)
     }
 
@@ -41,17 +48,17 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         team_1_name_game_activity.text = intent.getStringExtra(getString(R.string.team_1))
         team_2_name_game_activity.text = intent.getStringExtra(getString(R.string.team_2))
         totalTime = intent.getLongExtra(getString(R.string.tour_time), 90000L)
-        score_team_1_game_activity.text = "0"
-        score_team_2_game_activity.text = "0"
+        score_team_1_game_activity.text = team1Score.toString()
+        score_team_2_game_activity.text = team2Score.toString()
     }
 
     fun okButton(view: View) {
-
+        var point = gameViewModel.addPoints(team1Score)
+        score_team_1_game_activity.text = point.toString()
 
     }
 
     fun wrongButton(view: View) {
-
     }
 
     fun skipButton(view: View) {
