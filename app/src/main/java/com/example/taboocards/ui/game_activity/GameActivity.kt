@@ -5,8 +5,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.room.Room
 import com.example.taboocards.ui.menu_activity.MenuActivity
 import com.example.taboocards.R
+import com.example.taboocards.ui.game_activity.score.ScoreDatabase
 import kotlinx.android.synthetic.main.activity_game.*
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 
@@ -20,6 +22,8 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
 
         activitySetup()
         openStartDialog()
+        initializeRoom()
+
     }
 
     private fun openStartDialog() {
@@ -62,6 +66,13 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         val intent = Intent(this@GameActivity, MenuActivity::class.java)
         startActivity(intent)
         finish()
+    }
+
+    fun initializeRoom(){
+        val db = Room.databaseBuilder(
+            applicationContext,
+            ScoreDatabase::class.java, "table_score"
+        ).build()
     }
 
 
