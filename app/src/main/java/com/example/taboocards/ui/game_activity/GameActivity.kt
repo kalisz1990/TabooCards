@@ -17,7 +17,7 @@ private var team1Name: String = ""
 private var team2Name: String = ""
 private const val okPoints: Int = 1
 private const val wrongPoints: Int = -1
-private val skipChances: Int = 3
+private const val skipChances: Int = 3
 
 @Suppress("NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
 class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
@@ -54,6 +54,7 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         team_1_name_game_activity.text = team1Name
         team_2_name_game_activity.text = team2Name
         totalTime = intent.getLongExtra(getString(R.string.tour_time), 90000L)
+        skip_chances_textView_GameActivity_numbers.text = skipChances.toString()
     }
 
     fun okButton(view: View) {
@@ -67,10 +68,13 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
     }
 
     fun skipButton(view: View) {
-
         val gameViewModel = getViewModel<GameViewModel>()
-        gameViewModel.skipButton()
-
+        skip_chances_textView_GameActivity_numbers.text =
+            gameViewModel.skipButton(
+                skip_chances_textView_GameActivity_numbers,
+                score_team_1_game_activity,
+                team1Name
+            )
     }
 
 

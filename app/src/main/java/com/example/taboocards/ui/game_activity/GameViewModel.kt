@@ -8,8 +8,6 @@ import com.example.taboocards.ui.game_activity.dialog.BeforeStartGameDialog
 import com.example.taboocards.ui.game_activity.team.*
 import com.example.taboocards.ui.game_activity.timer.TimerCoordinator
 
-private var tempPoints: Int = 0
-
 class GameViewModel(
     private var timerCoordinator: TimerCoordinator,
     private var beforeStartGameDialog: BeforeStartGameDialog,
@@ -33,17 +31,21 @@ class GameViewModel(
     }
 
     fun updatePointsInTextView(teamName: String?, numberOfPoints: Int, textView: TextView) {
-        val asyncClass = AsyncClassToUpdatePoints(teamRepository, teamName, numberOfPoints, textView)
+        val asyncClass =
+            AsyncClassToUpdatePoints(teamRepository, teamName, numberOfPoints, textView)
         asyncClass.execute()
-
     }
 
-    fun skipButton() {
-
-
-
+    fun skipButton(skipTextView: TextView, teamPoints: TextView, teamName: String?): String {
+        var chances: Int = skipTextView.text.toString().toInt()
+        if (chances > 0) {
+            chances--
+            return chances.toString()
+        } else {
+            updatePointsInTextView(teamName, -1, teamPoints)
+            return "0"
+        }
     }
-
 
 
     private class AsyncClassToUpdatePoints(
