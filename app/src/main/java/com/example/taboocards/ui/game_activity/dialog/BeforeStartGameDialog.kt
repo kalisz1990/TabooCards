@@ -1,6 +1,5 @@
 package com.example.taboocards.ui.game_activity.dialog
 
-import android.app.Activity
 import android.app.AlertDialog
 import android.app.Dialog
 import android.content.DialogInterface
@@ -30,7 +29,6 @@ class BeforeStartGameDialog : DialogFragment() {
         }
 
         dialog?.setCanceledOnTouchOutside(false)
-
         return rootView
     }
 

@@ -21,4 +21,5 @@
     <string name="minus_operator">-</string>
     <string name="plus_operator">+</string>
     <string name="points_to_win">points to win</string>
+    <string name="zero">0</string>
 </resources>

@@ -8,12 +8,18 @@ import android.view.View
 import androidx.room.Room
 import com.example.taboocards.ui.menu_activity.MenuActivity
 import com.example.taboocards.R
-import com.example.taboocards.ui.game_activity.score.ScoreDatabase
+import com.example.taboocards.ui.game_activity.team.TeamDatabase
 import kotlinx.android.synthetic.main.activity_game.*
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 
 private var totalTime: Long = 0L
+private var team1Name: String = ""
+private var team2Name: String = ""
+private const val okPoints: Int = 1
+private const val wrongPoints: Int = -1
+private val skipChances: Int = 3
 
+@Suppress("NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
 class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +29,7 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         activitySetup()
         openStartDialog()
         initializeRoom()
+        addTeamsToDB()
 
     }
 
@@ -42,51 +49,48 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
     }
 
     private fun activitySetup() {
-        team_1_name_game_activity.text = intent.getStringExtra(getString(R.string.team_1))
-        team_2_name_game_activity.text = intent.getStringExtra(getString(R.string.team_2))
+        team1Name = intent.getStringExtra(getString(R.string.team_1))
+        team2Name = intent.getStringExtra(getString(R.string.team_2))
+        team_1_name_game_activity.text = team1Name
+        team_2_name_game_activity.text = team2Name
         totalTime = intent.getLongExtra(getString(R.string.tour_time), 90000L)
-        score_team_1_game_activity.text = "0"
-        score_team_2_game_activity.text = "0"
     }
 
     fun okButton(view: View) {
-
-
+        val gameViewModel = getViewModel<GameViewModel>()
+        gameViewModel.updatePointsInTextView(team1Name, okPoints, score_team_1_game_activity)
     }
 
     fun wrongButton(view: View) {
-
+        val gameViewModel = getViewModel<GameViewModel>()
+        gameViewModel.updatePointsInTextView(team1Name, wrongPoints, score_team_1_game_activity)
     }
 
     fun skipButton(view: View) {
 
+        val gameViewModel = getViewModel<GameViewModel>()
+        gameViewModel.skipButton()
+
     }
+
+
+    private fun initializeRoom() {
+        val db = Room.databaseBuilder(
+            applicationContext,
+            TeamDatabase::class.java, "table_score"
+        ).build()
+    }
+
+    private fun addTeamsToDB() {
+        val gameViewModel = getViewModel<GameViewModel>()
+        gameViewModel.addTeamToDb(team1Name)
+        gameViewModel.addTeamToDb(team2Name)
+    }
+
 
     override fun onBackPressed() {
         val intent = Intent(this@GameActivity, MenuActivity::class.java)
         startActivity(intent)
         finish()
     }
-
-    fun initializeRoom(){
-        val db = Room.databaseBuilder(
-            applicationContext,
-            ScoreDatabase::class.java, "table_score"
-        ).build()
-    }
-
-
-    //    private fun initializeUI() {
-//        val factory = InjectorUtils.provideCardsViewModelFactory()
-//        val viewModel = ViewModelProvider(this, factory)
-//            .get(GameViewModel::class.java)
-//
-//        viewModel.getCards().observe(this, Observer { cards ->
-//            val stringBuilder = StringBuilder()
-//            cards.forEach { card ->
-//                stringBuilder.append("$card\n\n")
-//            }
-//        })
-//    }
-
 }
