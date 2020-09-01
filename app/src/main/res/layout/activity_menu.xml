@@ -5,16 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".ui.menu_activity.MenuActivity"
-    >
+    tools:context=".ui.menu_activity.MenuActivity">
 
     <Button
         android:id="@+id/start_game"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
+        android:background="@mipmap/icon"
         android:onClick="startGameButton"
         android:text="@string/start"
+        android:textAlignment="gravity"
+        android:textColor="@color/textButtonColor"
+        android:textSize="20sp"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,11 +37,17 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:text="@string/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@mipmap/icon"
         android:onClick="settingsButton"
+        android:text="@string/settings"
+        android:textColor="@color/textButtonColor"
+        android:textSize="20sp"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/start_game" />
 

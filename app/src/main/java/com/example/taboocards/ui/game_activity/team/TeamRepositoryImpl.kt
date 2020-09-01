@@ -4,9 +4,9 @@ class TeamRepositoryImpl(
     private val teamDao: TeamDao
 ) : TeamRepository {
 
+
     override fun addTeam(team: Team) {
         teamDao.addTeam(team)
-
     }
 
     override fun getTeam(teamName: String?): Team {
@@ -28,6 +28,5 @@ class TeamRepositoryImpl(
     override fun deleteTeam(team: Team) {
         TODO("Not yet implemented")
     }
-
 
 }
