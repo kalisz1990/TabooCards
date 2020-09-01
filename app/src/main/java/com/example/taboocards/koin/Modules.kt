@@ -2,7 +2,7 @@ package com.example.taboocards.koin
 
 import androidx.room.Room
 import com.example.taboocards.ui.game_activity.GameViewModel
-import com.example.taboocards.ui.game_activity.dialog.BeforeStartGameDialog
+import com.example.taboocards.ui.game_activity.dialog.DialogCreator
 import com.example.taboocards.ui.game_activity.team.TeamDatabase
 import com.example.taboocards.ui.game_activity.team.TeamRepository
 import com.example.taboocards.ui.game_activity.team.TeamRepositoryImpl
@@ -19,8 +19,9 @@ val appModule = module {
     single { TimerCoordinator() }
     single { StartGameDialog() }
     single { SettingsDialog() }
-    single { BeforeStartGameDialog() }
-    
+    single { DialogCreator() }
+//    single { BeforeStartGameDialog(get(), get()) }
+
 }
 
 val viewModule = module {
@@ -30,7 +31,7 @@ val viewModule = module {
 }
 
 val databaseModule = module {
-    single { TeamRepositoryImpl(get()) as TeamRepository}
+    single { TeamRepositoryImpl(get()) as TeamRepository }
 
     single {
         Room.databaseBuilder(androidApplication(), TeamDatabase::class.java, "table_score")

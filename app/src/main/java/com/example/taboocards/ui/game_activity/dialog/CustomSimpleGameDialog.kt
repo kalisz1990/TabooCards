@@ -12,8 +12,9 @@ import android.widget.Button
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentActivity
 import com.example.taboocards.R
+import kotlinx.android.synthetic.main.start_dialog_game_activity.view.*
 
-class BeforeStartGameDialog : DialogFragment() {
+class CustomSimpleGameDialog(private val layoutR: Int, val text: String?) : DialogFragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -21,8 +22,9 @@ class BeforeStartGameDialog : DialogFragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        val rootView: View = inflater.inflate(R.layout.start_dialog_game_activity, container, false)
+        val rootView: View = inflater.inflate(layoutR, container, false)
         val startButton = rootView.findViewById<Button>(R.id.start_button_game_activity_dialog)
+        rootView.before_start_dialog_textView.text = text
 
         startButton.setOnClickListener {
             dismiss()
@@ -42,7 +44,7 @@ class BeforeStartGameDialog : DialogFragment() {
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val alertDialog: AlertDialog.Builder = AlertDialog.Builder(requireContext())
-        alertDialog.setView(R.layout.start_dialog_game_activity)
+        alertDialog.setView(layoutR)
         alertDialog.create()
         alertDialog.setCancelable(false)
         return alertDialog.show()

@@ -4,13 +4,14 @@ import android.os.AsyncTask
 import android.widget.TextView
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.ViewModel
-import com.example.taboocards.ui.game_activity.dialog.BeforeStartGameDialog
+import com.example.taboocards.R
+import com.example.taboocards.ui.game_activity.dialog.DialogCreator
 import com.example.taboocards.ui.game_activity.team.*
 import com.example.taboocards.ui.game_activity.timer.TimerCoordinator
 
 class GameViewModel(
     private var timerCoordinator: TimerCoordinator,
-    private var beforeStartGameDialog: BeforeStartGameDialog,
+    private var dialogCreator: DialogCreator,
     private var teamRepository: TeamRepository
 ) : ViewModel() {
 
@@ -19,8 +20,7 @@ class GameViewModel(
     }
 
     fun openStartDialog(fm: FragmentManager) {
-        beforeStartGameDialog = BeforeStartGameDialog()
-        beforeStartGameDialog.show(fm, "before_start_game_dialog")
+        dialogCreator.createDialog(R.layout.start_dialog_game_activity, "ready ", fm)
     }
 
     fun addTeamToDb(teamName: String?) {
