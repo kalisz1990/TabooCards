@@ -15,8 +15,8 @@ class GameViewModel(
     private var teamRepository: TeamRepository
 ) : ViewModel() {
 
-    fun startTimer(totalTime: Long, textView: TextView) {
-        timerCoordinator.startTimer(totalTime, textView)
+    fun startTimer(totalTime: Long, textView: TextView, fm: FragmentManager) {
+        timerCoordinator.startTimer(totalTime, textView, fm)
     }
 
     fun openStartDialog(fm: FragmentManager) {
@@ -38,13 +38,17 @@ class GameViewModel(
 
     fun skipButton(skipTextView: TextView, teamPoints: TextView, teamName: String?): String {
         var chances: Int = skipTextView.text.toString().toInt()
-        if (chances > 0) {
+        return if (chances > 0) {
             chances--
-            return chances.toString()
+            chances.toString()
         } else {
             updatePointsInTextView(teamName, -1, teamPoints)
-            return "0"
+            "0"
         }
+    }
+
+    fun changeTeam() {
+
     }
 
 
@@ -82,6 +86,5 @@ class GameViewModel(
             teamRepository.updateTeam(team)
         }
     }
-
 
 }

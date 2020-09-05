@@ -16,11 +16,10 @@ import org.koin.dsl.module
 
 val appModule = module {
 
-    single { TimerCoordinator() }
+    single { TimerCoordinator(get()) }
     single { StartGameDialog() }
     single { SettingsDialog() }
     single { DialogCreator() }
-//    single { BeforeStartGameDialog(get(), get()) }
 
 }
 

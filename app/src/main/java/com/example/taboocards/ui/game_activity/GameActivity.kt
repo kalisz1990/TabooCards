@@ -8,9 +8,11 @@ import android.view.View
 import androidx.room.Room
 import com.example.taboocards.ui.menu_activity.MenuActivity
 import com.example.taboocards.R
+import com.example.taboocards.data.game.GameDetails.Companion.tourTime
 import com.example.taboocards.ui.game_activity.team.TeamDatabase
 import kotlinx.android.synthetic.main.activity_game.*
 import org.koin.androidx.viewmodel.ext.android.getViewModel
+import kotlin.concurrent.timer
 
 private var totalTime: Long = 0L
 private var team1Name: String = ""
@@ -43,9 +45,16 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         timerCountdown()
     }
 
-    private fun timerCountdown() {
+    private fun changeTeam(){
         val gameViewModel = getViewModel<GameViewModel>()
-        gameViewModel.startTimer(totalTime, time_counter)
+        gameViewModel.changeTeam()
+    }
+
+
+    private fun timerCountdown() {
+        val fm = supportFragmentManager
+        val gameViewModel = getViewModel<GameViewModel>()
+        gameViewModel.startTimer(totalTime, time_counter, fm)
     }
 
     private fun activitySetup() {
@@ -53,7 +62,7 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         team2Name = intent.getStringExtra(getString(R.string.team_2))
         team_1_name_game_activity.text = team1Name
         team_2_name_game_activity.text = team2Name
-        totalTime = intent.getLongExtra(getString(R.string.tour_time), 90000L)
+        totalTime = intent.getLongExtra(getString(R.string.tour_time), tourTime)
         skip_chances_textView_GameActivity_numbers.text = skipChances.toString()
     }
 
