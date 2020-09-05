@@ -8,7 +8,7 @@ import com.example.taboocards.R
 import com.example.taboocards.ui.menu_activity.MenuActivity
 
 
-private const val DELAY_TIME = 6000L
+private const val DELAY_TIME = 3000L
 
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
