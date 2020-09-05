@@ -20,14 +20,12 @@ val appModule = module {
     single { StartGameDialog() }
     single { SettingsDialog() }
     single { DialogCreator() }
-
 }
 
 val viewModule = module {
 
-    viewModel { GameViewModel(get(), get(), get()) }
+    viewModel { GameViewModel(get(), get(), get()) }g
     viewModel { MenuViewModel(get(), get()) }
-    viewModel { GameViewModel(get(), get(), get()) }
 }
 
 val databaseModule = module {
