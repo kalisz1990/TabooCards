@@ -18,7 +18,7 @@ class TeamRepositoryImpl(
     }
 
     override fun deleteAllTeams() {
-        TODO("Not yet implemented")
+        teamDao.deleteAllTeams()
     }
 
     override fun getAllTeams(): List<Team> {

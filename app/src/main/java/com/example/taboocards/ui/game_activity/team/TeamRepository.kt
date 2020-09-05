@@ -11,6 +11,7 @@ interface TeamRepository {
     fun updateTeam(team: Team)
 
     fun deleteTeam(team: Team)
+
     fun deleteAllTeams()
 }
 

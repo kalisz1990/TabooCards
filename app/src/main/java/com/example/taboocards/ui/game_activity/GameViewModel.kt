@@ -47,8 +47,18 @@ class GameViewModel(
         }
     }
 
-    fun changeTeam() {
+    fun changeTeam(team1: String, team2: String, currentTeamNr: Int): String {
+        return if (currentTeamNr == 1) {
+            team1
+        } else {
+            team2
+        }
+    }
 
+    fun clearDB() {
+        AsyncTask.execute {
+            teamRepository.deleteAllTeams()
+        }
     }
 
 

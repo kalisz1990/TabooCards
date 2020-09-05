@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.TextView
 import androidx.room.Room
 import com.example.taboocards.ui.menu_activity.MenuActivity
 import com.example.taboocards.R
@@ -12,11 +13,14 @@ import com.example.taboocards.data.game.GameDetails.Companion.tourTime
 import com.example.taboocards.ui.game_activity.team.TeamDatabase
 import kotlinx.android.synthetic.main.activity_game.*
 import org.koin.androidx.viewmodel.ext.android.getViewModel
-import kotlin.concurrent.timer
 
 private var totalTime: Long = 0L
 private var team1Name: String = ""
 private var team2Name: String = ""
+private var currentTeamNr: Int = 1
+private var currentTeamName: String = team1Name
+private lateinit var currentScoreTextView: TextView
+
 private const val okPoints: Int = 1
 private const val wrongPoints: Int = -1
 private const val skipChances: Int = 3
@@ -29,10 +33,10 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         setContentView(R.layout.activity_game)
 
         activitySetup()
-        openStartDialog()
         initializeRoom()
+        clearDatabase()
+        openStartDialog()
         addTeamsToDB()
-
     }
 
     private fun openStartDialog() {
@@ -43,11 +47,21 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
 
     override fun onDismiss(dialog: DialogInterface?) {
         timerCountdown()
+        changeTeam()
     }
 
-    private fun changeTeam(){
+    private fun changeTeam() {
         val gameViewModel = getViewModel<GameViewModel>()
-        gameViewModel.changeTeam()
+        currentTeamName = gameViewModel.changeTeam(team1Name, team2Name, currentTeamNr)
+        if (currentTeamNr == 1) {
+            currentTeamNr = 0
+            currentScoreTextView = score_team_1_game_activity
+            skip_chances_textView_GameActivity_numbers.text = skipChances.toString()
+        } else {
+            currentTeamNr = 1
+            currentScoreTextView = score_team_2_game_activity
+            skip_chances_textView_GameActivity_numbers.text = skipChances.toString()
+        }
     }
 
 
@@ -64,16 +78,21 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         team_2_name_game_activity.text = team2Name
         totalTime = intent.getLongExtra(getString(R.string.tour_time), tourTime)
         skip_chances_textView_GameActivity_numbers.text = skipChances.toString()
+        currentScoreTextView = score_team_1_game_activity
     }
 
     fun okButton(view: View) {
         val gameViewModel = getViewModel<GameViewModel>()
-        gameViewModel.updatePointsInTextView(team1Name, okPoints, score_team_1_game_activity)
+        gameViewModel.updatePointsInTextView(currentTeamName, okPoints, currentScoreTextView)
     }
 
     fun wrongButton(view: View) {
         val gameViewModel = getViewModel<GameViewModel>()
-        gameViewModel.updatePointsInTextView(team1Name, wrongPoints, score_team_1_game_activity)
+        gameViewModel.updatePointsInTextView(
+            currentTeamName,
+            wrongPoints,
+            currentScoreTextView
+        )
     }
 
     fun skipButton(view: View) {
@@ -81,8 +100,8 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         skip_chances_textView_GameActivity_numbers.text =
             gameViewModel.skipButton(
                 skip_chances_textView_GameActivity_numbers,
-                score_team_1_game_activity,
-                team1Name
+                currentScoreTextView,
+                currentTeamName
             )
     }
 
@@ -98,6 +117,12 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         val gameViewModel = getViewModel<GameViewModel>()
         gameViewModel.addTeamToDb(team1Name)
         gameViewModel.addTeamToDb(team2Name)
+    }
+
+    private fun clearDatabase(){
+        val gameViewModel = getViewModel<GameViewModel>()
+        gameViewModel.clearDB()
+
     }
 
 
