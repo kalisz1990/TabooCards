@@ -2,15 +2,10 @@ package com.example.taboocards.koin
 
 import androidx.room.Room
 import com.example.taboocards.ui.game_activity.GameViewModel
-<<<<<<< HEAD
-import com.example.taboocards.ui.game_activity.dialog.BeforeStartGameDialog
-import com.example.taboocards.ui.game_activity.score.ScoreCoordinator
-=======
 import com.example.taboocards.ui.game_activity.dialog.DialogCreator
 import com.example.taboocards.ui.game_activity.team.TeamDatabase
 import com.example.taboocards.ui.game_activity.team.TeamRepository
 import com.example.taboocards.ui.game_activity.team.TeamRepositoryImpl
->>>>>>> mvvm_model
 import com.example.taboocards.ui.game_activity.timer.TimerCoordinator
 import com.example.taboocards.ui.menu_activity.MenuViewModel
 import com.example.taboocards.ui.menu_activity.settings.SettingsDialog
@@ -24,21 +19,13 @@ val appModule = module {
     single { TimerCoordinator(get()) }
     single { StartGameDialog() }
     single { SettingsDialog() }
-<<<<<<< HEAD
-    single { BeforeStartGameDialog() }
-    single { ScoreCoordinator() }
-=======
     single { DialogCreator() }
->>>>>>> mvvm_model
 
 }
 
 val viewModule = module {
 
-<<<<<<< HEAD
-=======
     viewModel { GameViewModel(get(), get(), get()) }
->>>>>>> mvvm_model
     viewModel { MenuViewModel(get(), get()) }
     viewModel { GameViewModel(get(), get(), get()) }
 }
