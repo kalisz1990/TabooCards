@@ -12,9 +12,14 @@ import android.widget.Button
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentActivity
 import com.example.taboocards.R
-import kotlinx.android.synthetic.main.start_dialog_game_activity.view.*
+import kotlinx.android.synthetic.main.custom_dialog_game_activity.view.*
 
-class CustomSimpleGameDialog(private val layoutR: Int, val text: String?) : DialogFragment() {
+class CustomSimpleGameDialog(
+    private val layoutR: Int,
+    private val text: String?,
+    private val buttonName: String?
+) :
+    DialogFragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -23,10 +28,11 @@ class CustomSimpleGameDialog(private val layoutR: Int, val text: String?) : Dial
     ): View? {
 
         val rootView: View = inflater.inflate(layoutR, container, false)
-        val startButton = rootView.findViewById<Button>(R.id.start_button_game_activity_dialog)
-        rootView.before_start_dialog_textView.text = text
+        val button = rootView.findViewById<Button>(R.id.button_game_activity_dialog)
+        rootView.custom_dialog_textView.text = text
+        button.text = buttonName
 
-        startButton.setOnClickListener {
+        button.setOnClickListener {
             dismiss()
         }
 
@@ -56,7 +62,5 @@ class CustomSimpleGameDialog(private val layoutR: Int, val text: String?) : Dial
         if (activity is DialogInterface.OnDismissListener) {
             activity.onDismiss(dialog)
         }
-
     }
-
 }

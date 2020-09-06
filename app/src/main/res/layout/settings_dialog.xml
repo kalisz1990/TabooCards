@@ -82,7 +82,7 @@
 
     <EditText
         android:id="@+id/team1_name_settings_editText"
-        android:layout_width="wrap_content"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
@@ -94,7 +94,7 @@
 
     <EditText
         android:id="@+id/team2_name_settings_editText"
-        android:layout_width="wrap_content"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
@@ -115,14 +115,13 @@
         app:layout_constraintTop_toBottomOf="@+id/tour_time_textView_settings" />
 
     <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="40dp"
+        android:id="@+id/points_to_win_settings_dialog"
+        android:layout_width="70dp"
         android:layout_height="40dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="28dp"
         android:gravity="center"
         android:inputType="number"
-        android:text="30"
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/timer_settings_dialog" />

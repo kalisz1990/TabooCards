@@ -11,9 +11,10 @@ import android.view.WindowManager
 import android.widget.*
 import androidx.fragment.app.DialogFragment
 import com.example.taboocards.R
-import com.example.taboocards.data.game.GameDetails.Companion.team1
-import com.example.taboocards.data.game.GameDetails.Companion.team2
-import com.example.taboocards.data.game.GameDetails.Companion.tourTime
+import com.example.taboocards.data.game.GameDetails.Companion.pointsToWinGameDetails
+import com.example.taboocards.data.game.GameDetails.Companion.team1GameDetails
+import com.example.taboocards.data.game.GameDetails.Companion.team2GameDetails
+import com.example.taboocards.data.game.GameDetails.Companion.tourTimeGameDetails
 import com.example.taboocards.ui.game_activity.GameActivity
 import kotlinx.android.synthetic.main.start_game_dialog.*
 
@@ -32,8 +33,8 @@ class StartGameDialog : DialogFragment() {
         val team1EditText = rootView.findViewById<EditText>(R.id.team_1_name_dialog)
         val team2EditText = rootView.findViewById<EditText>(R.id.team_2_name_dialog)
 
-        team1EditText.setText(team1)
-        team2EditText.setText(team2)
+        team1EditText.setText(team1GameDetails)
+        team2EditText.setText(team2GameDetails)
 
         returnButton.setOnClickListener {
             dismiss()
@@ -52,8 +53,8 @@ class StartGameDialog : DialogFragment() {
                     Toast.makeText(requireContext(), "empty Team 2 name", Toast.LENGTH_SHORT).show()
                 }
                 else -> {
-                    team1 = team1EditText.text.toString()
-                    team2 = team2EditText.text.toString()
+                    team1GameDetails = team1EditText.text.toString()
+                    team2GameDetails = team2EditText.text.toString()
                     dismiss()
                     goToGameActivity()
                     activity?.finish()
@@ -84,16 +85,21 @@ class StartGameDialog : DialogFragment() {
 
         intent.putExtra(
             getString(R.string.tour_time),
-            tourTime
+            tourTimeGameDetails
         )
         intent.putExtra(
             getString(R.string.team_1),
-            team1
+            team1GameDetails
         )
         intent.putExtra(
             getString(R.string.team_2),
-            team2
+            team2GameDetails
         )
+        intent.putExtra(
+            getString(R.string.points_to_win),
+            pointsToWinGameDetails
+        )
+
         startActivity(intent)
     }
 

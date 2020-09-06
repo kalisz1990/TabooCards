@@ -24,7 +24,7 @@ val appModule = module {
 
 val viewModule = module {
 
-    viewModel { GameViewModel(get(), get(), get()) }
+    viewModel { GameViewModel(get(), get(), get(), get()) }
     viewModel { MenuViewModel(get(), get()) }
 }
 

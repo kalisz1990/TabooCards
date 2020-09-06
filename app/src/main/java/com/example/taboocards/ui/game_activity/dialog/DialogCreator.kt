@@ -4,7 +4,7 @@ import androidx.fragment.app.FragmentManager
 
 class DialogCreator {
 
-    fun createDialog(layoutR: Int, text: String?, fm: FragmentManager) {
-        CustomSimpleGameDialog(layoutR, text).show(fm, "custom_simple_dialog")
+    fun createDialog(layoutR: Int, msg: String?, fm: FragmentManager, buttonName: String) {
+        CustomSimpleGameDialog(layoutR, msg, buttonName).show(fm, "custom_simple_dialog")
     }
 }

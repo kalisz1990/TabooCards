@@ -1,5 +1,6 @@
 package com.example.taboocards.ui.game_activity
 
+import android.content.Context
 import android.os.AsyncTask
 import android.widget.TextView
 import androidx.fragment.app.FragmentManager
@@ -12,15 +13,25 @@ import com.example.taboocards.ui.game_activity.timer.TimerCoordinator
 class GameViewModel(
     private var timerCoordinator: TimerCoordinator,
     private var dialogCreator: DialogCreator,
-    private var teamRepository: TeamRepository
+    private var teamRepository: TeamRepository,
+    private val context: Context
 ) : ViewModel() {
 
     fun startTimer(totalTime: Long, textView: TextView, fm: FragmentManager) {
         timerCoordinator.startTimer(totalTime, textView, fm)
     }
 
-    fun openStartDialog(fm: FragmentManager) {
-        dialogCreator.createDialog(R.layout.start_dialog_game_activity, "ready ", fm)
+    fun stopTimer() {
+        timerCoordinator.stopTimer()
+    }
+
+    fun openStartDialog(fm: FragmentManager, teamName: String) {
+        dialogCreator.createDialog(
+            R.layout.custom_dialog_game_activity,
+            "$teamName ${context.getString(R.string.get_ready)}",
+            fm,
+            context.getString(R.string.start)
+        )
     }
 
     fun addTeamToDb(teamName: String?) {
@@ -61,6 +72,22 @@ class GameViewModel(
         }
     }
 
+    fun changeCard() {
+        TODO("Not yet implemented")
+    }
+
+    fun isGameOver(textView: TextView, pointsToWin: String): Boolean {
+        return textView.text == pointsToWin
+    }
+
+    fun finishGame(currentTeamName: String, fm: FragmentManager) {
+        dialogCreator.createDialog(
+            R.layout.custom_dialog_game_activity,
+            "$currentTeamName ${context.getString(R.string.won)}",
+            fm,
+            context.getString(R.string.finish)
+        )
+    }
 
     private class AsyncClassToUpdatePoints(
         private val teamRepository: TeamRepository,

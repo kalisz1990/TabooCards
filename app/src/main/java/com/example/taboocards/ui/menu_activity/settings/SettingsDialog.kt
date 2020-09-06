@@ -11,10 +11,10 @@ import android.view.WindowManager
 import android.widget.*
 import androidx.fragment.app.DialogFragment
 import com.example.taboocards.R
-import com.example.taboocards.data.game.GameDetails.Companion.pointsToWin
-import com.example.taboocards.data.game.GameDetails.Companion.team1
-import com.example.taboocards.data.game.GameDetails.Companion.team2
-import com.example.taboocards.data.game.GameDetails.Companion.tourTime
+import com.example.taboocards.data.game.GameDetails.Companion.pointsToWinGameDetails
+import com.example.taboocards.data.game.GameDetails.Companion.team1GameDetails
+import com.example.taboocards.data.game.GameDetails.Companion.team2GameDetails
+import com.example.taboocards.data.game.GameDetails.Companion.tourTimeGameDetails
 import com.example.taboocards.ui.game_activity.timer.minuteInMilliseconds
 import com.example.taboocards.ui.menu_activity.start_game.StartGameDialog
 import java.util.*
@@ -23,6 +23,8 @@ import java.util.concurrent.TimeUnit
 const val timerStep = 10000L
 
 class SettingsDialog : DialogFragment() {
+
+    //TODO: przydałoby sie zrobić porzadki
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -40,34 +42,37 @@ class SettingsDialog : DialogFragment() {
         val minusButton = rootView.findViewById<Button>(R.id.minus_button_settings_dialog)
         val saveAndSetButton = rootView.findViewById<Button>(R.id.save_and_set_button_settings)
 
+        val pointsToWinEditText =
+            rootView.findViewById<EditText>(R.id.points_to_win_settings_dialog)
 
-        updateTourTimer(tourTime, timerSettingsDialog)
-
+        updateTourTimer(tourTimeGameDetails, timerSettingsDialog)
+        pointsToWinEditText.setText(pointsToWinGameDetails)
 
         plusButton.setOnClickListener {
-            if (tourTime <= minuteInMilliseconds * 4) {
-                tourTime += timerStep
-                updateTourTimer(tourTime, timerSettingsDialog)
+            if (tourTimeGameDetails <= minuteInMilliseconds * 4) {
+                tourTimeGameDetails += timerStep
+                updateTourTimer(tourTimeGameDetails, timerSettingsDialog)
             }
         }
 
         minusButton.setOnClickListener {
-            if (tourTime > 0) {
-                tourTime -= timerStep
-                updateTourTimer(tourTime, timerSettingsDialog)
+            if (tourTimeGameDetails > 0) {
+                tourTimeGameDetails -= timerStep
+                updateTourTimer(tourTimeGameDetails, timerSettingsDialog)
             }
         }
 
         saveAndSetButton.setOnClickListener {
-            team1 = team1EditText.text.toString()
-            team2 = team2EditText.text.toString()
+            team1GameDetails = team1EditText.text.toString()
+            team2GameDetails = team2EditText.text.toString()
+
+            pointsToWinGameDetails = pointsToWinEditText.text.toString()
 
             setAndSaveDetails()
             dismiss()
         }
         return rootView
     }
-
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -99,19 +104,22 @@ class SettingsDialog : DialogFragment() {
         val intent = Intent(requireContext(), StartGameDialog::class.java)
         intent.putExtra(
             getString(R.string.team_1),
-            team1
+            team1GameDetails
         )
+
         intent.putExtra(
             getString(R.string.team_2),
-            team2
+            team2GameDetails
         )
+
         intent.putExtra(
             getString(R.string.tour_time),
-            tourTime
+            tourTimeGameDetails
         )
+
         intent.putExtra(
             getString(R.string.points_to_win),
-            pointsToWin
+            pointsToWinGameDetails
         )
     }
 }

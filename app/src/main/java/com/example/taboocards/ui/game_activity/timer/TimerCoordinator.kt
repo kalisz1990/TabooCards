@@ -16,7 +16,6 @@ class TimerCoordinator(private val context: Context) {
     var countDownTimer: CountDownTimer? = null
 
     fun startTimer(totalTime: Long, textView: TextView, fm: FragmentManager) {
-
         countDownTimer = object : CountDownTimer(totalTime, 500) {
             override fun onTick(millisUntilFinished: Long) {
                 textView.text = updateCountDownText(millisUntilFinished)
@@ -26,21 +25,28 @@ class TimerCoordinator(private val context: Context) {
                 countDownTimer?.cancel()
 
                 DialogCreator().createDialog(
-                    R.layout.start_dialog_game_activity,
+                    R.layout.custom_dialog_game_activity,
                     context.getString(R.string.pass_phone),
-                    fm
+                    fm,
+                    context.getString(R.string.start)
                 )
             }
-
         }.start()
     }
 
-
-    private fun updateCountDownText(totalTime: Long): String {
-        val minutes: Int = ((totalTime / secondInMilliseconds) / 60).toInt()
-        val seconds: Int = ((totalTime / secondInMilliseconds) % 60).toInt()
-
-        return String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds)
+    fun stopTimer() {
+        countDownTimer?.cancel()
     }
 
+
 }
+
+
+private fun updateCountDownText(totalTime: Long): String {
+    val minutes: Int = ((totalTime / secondInMilliseconds) / 60).toInt()
+    val seconds: Int = ((totalTime / secondInMilliseconds) % 60).toInt()
+
+    return String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds)
+}
+
+
