@@ -20,9 +20,6 @@ private var totalTime: Long = 0L
 private var pointsToWin: String = ""
 private var team1Name: String = ""
 private var team2Name: String = ""
-private var currentTeamNr: Int = 1
-private var currentTeamName: String = ""
-private lateinit var currentScoreTextView: TextView
 
 private const val okPoints: Int = 1
 private const val wrongPoints: Int = -1
@@ -33,12 +30,15 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
 
     private var fm: FragmentManager = supportFragmentManager
     private lateinit var gameViewModel: GameViewModel
+    private lateinit var currentScoreTextView: TextView
+    private var currentTeamNr: Int = 1
+    private var currentTeamName: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game)
-        gameViewModel = getViewModel()
 
+        gameViewModel = getViewModel()
         firstActivitySetup()
         initializeRoom()
         clearDatabase()
@@ -55,7 +55,7 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         pointsToWin = intent.getStringExtra(getString(R.string.points_to_win))
         skip_chances_textView_GameActivity_numbers.text = skipChances.toString()
         currentScoreTextView = score_team_1_game_activity
-//        currentTeamName = team1Name
+        currentTeamName = team1Name
     }
 
     private fun openStartDialog() {
@@ -96,24 +96,35 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         return gameViewModel.isGameOver(currentScoreTextView, pointsToWinGameDetails)
     }
 
-    private fun finishGame() {
-        gameViewModel.finishGame(currentTeamName, fm)
-    }
+//    private fun finishGame() {
+//        gameViewModel.finishGame(currentTeamName, fm)
+//        gameViewModel.stopTimer()
+//    }
 
     //TODO: zeby otwierało dialog w momencie zdobycia ostatniego punktu
     fun okButton(view: View) {
-        if (!isGameOver()) {
-            gameViewModel.updatePointsInTextView(currentTeamName, okPoints, currentScoreTextView)
-        } else {
-            finishGame()
+//        if (!isGameOver()) {
+        gameViewModel.updatePointsInTextView(
+            currentTeamName,
+            okPoints,
+            currentScoreTextView,
+            fm
+        )
+//        } else {
+//            finishGame()
+        if (isGameOver()) {
+            gameViewModel.stopTimer()
+
         }
+//        }
     }
 
     fun wrongButton(view: View) {
         gameViewModel.updatePointsInTextView(
             currentTeamName,
             wrongPoints,
-            currentScoreTextView
+            currentScoreTextView,
+            fm
         )
     }
 

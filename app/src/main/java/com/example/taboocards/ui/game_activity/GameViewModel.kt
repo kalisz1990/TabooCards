@@ -2,10 +2,13 @@ package com.example.taboocards.ui.game_activity
 
 import android.content.Context
 import android.os.AsyncTask
+import android.util.Log
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.ViewModel
 import com.example.taboocards.R
+import com.example.taboocards.data.game.GameDetails.Companion.pointsToWinGameDetails
 import com.example.taboocards.ui.game_activity.dialog.DialogCreator
 import com.example.taboocards.ui.game_activity.team.*
 import com.example.taboocards.ui.game_activity.timer.TimerCoordinator
@@ -41,9 +44,21 @@ class GameViewModel(
         }
     }
 
-    fun updatePointsInTextView(teamName: String?, numberOfPoints: Int, textView: TextView) {
+    fun updatePointsInTextView(
+        teamName: String?,
+        numberOfPoints: Int,
+        textView: TextView,
+        fm: FragmentManager?
+    ) {
         val asyncClass =
-            AsyncClassToUpdatePoints(teamRepository, teamName, numberOfPoints, textView)
+            AsyncClassToUpdatePoints(
+                teamRepository,
+                this,
+                teamName,
+                numberOfPoints,
+                textView,
+                fm
+            )
         asyncClass.execute()
     }
 
@@ -53,7 +68,7 @@ class GameViewModel(
             chances--
             chances.toString()
         } else {
-            updatePointsInTextView(teamName, -1, teamPoints)
+            updatePointsInTextView(teamName, -1, teamPoints, null)
             "0"
         }
     }
@@ -80,22 +95,26 @@ class GameViewModel(
         return textView.text == pointsToWin
     }
 
-    fun finishGame(currentTeamName: String, fm: FragmentManager) {
+    fun finishGame(currentTeamName: String?, fm: FragmentManager?) {
         dialogCreator.createDialog(
             R.layout.custom_dialog_game_activity,
             "$currentTeamName ${context.getString(R.string.won)}",
             fm,
             context.getString(R.string.finish)
         )
+        timerCoordinator.stopTimer()
     }
 
     private class AsyncClassToUpdatePoints(
         private val teamRepository: TeamRepository,
+        private val gameViewModel: GameViewModel,
         private val teamName: String?,
         private val numberOfPoints: Int,
-        private val textView: TextView
+        private val textView: TextView,
+        private val fm: FragmentManager?
     ) :
         AsyncTask<String, Void, String>() {
+
         private var points: String = ""
 
         override fun doInBackground(vararg params: String?): String {
@@ -106,8 +125,10 @@ class GameViewModel(
 
         override fun onPostExecute(result: String?) {
             updateTextView(textView)
+            if (result.toString() == pointsToWinGameDetails) {
+                gameViewModel.finishGame(teamName, fm)
+            }
         }
-
 
         private fun updateTextView(textView: TextView) {
             textView.text = points
