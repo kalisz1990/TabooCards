@@ -101,22 +101,18 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
 //        gameViewModel.stopTimer()
 //    }
 
-    //TODO: zeby otwierało dialog w momencie zdobycia ostatniego punktu
     fun okButton(view: View) {
-//        if (!isGameOver()) {
-        gameViewModel.updatePointsInTextView(
-            currentTeamName,
-            okPoints,
-            currentScoreTextView,
-            fm
-        )
-//        } else {
-//            finishGame()
+        if (!isGameOver()) {
+            gameViewModel.updatePointsInTextView(
+                currentTeamName,
+                okPoints,
+                currentScoreTextView,
+                fm
+            )
+        }
         if (isGameOver()) {
             gameViewModel.stopTimer()
-
         }
-//        }
     }
 
     fun wrongButton(view: View) {
