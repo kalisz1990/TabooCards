@@ -96,11 +96,6 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         return gameViewModel.isGameOver(currentScoreTextView, pointsToWinGameDetails)
     }
 
-//    private fun finishGame() {
-//        gameViewModel.finishGame(currentTeamName, fm)
-//        gameViewModel.stopTimer()
-//    }
-
     fun okButton(view: View) {
         if (!isGameOver()) {
             gameViewModel.updatePointsInTextView(
