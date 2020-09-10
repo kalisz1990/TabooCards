@@ -1,0 +1,2670 @@
+﻿id;main_word;s1;s2;s3;s4;s5
+1;KARA;Nagroda;Nauczka;Zbrodnia;Zły;Dostac
+2;MINISTER;Teka;Do Spraw;Gospodarki;Rzad;Premier
+3;DWUTAKT;Koszykówka;Kosz;Boisko;Piłka;Krok
+4;PIWNICA;Dom;Pod Ziemia;Ciemna;Pod Baranami;Wino
+5;EMERYTURA;Zus;Dziadek;Babcia;Renta;Praca
+6;SKNERA;Dusigrosz;żałowac;Chytrus;Pieniadze;Szkot
+7;EKONOMIA;Pieniadz;Zarzadzanie;Makro;Mikro;Gospodarka
+8;MAKULATURA;Papier;Skup;Przetwarzac;Gazety;Recykling
+9;SIESTA;Przerwa;Hiszpania;Drzemka;Meksyk;Odpoczynek
+10;SAMORZAD;Gmina;Lokalny;Wybory;Wójt;Rada
+11;CHINCZYK;Skosnooki;Irytacja;Japonia;Azja;Gra
+12;DYSKUSJA;Prowadzic;Temat;Panel;Rozmowa;Zdanie
+13;GALERIANKA;Nastolatka;Pieniadze;Centrum Handlowe;Seks;Film
+14;RANDKA;Umówic Sie;Kino;Spotkanie;Zakochanie;W Ciemno
+15;HYCEL;Własciciel;Łapac;Schronisko;Pies;Kot
+16;ROSÓŁ;Zupa;Kura;Makaron;Wywar;Bulion
+17;CZERWONE GITARY;Zespół;Przebój;Seweryn Krajewski;Muzyka;Instrument
+18;PRYWATNY;Należec;Firma;Panstwo;Publiczny;Własciciel
+19;KUMPEL;Kolega;Chłopak;Znajomy;Przyjaciel;Bliski
+20;GWIZDAC;Usta;Melodia;Muzyka;Dżwiek;Policjant
+21;PRZYSŁUGA;Pomoc;Przyjaciel;Wyswiadczyc;Niedzwiedz;Uczynek
+22;KREW;Płynac;Rana;żyła;Czerwona;Skaleczenie
+23;CIESNINA;Beringa;Bosfor;Pływac;Lad;Morze
+24;KOSMOS;Astronauta;Statek;Wszechswiat;Orbita;Sonda
+25;ZNAJOMY;Nasza Klasa;Przyjaciel;Kumpel;Kolega;Portal Społecznosciowy
+26;PORAŻKA;Pokonac;Przegrana;Zwyciestwo;Odniesc;Kleska
+27;SŁOMKA;Saczyc;Rurka;Drink;Pic;Napój
+28;KANAR;Bilet;Konduktor;Komunikacja Miejska;Kontroler;Mandat
+29;ZEGAR SŁONECZNY;Czas;Pora;Wskazywac;Cien;Godzina
+30;GRZANIEC;Piwo;Ciepły;Gozdzik;Wino;Przyprawy
+31;ZNIŻKA;Cena;Promocja;Rabat;Dostac;Zakup
+32;RZECZYWISTOSC;Prawda;Realny;Szara;Sen;Swiat
+33;KAMPANIA WYBORCZA;Głosowanie;Rzad;Sejm;Prezydent;Obietnica
+34;ŻETON;Moneta;Rzucac;Automat;Gra;Koło
+35;SYLWESTER;Grudzien;Nowy Rok;Stallone;Fajerwerki;Szampan
+36;ZWROTNICA;Szyna;Kierunek;Zmiana;Pociag;Tramwaj
+37;CZKAWKA;Powietrze;Dzwiek;Pijacka;Odbic;Pozbyc Sie
+38;BINGO;Los;Komplet;Numer;Gra;Liczby
+39;STRZAŁKA;Łuk;Wektor;Kursor;Myszka;Zielony
+40;SKOROSZYT;Segregator;Zeszyt;Notatki;Koszulka;Okładka
+41;EKRAN DOTYKOWY;Apple;Telewizor;Palec;Iphone;Telefon Komórkowy
+42;AKUMULATOR;Rozładowac;Klemy;Bateria;Samochód;Auto
+43;MAGGI;Przyprawa;Zupa;Smak;Płyn;Braz
+44;ZAZDROSC;Miłosc;Uczucie;Chłopak;Choroba;Dziewczyna
+45;POKER;Brydż;Hazard;Kasyno;Gra;Karty
+46;AKTOR;Scena;Sztuka;Telewizja;Teatr;Film
+47;TAMAGOTCHI;Kupa;Tama Jajo;Japonia;Zwierze;Zabawka
+48;BOŻE NARODZENIE;Gwiazdka;Bóg;Chrzescijanie;Opłatek;Choinka
+49;JAGUAR;Kot;Model Auta;Samochód;Zwierze;Pantera
+50;SKRZYDŁO;Samolot;Kurczak;Lotnisko;Latanie;Ptak
+51;SMRÓD;Pot;Fetor;Zapach;Kupa;Nos
+52;SENTYMENT;Pamiec;Miec;Słabosc;Wspomnienie;Czułosc
+53;PAPRYKA;Pestka;Czerwona;Ostra;Warzywo;Chili
+54;KASKADER;Skakac;Niebezpieczenstwo;Aktor;Film;Zastepowac
+55;BOMBKA;Boże Narodzenie;Ozdoba;Okragła;Mała;Choinka
+56;SYMULACJA;Komputerowa;Fałsz;Samolot;Prognozowanie;Udawanie
+57;SANKI;Dzieci;Zima;Jezdzic;Snieg;Kulig
+58;SILNIK TŁOKOWY;Diesel;Parowy;Naped;Spalinowy;Samochód
+59;BOTWINKA;Zimny;Zupa;Buraki;Młode;Czerwona
+60;LAKIER;Pedzelek;Usztywnic;Włosy;Paznokiec;Fryzura
+61;PILOTKA;Samolot;Wycieczka;Czapka;Latac;Telewizor
+62;ZACMIENIE;Ksieżyc;Wampiry;Słonce;Oczy;Zasłaniac
+63;URODZINY;Obchodzic;Prezenty;Imieniny;Imprez;Sto Lat
+64;LEGITYMACJA;Studencka;Zdjecie;Służbowa;Partyjna;Zniżka
+65;BOTOKS;Zmarszczki;Kiełbasa;Strzykawka;Jedrny;Usta
+66;SEZAM;Otwierac;Ziarno;Paluszki;Alibaba;Słodki
+67;SKOKI NARCIARSKIE;Zima;Snieg;Sport;Adam Małysz;Telemark
+68;ŁOSOS;Pomaranczowy;Ryba;Karp;Sushi;Norweski
+69;TURYSTA;Osoba;Kraj;Zwiedzac;Podróż;Plecak
+70;MYSLIWIEC;Samolot;Kłusownik;Polowanie;F 16;Mig
+71;ŻONA;Narzeczona;Obraczki;Slub;Kobieta;Maż
+72;WŁADIMIR PUTIN;Judo;Miedwiediew;Prezydent;Polityk;Rosja
+73;PRZEBÓJ;Hit;Utwór;Lista;Muzyka;Szlagier
+74;CZARNA SKRZYNKA;Katastrofa;Biały;Komoda;Zapis Danych;Samolot
+75;PIES;Smycz;Kot;Przyjaciel;Zwierze;Czworonóg
+76;POGRZEB;Smierc;Trumna;Pochowac;Cmentarz;Nieboszczyk
+77;ROBOT;R2-d2;Maszyna;Kuchnia;Mikser;Ciasto
+78;GADŻET;Lans;Chwalic Sie;Reklamowy;Inspektor;Zabawka
+79;ROBAK;Ksiadz;Pan Tadeusz;Ziemia;Insekt;Zwierze
+80;KUJON;Nauka;Uczen;Oceny;Ksiażki;Wiedza
+81;JUDASZ ISKARIOTA;Wizjer;Pocałunek;Jezus Chrystus;Srebrniki;Zdrada
+82;PERON;Pociag;Kolej;Dworzec;Platforma;Pasażer
+83;NUDA;Nic;Rzeczownik;Pustka;Robic;Dziac Sie
+84;PESTKA;Srodek;Owoc;Łatwy;Nasiona;Sliwka
+85;AMUNICJA;Bron;Kula;Pocisk;Naboje;Pistolet
+86;WUWUZELA;Hałas;Traba;Afryka;Mundial;Mistrzostwa Swiata
+87;POLITOLOGIA;Socjologia;Kierunek;Władza;Studia;Premier
+88;POCAHONTAS;Ksieżniczka;Konkwistadorzy;Indianka;Wigwam;Bajka
+89;KIERPCE;Buty;Góral;Skóra;Ludowe;Tatry
+90;KINESKOP;Monitor;Telewizor;Lampa;Płaski;Ekran
+91;MOJITO;Limonka;Drink;Alkohol;Rodzaj;Rum
+92;WYTRYCH;Drzwi;Pasowac;Klucz;Włamac;Otwierac
+93;KOSTKA;Gra;Noga;Stopa;Gitara;Rubik
+94;INDOCHINY;Wietnam;Ryż;Tajlandia;Laos;Oczy
+95;ZIARNO;Rosnac;Słonecznik;Siac;Groch;Program
+96;DZIEJE APOSTOLSKIE;Biblia;Swiety;Nowy Testament;Ewangelia;Ksiega
+97;ABSOLUT;Byt;Wódka;Bóg;Alkohol;Doskonały
+98;PREMIERA;Film;Uroczystosc;Przedstawienie;Pokaz;Pierwszy
+99;COUNTRY;Western;Bandżo;Wioska;Mragowo;Muzyka
+100;NIE;Negatyw;Zaprzeczenie;Odmowa;Brak;Tak
+101;HIACYNT;Kwiat;Roslina;Fiolet;Imie;Doniczka
+102;KONFITURY;Owoce;Dżem;Słoik;Marmolada;Wek
+103;FRYZJER;Włosy;Czesanie;Salon;Strzyżenie;Zawód
+104;SEPLENIC;Zły;Jezyk;Wyrazny;Michnik;Mówic
+105;MISKA;Sałatka;Pies;Pranie;Okragła;Plastikowa
+106;AUTOSTRADA;Droga;Opłaty;Winieta;Zgubic;Szybki
+107;BURZA MÓZGÓW;Problem;Myslec;Pomysł;Grupa;Pisac
+108;GRZEJNIK;Ciepło;Piec;żebra;Kaloryfer;Parapet
+109;NAŁÓG;Alkoholizm;Papierosy;Przymus;Uzależnienie;Głód
+110;BLACHARA;Dyskoteka;Laska;Auto;Klepac;Samochód
+111;KOK;Upiac;Włosy;Fryzura;Babcia;Slub
+112;CHANDRA;Złosc;Jesien;Smutek;Depresja;Przygnebienie
+113;DZIECKO ROSEMARY;Roman Polanski;Ira Levin;Egzorcysta;Ekranizacja;Krzysztof Komeda
+114;BRYK;Lenistwo;Odpisywac;Opracowanie;Streszczenie;Siagac
+115;FAUNA;Flora;Zwierzeta;Kwiaty;Bóstwo;Rosliny
+116;PEDZELEK;Malowac;Farby;Akwarele;Plastyka;Sztuka
+117;CESARSKIE CIECIE;Poród;Dziecko;Skalpel;Ciaża;Chirurg
+118;KAMERDYNER;Pomoc;Lokaj;Alfred;Obsługa;Majordomus
+119;HERBATA;Napar;Kawa;Czaj;Napój;Ranek
+120;PIOSENKA;Spiewac;Muzyka;Nucic;Słuchac;Nuty
+121;OKULISTA;Lekarz;Okulary;Wada Wzroku;Oczy;Zawód
+122;KOŁATKA;Kosciol;Uderzac;Pukac;Drzwi;Dzwonek
+123;DYKTAFON;Wykład;Nagrywac;Mówic;Dziennikarz;Wywiad
+124;SZKORBUT;Witaminy;Choroba;Marynarze;Zeby;Niedobór
+125;PROSTYTUTKA;Tir;Pieniadze;Dziwka;Alfons;Dom Towarzyski
+126;KES;Kawałek;Jesc;Mały;Łyk;Gryz
+127;LUSTRZANKA;Pstrykac;Zwierciadło;Zdjecia;Fotograf;Aparat
+128;KAMUFLAŻ;Ukryc Sie;Maskowanie;Przebranie;Zmyłka;Moro
+129;PRZYSTANEK ALASKA;Fleichman;Łos;Północ;Usa;Serial
+130;WIKLINA;Gałazka;Swieconka;Koszyk;Plesc;Suchy
+131;SLASK;Górnik;Kopalnia;Wegiel;Kiełbasa;Dolny I Górny
+132;JAN KOCHANOWSKI;Czrnolas;Fraszki;Treny;Urszulka;Pisarz
+133;LOGIN;Nick;Hasło;Nazwa Użytkownika;Rejestracja;Konto
+134;PIETA;Palce;Wada;Achilles;Stopa;Słaby Punkt
+135;SMOCZEK;Cumelek;Ssanie;Dziecko;Ogien;Buzia
+136;FRANCJA;N. Sarkozy;Paryż;Wieża Eiffla;Slimak;żabojady
+137;WROCŁAW;Odra;Breslau;Stolica Dolnego Slaska;Jan Miodek;Ostrów Tumski
+138;TRAMPKI;Szmaciaki;Buty;Biegac;Tenisówki;Adidasy
+139;SUROWY;Jedzenie;Ostry;Pieczony;Kara;Gotowac
+140;JAPONKA;Klapki;Oczy;Azjatka;Kimono;Chinka
+141;ABOLICJA;Orzeczenie;Umorzenie;Kara;Sad;Amnestia
+142;KRZYŻAK;141;Niemcy;Grunwald;Zakon;Pajak
+143;ESPRESSO;Herbata;Mała;Woda;Kawa;Latte
+144;CZAJNIK BEZPRZEWODOWY;Prad;Herbata;Gotowac;Woda;Wrzatek
+145;OBWODNICA;Trasa;Droga;Miasto;Jechac;Omijac
+146;BUSOLA;Gps;Północ;Kierunek;Wskaznik;Kompas
+147;DYM;Komin;Dach;Ogien;Unosic Sie;Palic
+148;KASIA I TOMEK;Serial;Film;Tvn;Bugajewicz;Komedia
+149;SZKIC;Brudno;Ołówek;Kontur;Rysunek;Malowac
+150;SALA GIMNASTYCZNA;Cwiczenia;Sport;Wychowanie Fizyczne;Hala;Szkoła
+151;DOPALACZ;Narkotyk;Stymulant;Energetyczny;Pobudzenie;Legalnosc
+152;GRYZC;Zab;Kosc;Dziecko;Sumienie;Jesc
+153;PROHIBICJA;Ameryka;Spożywac;Alkohol;Zakaz;Pic
+154;MAGISTER;Studia;Praca;Stopien;Doktor;Licencjat
+155;KRWINKA CZERWONA;Tetnica;Płynac;żyła;Krew;Tlen
+156;ANDRUTY;Ciastka;Wafel;Opłatek;Słodki;Cienki
+157;NOSFERATU;Krew;Horror;Film;Drakula;Wampir
+158;BROWAR;Piwo;Puszka;Pasteryzowac;Chmiel;Lager
+159;MOC;Energia;Siła;Słabosc;Wat;Władza
+160;LATAWIEC;Zabawka;Puszczac;Wiatr;Latac;Sznurek
+161;PŁETWY;Stopa;Nurek;Ster;Ryba;Pływac
+162;KRZESIWO;Iskra;Rozpałka;Kamien;Ogien;Krzemien
+163;KANAPA;Łóżko;Sofa;Siedzisko;Telewizor;Wersalka
+164;TABASCO;Chili;Ostry;Wsciekły Pies;Sos;Wódka
+165;GÓWNO;Robic;Kał;Kupa;Psie;Sikac
+166;INKAUST;Rodzaj;Atrament;Pisac;Kałamarz;Pióro
+167;INTELIGENCJA;Umysł;Iloraz;Iq;Mózg;Madrosc
+168;PUMEKS;Pieta;Skóra;Wulkan;Zcierac;Stopa
+169;POKAZ MODY;Modelka;Projektanci;Kreacja;Ubrania;Wybieg
+170;ODŻYWKA;Włosy;Szampon;Elektryzowac;Myc;Głowa
+171;BLONDYN;Jasne Włosy;Brunet;Swinski;Szatyn;Głupota
+172;REANIMACJA;Klatka Piersiowa;Sztuczne Oddychanie;Serce;Pierwsza Pomoc;Resuscytacja
+173;SLEDZ;Ryba;Szukac;Wódka;Namiot;Ogórek
+174;ŻWIREK I MUCHOMOREK;Mech;Paproc;Wigura;Bajka;Grzyb
+175;JAK ŁYSE KONIE;Starz Y Przyjaciele;Włosy;Klacz;Znajomosc;Długo
+176;MUNDIAL;Piłka Nożna;Puchar;Futbol;Gra;Mistrzostwa Swiata
+177;DYNAMO;Ciemno;Koło;Prad;Swiatło;Rower
+178;BIAŁA FLAGA;Czarny;Choragiew;Republika;Poddac Sie;Naród
+179;OFERMA;Niezdara;Udac Sie;Gapa;Fajtłapa;Fujara
+180;JEDNOSLAD;Rower;Motocykl;Dwa;Odcisk;Koło
+181;SEKSAPIL;Kobieta;Urok;Uwodzenie;Zgrabna;Czar
+182;OKRET PODWODNY;U-boot;Pływac;Statek;Łódz;Wojna
+183;JOGURT;Kefir;Owocowy;Mleko;Jogobella;Pic
+184;NIEMCY;Kraj;Panstwo;Berlin;Sasiad;A. Merkel
+185;SERNIK;Placek;Deser;Ciasto;Twaróg;Bakalie
+186;SKROBLOWAC;Portal Społecznosciowy;Słuchac;Muzyka;Ranking;Przesyłac
+187;KATAKANA;Klin;Japonia;Litera;Hiragana;Pismo
+188;KATOMIERZ;Ostry;Rozwarty;Geometria;Piórnik;Linijka
+189;KURZ;Pył;Brud;Sprzatac;Alergia;Odkurzacz
+190;KUFEL;Piana;Pub;Szklanka;Piwo;Browar
+191;KOSTKA BRUKOWA;Cegła;Granit;Podjazd;Układac;Chodnik
+192;SANATORIUM;Uzdrowisko;Kurort;Niepełnosprawny;Stary;Szpital
+193;OBOWIAZEK;Wzywac;Przymus;Zadanie;Miec;Prawo
+194;TABLICA;Kreda;Korkowa;Mendelejew;Nauczyciel;Szkoła
+195;KONTENER;Turbina;Wozic;Cieżarówka;Metal;Statek
+196;SRODKI NA KONCIE;Lokata;Kasa;Depozyt;Pieniadze;Bank
+197;FUCHA;Dorabiac;Praca;Robota;Niezła;Posada
+198;MNICH;Ksiadz;Zakon;Duchowny;Pustelnik;Braciszek
+199;NIANIA;Pomoc;Opiekunka;Frania;Super;Dzieci
+200;MORAŁ;Zakonczenie;Nauka;Bajka;Puenta;Wniosek
+201;KABARETKI;Ponczocha;Moulin Rouge;Rajstopy;Nogi;Kankan
+202;OSZUSTWO;Kłamstwo;Przestepstwo;Fałsz;Nieprawosc;Bład
+203;POBITE GARY;Krzyk;Chowac;Oszukiwanie;Zabawa;Złamane
+204;GOKART;Formuła 1;Wyscigi;Tor;Bolid;Robert Kubica
+205;KAMBODŻA;Khmerzy;Chiny;Tajlandia;Wietnam;Pol Pot
+206;KOMIKS;Scenariusz;Czytac;Rysunek;Chmurka;Obrazkowy
+207;FISTASZEK;Ziemia;Arachidowy;Łuskanie;Łupina;Orzech
+208;REWITALIZACJA;Siła;Odnowienie;Modernizacja;Spa;Ożywienie
+209;UCZONY;Ksiażka;Uniwersytet;Erudyta;Wiedza;Szkoła
+210;FOKUS;Ogniskowac;Ford;Nauka;Wywiad;Gazeta
+211;PRAŻYNKI;Chipsy;Jesc;Ziemniak;Chrupki;Solone
+212;MTV;Stacja;Muzyka;Teledysk;Telewizja;South Park
+213;FESTIWAL;Opole;Jarocin;Sopot;Koncert;Malta
+214;MUSICAL;Spiewac;Przedstawienie;Muzyka;Teatr;Roma
+215;SIEROCINIEC;Rzucac;Horror;Film;Dom Dziecka;Rodzice
+216;PARAFINA;Lampa Naftowa;Wosk;Knot;Swieczka;Zapalac
+217;HENRYK SIENKIEWICZ;Pisarz;Quo Vadis;Potop;Trylogia;Nobel
+218;SUTEK;Piers;Brodawka;Gruczoł;Ssanie;Mleko
+219;WANDAL;Plemie;Chuligan;Niszczyc;Szkoda;Psuc
+220;DOROŻKA;Slub;Wóz;Jechac;Kareta;Kon
+221;KLOZET;Ubikacja;Deska;Łazienka;Sedes;Wc
+222;SZEJK;Władca;Bogaty;Arabski;Mleczny;Naftowy
+223;SUCHAREK;Twardy;Dieta;Czerstwy;Głód;Chleb
+224;MALARIA;Goraczka;Syf;Tropiki;Afryka;Febra
+225;KORT;Tenis;Boisko;Gra;Rakieta;Siatka
+226;KODEKS KARNY;Prawo;Sad;Przepisy;Wykroczenie;Przestepstwo
+227;STRIPTIZER;Night Club;Rozbierac;Wieczór Panienski;Tancerz;Chippendales
+228;KOKAINA;Mak;Amfetamina;Prochy;Ameryka Południowa;Marichuana
+229;KIESZEN;Kangur;Spodnie;Dziura;Reka;Wkładac
+230;ADWOKAT;Alkohol;Mecenas;Prawnik;Rozprawa;Sad
+231;SKLEP INTERNETOWY;Market;Kupowac;Wirtual;Zamawiac;Siec
+232;SZYNA;Tory;Pociag;Tramwaj;Metal;Długi
+233;GERMANSCY OPRAWCY;Niemcy;Napastnik;Okrutny;Rosja;Kat
+234;ZŁOTY SRODEK;Arystoteles;Panaceum;Skrajnosc;Aurea Mediocritas;Kompromis
+235;PUB;Klub;Impreza;Bar;Kumple;Piwo
+236;TACZKA;Ogród;Jeden;Koło;Budowa;Przewozic
+237;RZEŻUCHA;Wiosna;Jesc;Wata;Roslina;Wielkanoc
+238;INFOLINIA;Call Center;Telefon;Numer;Komórka;Wiedza
+239;GRUSZKA;Drzewo;Warzywo;Owoc;Jabłko;Jesc
+240;POCZEKLANIA;Miejsce;Wizyta;Lekarz;Kolejka;Dworzec
+241;KUTERNOGA;Drewniana;Utykac;Kaleka;Proteza;Kulawy
+242;ŻYRANT;Pieniadze;Pożyczka;Umowa;Kredyt;Gwarant
+243;OCZEPINY;Para Młoda;Goscie;Zabawa;Wesele;Slub
+244;LESZCZ;Ryba;Zespół;Kombinuj Dziewczyno;Osci;Maciej Miecznikowski
+245;PUSTYNIA;Piasek;Gobi;Upał;Sucho;Sahara
+246;BLOK;Budynek;Rysunkowy;Czekoladowy;Techniczny;Osiedle
+247;STUDENT;Juwenalia;żak;Kolokwium;Uczelnia;Sesja
+248;KONIK NA BUEGUNACH;Urszula;Bujac Sie;Zwierze;Dziecko;Zabawka
+249;BRUDERSZAFT;Całowac Sie;Alkohol;Wódka;Braterstwo;Kieliszek
+250;SZYBERDACH;Sufit;Auto;Samochód;Okno;Otwór
+251;MROWISKO;Owad;Kopiec;Faraonka;Las;Igła
+252;NICPON;Urwis;Rozrabiaka;Dziecko;Niegrzeczny;Gargamel
+253;KALIBER;Amunicja;44;Rozmiar;Pistolet;Hip-hop
+254;5.10.15;Ubranka;Telewizja;Program;Sklep;Dzieci
+255;ZEGAR;Czas;Stoper;Słonce;Na Reke;Wskazówka
+256;WAŻ;Owoc;Biblia;Boa Dusiciel;Ogród;Pyton
+257;BOAZERIA;Okładzina;Listwy;Drewno;Dekoracja;Sciana
+258;WIEDZA;O Społeczenstwie;Powszechna;Madrosc;Głód;Nauka
+259;KOPYTO;Podkowa;Noga;Kon;Konczyna;Stajnia
+260;WYROK;Przestepstwo;Skazany;Sad;Wiezienie;Orzeczenie
+261;ZMIERZCH;Słonce;Zachodzic;Wielka Miłosc;Wampiry;Saga
+262;TRÓJKAT BERMUDZKI;Miejsce;Atlantyk;Znikac;Tajemnica;Trójkat Bermudzki
+263;BAK;Paliwo;Zbiornik;Benzyna;Wleac;Kanister
+264;DYSKOTEKA;Alkohol;Impreza;Dj;Taniec;Zabawa
+265;OTELLO;Desdemona;Tragedia;William Szekspir;Wenecja;Sztuka
+266;TOUR DE FRANCE;Wieża Eiffla;Lance Armstrong;Paryż;Kolarstwo;Wyscig
+267;KARTEL;Narkotykowy;Opec;Przedsiebiorstwo;Rynek;Zmowa
+268;AKADEMIA;Sztuk Pieknych;Student;Medyczna;Stal;Pan Kleks
+269;KOMINIARKA;Głowa;Napad;Czapka;Czarne;Złodziej
+270;JABŁKO;Szarlotka;Czerwone;Rajskie;Owoc;Lobo
+271;TOALETA;Papier;Spłuczka;Wc;Poranna;Sedes
+272;STRATEGIA;Plan;Przewidywac;Ustalac;Wojna;Napoleon
+273;KASZUBY;Koscierzyna;Bory Tucholskie;Region Polski;Czarne Podniebienie;Pomorze
+274;POLEDWICZKA;Mieso;Jesc;Kotlet;Wołowina;Swinia
+275;CZESKI FILM;Ogladac;Słowacja;Praga;Kino;Telewizja
+276;MIKSER;Mieszac;Płyta;Dj;Melakser;Robot Kuchenny
+277;MILA;Sebastian;Morska;Zielona;Jednostka Długosci;Tysiac
+278;KASYNO;Wygrana;Ruletka;Krupier;żeton;Royal
+279;GIEWONT;Tatry;Góra;Wspinaczka;Szczyt;Krzyż
+280;KARTY;Pasjans;Sim;Poker;Paier;Tabu
+281;LOKÓWKA;Wałki;Grzac;Krecic;Włosy;Zawijac
+282;PRIMA APRILIS;Psikus;Kwiecien;Obyczaj;Kawał;żartowac
+283;BEZA;Krucha;Białko;Ciastko;Piana;Sołdka
+284;GRYPS;Skazany;Wiezienie;Wiadomosc;Szyfr;List
+285;BRZASK;Swit;Ranek;Wstawac;Słonce;Wschód
+286;PACZEK;Rozkwitac;Tłusty Czwartek;Z Dżemem;Tulipan;Kwiat
+287;PERFEKCJONISTA;Od A Do Zet;Pedant;Saper;Dokładny;Na Ostatni Guzik
+288;KRADZIEŻ;Kieszonkowiec;Ograbic;Włamanie;Złodziej;Rabunek
+289;RODOWÓD;Pies;Wywodzic Sie;Rasa;Wystawa;Potomstwo
+290;KONIEC SWIATA;Tragedia;Kalendarz;Zagłada;Sad Ostateczny;Katastrofa
+291;RUBIN;Telewizor;Kamien;Biżuteria;Czerwony;Pierscionek
+292;MONOPOL;Sklep;Alkohol;Eurobiznes;Gra Planszowa;Struktura Rynkowa
+293;FOTEL;Bujany;Krzesło;Wygodny;Na Biegunach;Siedziec
+294;BROKAT;Odblaskowe;Metaliczne;Błyszczace;Paznokcie;Drobinki
+295;KOKON;Jedwabink;Larwa;Osłona;Motyl;Przasc
+296;KONCENRAT;Rozpuscic;Pomidorowy;Zageszczone;Słoik;Zupa
+297;RELAKS;Rozładowanie Napiecia;Ulga;Odpoczynek;Odpreżenie;Natura
+298;BAZYLISZEK;Legenda;Lustro;Spojrzenie;Jaszczur;Oczy
+299;KREM DO RAK;Mróz;Dłonie;Smarowac;Nawilżac;Gliceryna
+300;KRAKERS;Papuga;Paluszki;Chrupkie;Słone;Ciastko
+301;MANKUN;Duży;Futro;Puszysty;Kot;Rasa
+302;GRA HAZARDOWA;Zakłady;Ruletka;Poker;Kasyno;Las Vegas
+303;RYZYKO;Podejmowac;Niebezpieczenstwo;Las Vegas;Casino;Niepewnosc
+304;ANTRACYT;Kamien;Kolor;Skała;Biżuteria;Wegiel
+305;POPIELNICZKA;Papieros;Niedopałek;Kiep;Popiół;Palic
+306;GESTYKULOWAC;Pokazywac;Rece;Wskazywac;Ruszac;Opisywac
+307;TAPICERKA;Samochód;Skóra;Meble;Obicie;Pokrycie
+308;TORBA;Kangur;Kobiety;Na Ramie;Kopertówka;Podróż
+309;KATEDRA;Bazylika;Kosciół;Swiatynia;Biskup;Notre-dame
+310;UROK;Magia;Klatwa;Osobisty;Czar;Wrażenie
+311;KOPIA;Bron;Zapasowa;Odbitka;Pika;Husarska
+312;POMIDOR;Gra;Przecier;Warzywo;Ogórek;Zupa
+313;BIZON;Kombajn;Preria;Ameryka Północna;Wódka;żubr
+314;UWODZIC;Randka;Pokusa;Wabic;Podrywac;Przyciagac
+315;RADIO;Kaseta;Antena;Muzyka;Eter;Zet
+316;OMEGA;Zegarek;Koniec;Predkosc Katowa;Litera Grecka;Alfa
+317;SŁABOSC;Silny;Niemoc;Wola;Czuły Punkt;Pieta Achillesa
+318;GARNEK;Zupa;Przykrywka;Sagan;Gotowac;Jedzenie
+319;PODPIS;Parafka;Imie I Nazwisko;Własnoreczny;Autograf;Dokument
+320;POSTERUNEK;Policja;Stac;Komisariat;Komenda;Trzynasty
+321;WIELORYB;Kaszalot;Walen;Najwiekszy;Fontanna;Płetwal Błekitny
+322;MARS;Baton;Bóg Wojny;Kosmos;Słonce;Planeta
+323;RYŻ;Ziarno;Pole;Chinczycy;Gotowac;Parboidalny
+324;NURKOWNIE;Maska;Płetwy;Woda;Egipt;Butla
+325;ABEL;Kain;Zabic;Brat;Set;Biblia
+326;KENT;Para;Karty;Znak;Pan;Gra
+327;LOSOWANIE;Numerek;Kupon;Lotto;Kulka;Eliminacje
+328;CENA;Kupowac;Pieniadze;Detaliczna;Kwota;Wartosc
+329;PROKURENT;Zarzad;Krs;Spółka;Pełnomocnik;Przedstawiciel
+330;SERUM;Kuracja;Twarz;Kosmetyk;Surowica;Krem
+331;BIKINI;Kapiel;Kostium;Plaża;Słonce;Opalanie
+332;BURACZKI;Cwikła;Czerwony;Warzywo;Kotlet;Cukrowy
+333;PULSOMETR;Szyja;Serce;Urzadzenie;Pomiar;Tetno
+334;BLIZNA;Szwy;Skóra;Poparzenie;Szrama;Rana
+335;PLUSKWA;Insekt;Wesz;Owad;Podsłuch;Dezynsekcja
+336;KOLOKWIUM;Test;Sesja;Zaliczenie;Studia;Sprawdzian
+337;MOUNT EVEREST;Himalaje;Szczyt;Wysokosc;Góra;Osmiotysiecznik
+338;CHORAGIEW;Flaga;Godło;Bialo Czerwona;Bandera;Sztandar
+339;RACZKI;Cukierki;Kókółki;Szczypce;Zwierze Wodne;Krab
+340;GNIAZDO;Dom;Jaja;Wtyczka;Ptak;Gałezie
+341;KAŁASZNIKOW;Karabin;Automat;Rosja;Wojsko;Bron
+342;PANDORA;Puszka;Otworzyc;Epimeteusz;Mitologia;Nieszczescia
+343;FIAT 126P;Samochód;Bis;Bagażnik;Auto;Maluch
+344;PRAWDA;Szczera;Rzeczywistosc;Mówic;Fałsz;Zmyslac
+345;TO I OWO;Tamto I Siamto;Program Tv;Cos Tam;Czasopismo;Magazyn Telewizyjny
+346;KULIG;Zima;Zabawa;Snieg;Kon;Sanki
+347;KRATER;Dziura;Lawa;Zagłebienie;Meteoryt;Wulkan
+348;UZALEŻNIENIE;Używki;Odwyk;Alkohol;Bezwolny;Narkotyki
+349;ROBESPIERRE;Maksymilian;Gilotyna;Jakobin;Rewolucja;Francja
+350;PARAGON;Kupowac;Rachunek;Płacic;Sklep;Kasa
+351;KOLCE;Jeż;Ostre;Drut Kolczasty;Róża;Kaktus
+352;SCYZORYK;Szwajcarski;Harcerz;Liroy;Mały;Składany Nóż
+353;NIEBIESKI;Niebo;Kolor;Woda;Zielony;Czerwony
+354;TESCIOWA;Rodzina;żona;żarty;Maż;Matka
+355;STANCJA;Student;Wynajem;Akademik;Pokój;Mieszkanie
+356;OKULARY;Szkła Kontaktowe;Soczewki;Pan Hilary;Oczy;Nos
+357;NAGRODA;Finał;Konkurs;Wyróżnienie;Medal;Dostawac
+358;BLISTER;Opakowanie;Produkt;Bateria;Przezroczysty;Tabletki
+359;BEKSA;Smutek;Łzy;Dziecko;Płakac;Oczy
+360;ENTER;Wejscie;Wyjscie;Klawisz;Zatwierdzenie;Drzwi
+361;ZMYWACZ DO PAZNOKCI;Tipsy;Lakier;Aceton;Usuwac;Kosmetyczka
+362;PODSTEP;Fortel;Trik;Wybieg;Kon Trojanski;Sztuczka
+363;POCISK;Cel;Pistolet;Łuska;Nabój;Strzelac
+364;JUHAS;Baca;Wypas;Polana;Góry;Owce
+365;PARAPETÓWA;Przeprowadzka;Znajomi;Mieszkanie;Impreza;Okno
+366;MŁYNEK;Grac;Pieprz;Wiatrak;Kawa;Woda
+367;SPODEK;Filiżanka;Talerzyk;Porcelana;Katowice;Latajacy
+368;POKRZYWKA;Chwast;Czerwone;Uczulenie;Krostki;Swedzic
+369;ŻYRANDOL;żarówka;Wieczór;Sufit;Swieci;Lampa
+370;PAPIEROSY;Filtr;Zaciagac Sie;Nikotyna;Palic;Marlboro
+371;MUSZTARDA;Chrzan;Obiad;Słoik;Kiełbasa;Gorczyca
+372;KRAJOWY REJESTR DŁUGÓW;Wykaz;Spis;Czarna Lista;Niespłacony Kredyt;Pieniadze
+373;ARYSTOTELES;Grecja;Filozof;Onasis;Sokrates;Platon
+374;ŁYŻWY;Płoza;Lód;But;Jazda Figurowa;Zima
+375;MOKASYNY;Meżczyzna;Skóra;But;Indianie;Stopa
+376;POMOST;Jezioro;Rzeka;Deski;Woda;Kładka
+377;ZAMEK;Piasek;Drzwi;Klucz;Rozporek;Błyskawiczny
+378;GRATY;Nieużywane;Rzeczy;Rupiecie;Klamoty;Stare
+379;HAFTY POLSKIE;Wayszywac;Serweta;Kanwa;Koniaków;Magazyn
+380;DEKARZ;Komin;Zawód;Dom;Dach;Papa
+381;DOBERMAN;Rasa;Niemiecki;Rodowód;Pies;Grozny
+382;WANNA;Prysznic;Woda;Kapiel;Mycie;Łazienka
+383;GADERYPOLUKI;Kodowanie;Podstawianie;Szyfr;Harcerstwo;Litery
+384;GALOP;Chód;Klacz;Kłus;Step;Kon
+385;RZUCAC;Celowac;Łapac;Młotem;Piłka;Oszczepem
+386;KARO;Pik;Kier;Trefl;Karty;Dekolt
+387;MAGIA;Czarodziej;Czary;Wróżby;Harry Potter;Czarna
+388;SYRENA ALARMOWA;Morze;Godzina W;Strażak;Bic;Wycie
+389;WACHOCK;Anegdota;Kawał;żart;Miasto;Dowcip
+390;KRUCJATA;Wyprawy Krzyżowe;Heretyk;Rycerstwo;Innowierca;Sredniowiecze
+391;SPRINT;100 Metrów;Bieg;Szybkosc;Stadion;Michael Johnson
+392;KRATA;Okno;Wzór;Wiezienie;Zeszyt;Szkocka
+393;KASZTAN;Ludziki;Kon;Jesien;Drzewo;żołedzie
+394;KASK;Bezpieczenstwo;Budowa;Ochrona;Hełm;Głowa
+395;LATOROSL;Dziecko;Winna;Grono;Zima;Pnacze
+396;ALUFELGI;Auto;Tuning;Aluminium;Samochód;Koło
+397;PISTACJA;Zielony;Lody;Przegryzka;Orzech;Skorupka
+398;MARATHLON;Haile Gebrselassie;Filipides;Lekkoatletyka;Biegac;New York
+399;DZIECIOŁ;Lekarz;Ptak;Pukac;Big Brother;Drzewo
+400;FAKTY;Tvn;Wiadomosci;Wydarzenia;Autentyczne;Oparte
+401;MASC;Balsam;Oparzenie;Mleczko;Rana;Krem
+402;KSENOFOBIA;Obcy;Wrogosc;Niechec;Cudzoziemiec;Obcokrajowiec
+403;CHLEB;Pieczywo;Np. Pszenne;Razowy;żytni;Tostowy
+404;PŁATKI;Kukurydziane;Kwiat;Owsiane;Małżowina;Snieg
+405;PITAGORAS;Przeciwprostokatna;Matematyka;Trójkat;Twierdzenie;Grecja
+406;DACHÓWKA;Blacha;Dom;Papa;Bitumiczna;Pokrycie
+407;POP;Muzyka;Kultura Masowa;Cerkiew;Duchowny;Prawosławie
+408;CATERING;Wynos;Jedzenie;Obsługa;Dostarczenie;Firma
+409;DELL;Komputer;Producent;Firma;Elektronika;Laptop
+410;OPAKOWANIE;Karton;Prezent;Zabezpieczenie;Przechowywanie;Transport
+411;FISHER-PRICE;Producent;Zabawki;Nagroda;Ryba;Wedkarz
+412;NOWY ROK;1 Stycznia;Koniec;Fajerwerki;Poczatek;Sylwester
+413;DZIECKO;Córka;Rodzice;Potomek;Narodziny;Syn
+414;DEKADENCJA;Moralnosc;Upadek;Beznadzieja;Schyłek;Seksmisja
+415;SZUFLADA;Prowadnice;Wysuwac;Kingsajz;Skarpetki;Meble
+416;PARALELA;Zestawienie;Równoległy;Zbieżnosc;Porównanie;Odpowiednik
+417;BRUNCH;Rano;Lunch;Wczesnie;Jesc;Sniadanie
+418;KORUPCJA;Dac W Łape;Koperta;Pieniadze;Polityka;Sprzedajnosc
+419;GWIAZDA DAWIDA;Znak;Symbol;żydzi;Judaizm;Szescioramienna
+420;NIEURODZAJNY;żniwa;Gleba;żyzny;Plon;Susza
+421;ZNAK;Symbol;Drogowy;Zodiakalny;Szczególny;Ostrzegawczy
+422;PIEDESTAŁ;Wynosic;Pomnik;Cokół;Posag;Podstawa
+423;POLITYKA;Senat;Premier;Tygodnik;Sejm;Panstwo
+424;WYSMIENITY;Znakomity;Palce Lizac;Swietny;Wyborny;Doskonały
+425;GARGAMEL;Niebieski;Smerfy;Czarownik;Bajka;Klakier
+426;WSTAŻKA;Pasemko;Kokarda;Gimnastyka Artystyczna;Tasiemka;Prezent
+427;MONTESSORI;Samodzielnosc;Dzieci;Metoda;Pedagogika;Przedszkole
+428;MINA;Twarz;Zła Gra;Grymas;Saper;Mimika
+429;REGRESJA;Czytac;Progresja;Wstecz;Cofac Sie;Do Tyłu
+430;SEN ASTRALNY;Morfeusz;Podswiadomosc;Swiadomy;Gwiazda;Poza Ciałem
+431;DYNASTIA;Ród;Król;Serial;Rodzina;Panowanie
+432;RANA;Szarpana;Skaleczenie;Blizna;Bandaż;Lizac
+433;DREWNO;Pinokio;Opał;Drzewo;Las;Meble
+434;PISAK;Długopis;Marker;Kredka;Flamaster;Mazak
+435;SŁOWACJA;Sasiad;Kraj;Czechy;Bratysława;Panstwo
+436;KARTON;Tektura;Opakowanie;Pudełko;Zabezpieczenie;Papier
+437;SIERSC;Zwierzeta;Umaszczenie;Pies;Uczulenie;Alergia
+438;ANALOGOWY;Płyta Winylowa;Telewizja;Sygnał;Cyfrowy;Kaseta Magetofonowa
+439;KOŁODZIEJ;Piast;Rzemieslnik;Stelmach;Koło;Wóz
+440;MATA HARI;Tancerka;Szpieg;Agent;Zamaskowana;Prostytutka
+441;KRTAN;Gardło;Zapalenie;Układ Oddechowy;Głos;Nagłosnia
+442;PODUSZKA;Powietrzna;Sen;Głowa;Poszewka;Jasiek
+443;POSEJDON;Trójzab;Grecki Bóg;Władca;Morze;Neptun
+444;WKRETARKA;Narzedzie;Gwóżdż;Srubokret;Wiertarka;Urzadzenie
+445;PODLOTEK;Panienka;Małolata;Dziewczyna;Nastolatka;Młoda
+446;WYPRZEDZAC;Pierwszy;Kierunkowskaz;Droga;Samochód;Jazda
+447;PEPOWINA;Matka;Dziecko;Połaczenie;Przecinac;Poród
+448;TEMIDA;Opaska;Sprawiedliwosc;Orły;Sad;Waga
+449;RANGA;Stopien;Wojsko;Znaczenie;Ważnosc;Renoma
+450;NIEPOZORNY;Mały;Niezauważalny;Drobny;Niewidoczny;Niesmiały
+451;KLECHA;Hierarcha;Kazanie;Pogardliwie;Duchowny;Ksiadz
+452;KOZAKI;Nogi;Buty;Grzyby;Długie;Zima
+453;SIEKACZE;Szczeka;Zeby;Trzonowe;Kły;Odgryzc
+454;ANONIM;Nieznany;Pomówienie;Gall;Donos;List
+455;EFEKT;Film;Skutek;Motyla;Rezultat;Wynik
+456;CZYTELNIA;Ksiażki;Rewers;Wypożyczalnia;Student;Biblioteka
+457;DŁON;Palce;Niewidzialna;Pomocna;Reka;Łapa
+458;OPERACJA PLASTYCZNA;Piers;Powiekszenie;Chirurg;Nos;Liposukcja
+459;WYNAGRODZENIE;Podstawa;Akord;Pensja;Wypłata;Płaca
+460;CYWILIZACJA;Rozwój;Wspólnota;Gra Komputerowa;Społeczenstwo;Ludnosc
+461;MONA LISA;Usmiech;Da Vinci;Obraz;Dama Z Łasiczka;Luwr
+462;BAŁWANEK;Zima;Lepic;Kule;Snieg;Buli
+463;ATRAMENT;Kleks;Tusz;Sympatyczny;Długopis;Pióro
+464;SPAGHETTI CARBONARA;Włochy;Boczek;Kluski;Jedzenie;Makaron
+465;BALIA;Woda;Bednarz;Drewniany;Tara;Prac
+466;POTWIERDZENIE;Tak;Zgoda;Odbioru;Zamówienia;Upewnic Sie
+467;BULIMIA;żarłocznosc;Odżywianie;Anoreksja;Modelki;Choroba
+468;WIWISEKCJA;żaba;żywy;Eksperyment;Biologia;Zwierze
+469;MIKE TYSON;Bokser;Ucho;Murzyn;Piesciarz;Waga Cieżka
+470;WALKOWER;Kapitulacja;Gra;Oddac;Przegrana;Poddanie
+471;E-MAIL;Internet;Poczta;Skrzynka Odbiorcza;Wiadomosc;Wysyłac
+472;LATARNIA;Lampa;Morska;Słup;Najciemniej;Prostytutka
+473;HAFT;Kordonek;Igła;Krzyżykowy;Wzór;Ornament
+474;REGAŁ;Biblioteka;Ksiażki;Mebel;Półki;Szuflada
+475;SWIETY MIKOŁAJ;List;Zima;Renifer;6 Grudnia;Prezenty
+476;MP3;Rozszerzenie;Plik Muzyczny;Piosenka;Odtwarzacz;Format
+477;INTUICJA;Kobieta;Przeczucie;Zmysł;Podpowiadac;Wewnetrzny Głos
+478;MOSIADZ;Stop;Cynk;Swiecznik;Miedz;żółty
+479;WYCHODEK;Wygódka;Kibel;Potrzeba;Wies;Sławojka
+480;DRABINA;Góra;Wysoko;Wejsc;Szczebel;Kariera
+481;CIŻEMKA;Nosek;Skóra;żółty;Buty;Wygiety
+482;PALCE LIZAC;Smakołyk;Delektowac Sie;Pyszne;Jezyk;Kfc
+483;ZELOTA;Kolaborant;Gorliwiec;Entuzjasta;Fanatyk;Konserwatysta
+484;SMAŻYC;Kotlety;Frytki;Olej;Patelnia;Masło
+485;KOLONIA;Skupisko;Wakacje;Siedlisko;Zimowa;Letnia
+486;NIESWIADOMY;Bład;Wiedziec;Automatyczny;Instynktowny;Odruch
+487;BIERKI;Patyczki;Zrecznosc;Poruszac;Stos;Gra
+488;SŁUŻBA;Drużba;Bezpieczenstwa;Obowiazek;Posługa;Wojskowa
+489;NA WSPÓLNEJ;Serial;Telenowela;Oddzielnie;Tvn;Ulica
+490;GUCIO;Wodecki;Przyjaciel;Tekla;Pszczółka Maja;Bajka
+491;ZAKOPIANKA;Korki;Droga;Góry;Kraków;Tatry
+492;HOMOSEKSUALIZM;Orientacja;Hetero;Lesbijki;Gej;Płec
+493;SZACHY;Czarno-biały;Gra;Pionki;Garri Kasparow;Roszada
+494;KONSUL;Ambasada;Film;Generalny;Piotr Fronczewski;Dyplomata
+495;WÓZEK INWALIDZKI;Niepełnosprawny;Nogi;Jeżdzic;Kaleka;Paraliż
+496;GLOBTROTER;Plecak;Turysta;Podróżnik;Obieżyswiat;Wedrownik
+497;BATUTA;Filharmonia;Piotr Rubik;Dyrygent;Orkiestra;Pałeczka
+498;AMBASADOR;Urzad;Delegat;Zagraniczny;Konsul;Reprezentant
+499;KUBUS PUCHATEK;Kłapouchy;Tygrysek;Stumilowy Las;Prosiaczek;Bajka
+500;VIDEOCLIP;Piosenkarz;Utwór Muzyczny;Spiewac;Obraz;Mtv
+501;GIMNASTYKA;Aerobik;Akrobatyczna;Poranna;Skłony;Cwiczenia
+502;WAKAT;Stanowisko;Posada;Wolny;Firma;Praca
+503;GRANAT;Owoc Z Pestkami;Ciemny Niebieski;Odłamkowy;Wybuch;Rzucac
+504;SZKOLENIE;Instruktaż;Kurs;Kwalifikacje;Zajecia;Edukacja
+505;CELLULITIS;Odchudzanie;Rozstepy;Tkanka Tłuszczowa;Uda;Skórka Pomaranczowa
+506;TOMASZ LIS;Dziennikarz;Telewizja;Kinga Rusin;Polska;Publicysta
+507;KARGUL;Kłótnia;Sasiedzi;Nie Ma Mocnych;Pawlak;Sami Swoi
+508;SYPIALNIA;Łóżko;Pokój;Odpoczynek;Alkowa;Spanie
+509;PALINDROM;Wyraz;Znaczenie;Słowo;Od Tyłu;Taki Sam
+510;KORKOCIAG;Butelka;Ciagnac;Otwierac;Wino;Korek
+511;TROGLODYTA;Jaskiniowiec;Prymitywny;Człowiek Pierwotny;Dzikus;Maczuga
+512;CZARNA DZIURA;Wszechswiat;Wpadac;Gwiazda;Grawitacja;Biały
+513;FITNESS;Aerobik;Sylwetka;Klub;Cwiczenia;Siłownia
+514;CWIKŁA;Chrzan;Czerwone;Ocet;Ostra;Buraczki
+515;LAMPKA NOCNA;Łóżko;Stolik;Sypialnia;Swiatło;Czytac
+516;KORALE;Kolorowe;Szyja;Czerwone;Rafa;Jarzebina
+517;DIASTEMA;Zeby;Szczelina;Termin Fachowy;Szpara;Szczeka
+518;NEPOTYZM;Krewny;Faworyzacja;Polityka;Rodzina;Kumoterstwo
+519;UCZTA;Jedzenie;Gala;Biesiada;Zmysły;Przyjecie
+520;SMAK;Podniebienie;Wech;Zmysł;Jedzenie;Jezyk
+521;PROROK;Przewidywac;Mesjasz;Mahomet;Wiara;Jezus
+522;MAM TALENT;Wojewódzki;Chylinska;Tvn;Program;Foremniak
+523;KRAVMAGA;Odruch;Bliski Kontakt;System Walki;Samoobrona;Izrael
+524;SZPICRUTA;Konie;Poganiac;Oficerki;Bacik;Palcat
+525;KOLEJKA;Górska;Stac;Sklep;Pkp;Enerdowska
+526;SILESIA;Huta;Region;Slask;Wegiel;Łacinska
+527;DOPUST;Los;Kara;Zrzadzenie;Nieszczescie;Bóg
+528;RAMA;Dookoła;Lustro;Drewniana;Zdjecie;Obraz
+529;MIOTŁA;Szczotka;Latac;Czarownica;Zamiatac;Sprzatac
+530;CHOCHLA;Nalewac;Jedzenie;Zupa;Czerpak;Łycha
+531;TAJEMNICZY OGRÓD;Powiesc Obyczajowa;Film;Pielegnowac;Sekret;Agnieszka Holland
+532;RETROSPEKCJA;Tesknota;Wstecz;Przeszłosc;Literatura;Rozpatrywanie
+533;ESKIMOSI;Futro;Grenlandia;Ludnosc;Arktyka;Zimno
+534;AZTEKOWIE;Meksyk;Plemie;Montezuma;Cywilizacja;Indianie
+535;HOT DOG;Bułka;Pies;Parówka;Fast Food;Jedzenie
+536;JAROSZ;Warzywa;Stary Ale ...;Wegetarianin;Mieso;Jesc
+537;SMAR;Samochód;Tarcie;Oliwa;Mazidło;Tawot
+538;FAMA;Festiwal;Pogłoska;Niesc;Plotka;Wiesc
+539;KOHABITACJA;Obóz Polityczny;Premier;Prezydent;Wspólny;Konkubinat
+540;KRAJOBRAZ;Pejzaż;Pocztówka;Widok;Po Biwie;Malarstwo
+541;MICHAIŁ GORBACZOW;Z S R R;Kohl;Komunizm;Wódka;Pieriestrojka
+542;BAKTRIAN;Pustynia;Kamel;Wielbład;Garb;Dromader
+543;SZISZA;Egipt;Aromat;Palic;Fajka;Woda
+544;DON KICHOT;Sancho Pansa;Wiatrak;Giermek;Błedny Rycerz;Dulcynea
+545;PERSONIFIKACJA;Animizacja;Człowiek;Cecha;Uosobienie;Metafora
+546;KATAFALK;Trumna;Kaplica;Podwyższenie;Pogrzeb;Dekoracja
+547;MAHOMET;Muzułmanin;Islam;Ksiega;Prorok;Mekka
+548;HELIKOPTER;Smigłowiec;Samolot;Latac;Wojsko;Ogien
+549;PILNICZEK;Piłowanie;Paznokcie;Manicure;Brzeszczot;Wiezien
+550;ZAUFANIE;Zdrada;Miłosc;Zwiazek;Wiara;Partnerstwo
+551;NEURON;Układ Nerwowy;Akson;Drzewko;Głowa;Mózg
+552;STODOŁA;Siano;Słoma;Gospodarstwo;Budynek;Wies
+553;ABONAMENT;Telewizyjny;Miesiac;Ryczałt;Radiowy;Opłata
+554;PARAPET;Doniczka;Marmurowy;Kwiaty;Szyba;Okno
+555;CAŁUS;Buziak;Słodki;Wargi;Usta;Miłosc
+556;ZABIEG;Szpital;Działanie;Operacja;Chirurgiczny;Wzgledy
+557;KAPA;Lóżko;Przykrycie;Narzuta;Zakrywac;Pled
+558;MACZUGA;Pałka;Herkules;Gimnastyka Artystyczna;Bron;Jaskiniowiec
+559;STOŻEK;Matematyka;Geometria;Konus;Figura Przestrzenna;Bryła
+560;REBUS;Kalambury;Łamigłówka;Szarada;Zagadka;Rysunek
+561;TATRY;Góry;Polska;Krupówki;Rysy;Giewont
+562;KOMIN;Dym;Dach;Elektrociepłownia;Szacht;Palic
+563;MROWIENIE;Ciarki;Uczucie;Plecy;Wrażenie;Skurcz
+564;WCZASY;Wyjazd;Mazury;Urlop;Pod Grusza;Morze
+565;FLAGA;Bandera;Maszt;Naród;Barwy;Biało - Czerwone
+566;ZSZYWACZ;Dokumenty;Metal;Łaczyc;Kartki;Biuro
+567;RYSOPIS;Swiadek;Poszukiwany;Sporzadzac;Komisariat;Opis
+568;ILUMINACJA;Swiatło;Blask;Olsnienie;Jasnosc;żarówka
+569;PUBLICZNOSC;Oklaski;Teatr;Widownia;Ogladac;Siedziec
+570;FANTAZJA;Wyobrażenie;Ułanska;Danone;Marzenie;Wizualizacja
+571;SZAMPON;Kapac;Myc;Włosy;Mydło;Głowa
+572;BIG BROTHER;Kamera;Gulczas;Podgladac;Reality Show;Tvn
+573;KONFESJONAŁ;Pokuta;Rozgrzeszenie;Grzechy;Spowiedz;Kosciół
+574;DZIERŻAWA;Działka;Ziemia;Płacic;Uprawa;Wynajem
+575;PIÓRNIK;Szkoła;Kredki;Przybory;Mieszkanie;Trzymac
+576;MORALE;Spadac;Dyscyplina;Duch Bojowy;Wysokie;Wojsko
+577;CEGŁA;Wypalac;Dziurawka;Czerwona;Pełna;Dom
+578;SZCZENIAK;Suka;Kot;Mały;Młody;Pies
+579;TITANIC;Tonac;Szalupa;Katastrofa;Góra Lodowa;Film
+580;BOCIAN;Komin;Ptak;żaba;Gniazdo;Biało-czarny
+581;SZANTAŻ;Tajemnica;Manipulacja;Okup;Wymuszenie;Anonim
+582;101 DALMATYNCZYKÓW;Cruella;Bajka;Łatki;Szczeniak;Pies
+583;ROZKWIT;Kwiat;Rozwój;Okres;Oswiecenie;Koniunktura
+584;LEJCE;Uprzaż;Prowadzic;Woznica;Kon;Kierowac
+585;CHAT;Klikac;Rozmawaic;Internet;Randka;Wirtualny Swiat
+586;FIRANKA;Wieszac;Zasłaniac;Okno;Karnisz;Tiul
+587;WIGILIA;Rodzina;Stół;Boże Narodzenie;Choinka;Swieta
+588;SICZ;Ogniem I Mieczem;Ataman;Zaporoże;Kozacy;Dniepr
+589;PERPETUUM MOBILE;Działac;Zasada Zachowania Energii;Fizyka;Uruchomic;Bez Konca
+590;MALIBU;Kokos;Pic;Rum;Alkohol;Drink
+591;S.O.S;Pomoc;Alfabet Morsa;Ratunek;Statek;Wzywac
+592;SZYBA;Szkło;Wybic;Okno;Przezroczysta;Tłuc
+593;SZKŁA KONTAKTOWE;Soczewki;Okulary;Wzrok;Widziec;Oczy
+594;FAKTURA;Rachunek;Vat;Paragon;Tekstura;Powierzchnia
+595;IMPERATOR;Gwiezdne Wojny;Cezar;Piwo 10%;Rzym;Władca
+596;PULOK;Sisior;Penis;Gwara Slaska;Kapa;Pracie
+597;SLUB;Cywilny;Obraczki;Sakrament;Kosciół;Para Młoda
+598;SMYCZ;Spacer;Prowadzic;Własciciel;Pies;Klucze
+599;PAPIER TOALETOWY;Łazienka;Wycierac;Rolka;Sedes;Długi
+600;MYSZ;Polna;Komputer;Ser;Łapka;Zwierze
+601;GRUDZIEN;Swieta;Ostatni;Snieg;Zima;Miesiac
+602;ANTYKWARIAT;Sklep;Używane;Kupowac;Ksiażki;Stare Przedmioty
+603;OGRÓKI DZIAŁKOWE;Altanka;Uprawiac;Domek Letniskowy;Drzewka Owocowe;Warzywa
+604;GOLFISTA;Sport;Piłka;Dołek;Kij;Pole
+605;PARKING;Parkowac;Podziemny;Auto;Zatrzymywac Sie;Samochód
+606;ENTUZJASTA;Popierac;Zwolennik;Pasjonat;Kibicowac;Fan
+607;KREMÓWKA;Wadowice;Kraków;Ciastko;Cukiernia;Smietana
+608;NIEADEKWATNY;Pasujacy;Zgodny;Oczekiwany;Własciwy;Odpowiedni
+609;EUFRAT;Starożytnosc;Mezopotamia;Tygrys;Rzeka;Powódz
+610;POLONISTA;Ojczysty Jezyk;Nauczyciel;Filologia;Wypracowanie;Lektury
+611;PAUPERYZACJA;Bieda;Stopa życiowa;Ubogi;Poziom;Pieniadze
+612;STETOSKOP;Doktor;Szyja;Badac;Lekarz;Osłuchiwac
+613;SALON FRYZJERSKI;Pasemka;Włosy;Ciac;Farbowac;Nożyczki
+614;WIDŁY;Rolnik;Wies;Narzedzie;Grabie;Trójzab
+615;TESCO;Zakupy;Tanio;Kupowac;Hipermarket;Dużo
+616;FLIRT;Karty;Podryw;Uwodzic;Romans;Rozmawiac
+617;MACAC;Sciskac;Dotykac;Reka;Klepac;Palec
+618;NIEBO;Chmury;Sw. Piotr;Piekło;Raj;Bóg
+619;FARMACJA;Chemia;Apteka;Lekarstwa;Akademia Medyczna;Kierunek Studiów
+620;NIEWOLNICTWO;Praca;Afryka;Wolnosc;Przymus;Czarny
+621;AGONIA;życie;Stan;Umierac;Ból;Meczarnia
+622;SZCZOTECZKA DO ZEBÓW;Pasta;Usta;Szorowac;Włosie;Myc
+623;GRA PLANSZOWA;Monopol;Chinczyk;Kostka;Warcaby;Pionek
+624;KATAPULTA;Maszyna;Mechanizm;Zamek;Oblegac;Miotac
+625;TALIA;Osa;Karty;Biodra;Wciecie;Pas
+626;BIBLIA;Bóg;Kosciół;Pismo Swiete;Czytac;Stary Testament
+627;PAZURY;Drapac;Kły;Szpony;Paznokcie;Palce
+628;SKOWRONEK;Spiewac;Gniazdo;Radosny;Ranek;Ptak
+629;SZKOLENIOWIEC;Nauka;Selekcjoner;Trener;Kadra;Sport
+630;GRANIT;Płyta;Nagrobek;Pomnik;Skała;Kamien
+631;PASZPORT;Przekraczac;Podróż;Zagranica;Zdjecie;Dokument
+632;ARAFATKA;Szal;Fredzle;Chusta;Nosic;Szyja
+633;STRYCH;Dom;Pietro;Na Górze;Schody;Dach
+634;ASFALT;Czarny;Jezdnia;Droga;Kłasc;Twardy
+635;POLONEZ;Studniówka;Samochód;Taniec;Caro;Polska
+636;TALERZ;Stół;Głeboki;Jedzenie;Płytki;Naczynie
+637;HARNAS;Zbójnik;Piwo;Janosik;Marek Perepeczko;Góral
+638;KOSA;Zboże;Smierc;Scinac;Narzedzie;żniwa
+639;LEP;Klej;Papa;Owad;Mucha;Komar
+640;OPERACJA;Lekarz;Sala Operacyjna;Zabieg;Szpital;Hirurg
+641;SEKRETARKA;Biuro;Odbierac;Telefon;Asystentka;Kawa
+642;HIPOTEKA;Obciażenie;Nieruchomosc;Kredyt;Spłacic;Zastaw
+643;PIDŻAMA;Bluzka;Koszula;Spodnie;Spac;Noc
+644;WRZATEK;Czajnik;Goracy;Herbata;Oparzyc;Woda
+645;SESJA EGZAMINACYJNA;Kolokwium;Studia;Semestr;Zaliczenie;Sciaga
+646;POCZESTOWAC;Jedzenie;Podzielic;Gosc;Posiłek;Dac
+647;DYREKTOR;Szef;Awans;Przełożony;Szkoła;Kierownik
+648;POLICJANT;Mundur;Kraweżnik;Glina;Pies;Radiowóz
+649;SIODŁO;Uprzaż;Kon;Jezdzic;Dżokej;Rumak
+650;JAJECZNICA;Sniadanie;Jajko;Cebula;Smażyc;Boczek
+651;PRZEDRZEZNIAC;Denerwowac;Udawac;Parodiowac;Nasladowac;Imitowac
+652;KABARET;Ani Mru Mru;Starsi Panowie;Otto;Moranego Niepokoju;Neonówka
+653;ANTIDOTUM;Trucizna;Lekarstwo;Medycyna;Przeciwdziałac;Odtrutka
+654;EUFORIA;Radosc;Szczescie;Wybuch;Odczuwac;Stan
+655;TANIEC TOWARZYSKI;Z Gwiazdami;Zawody;Turniej;Para;Tango
+656;UNIWERSYTET;Nauka;Uczelnia;Szkoła;Akademia;Wykładowca
+657;ROZWÓD;Małżenstwo;Wina;Rozprawa;Slub;1
+658;PUDZIANOWSKI;Strongman;Mariusz;Najman;Siłacz;Najsilniejszy
+659;MECHANIZM;Maszyna;Koło Zebate;Ruch;Precyzyjny;Zegarek
+660;SZLABAN;Domowy;Przejazd Kolejowy;Zakaz;Kara;Czekac
+661;ALKOHOLIK;Choroba;Wino;Wódka;Uzaleznienie;Anonimowy
+662;UDERZAC W KONKURY;Smalic Cholewki;Wzgledy;Panna;Starac Sie;Zalecac Sie
+663;KOSZYKÓWKA;Rzucac;Parkiet;Sport;Boisko;Piłka
+664;SEKACZ;Zółtko;Deska;Rożen;Drewno;Ciasto
+665;KROKODYL;Szmaragd;Miłosc;Woda;Aligator;Skóra
+666;KOPARKA;Pojazd;Kopac;Łyżka;Ziemia;Budowa
+667;EMU;Ptak;Strus;Nielot;Piasek;Australia
+668;PSAŁTERZ;Dawid;Msza Swieta;Ksiadz;Psalm;Spiewac
+669;LAS IGLASTY;Sosna;Drzewo;Mech;Polana;Bór
+670;KAC;Ból Głowy;Nudnosci;Łóżko;Dzien Po;Impreza
+671;GRZYWA;Lew;Czoło;Włosy;Długie;Kon
+672;TELEWIZOR;Kineskop;Program;Ekran;Ogladac;Kanał
+673;TIR;Koło;Przewozic;Jelcz;Ładunek;Cieżarówka
+674;BIEGAC;Poruszac Sie;Scigac Sie;Szybko;Metr;Isc
+675;SAUNA;Goraco;Finska;Basen;Łaznia;Para
+676;KLIF;Morze;Brzeg;Fale;Urwisko;Skała
+677;ROZKAPRYSZONY;Rozpieszczony;Dziecko;Zachcianka;Rozwydrzony;Marudny
+678;STRINGI;Seksowna;Majtki;Posladki;Nitka;Bielizna
+679;FURIA;Wpadac;Wariat;Dzika;Złosc;Szał
+680;PLAN B;Awaryjny;Alternatywa;Drugi;Wyjscie;Zgodnie
+681;PRZYMUS;Wewnetrzny;Presja;Narzucac;Pod;Nakaz
+682;ATAMAN;Kozacy;Szef;Ukraina;Sicz;Przywódca
+683;ŁÓŻKO WODNE;Sypialnia;Woda;Leżec;Spac;Mebel
+684;REAKTOR;Elektrownia;Czarnobyl;Rozszczepianie;Jadrowy;Atom
+685;KREACJA;Bal;Projektant;Tworzenie;Suknia;Ubranie
+686;IMIENINY;Kalendarz;Prezent;Swieto;Urodziny;Swieto Rodzinne
+687;PRZYCZYNA;Wydarzenie;Powód;Ciag;Ponieważ;Skutek
+688;BLOG;Internet;Diarjusz;Dziennik;Komentarze;Pamietnik
+689;RORATY;Lampion;Msza Swieta;Rano;Adwent;Kosciół
+690;SPRZATACZKA;Brud;Zamiatac;Wiadro;Odkurzac;Szmata
+691;HELIOS;Video;Ogladac;Kino;Projekcja;Premiera
+692;KABINA PRYSZNICOWA;Łazienka;Brac;Wanna;Myc;żel
+693;ROZSZALAŁY;Spokojny;Wzburzony;Dziki;Wiatr;Nienormalny
+694;PIRUET;Taniec;Obrót;Lodowisko;Łyżwy;Skok
+695;EKSPOZYCJA;Pokazywac;Wystawa;Targi;Galeria;Muzeum
+696;PERUKA;Sztuczne;Głowa;Tupecik;Włosy;Łysina
+697;BARMAN;Nalewac;Napiwek;Drink;Bar;Podawac
+698;LEKTURA;Ksiażka;Biblioteka;Czytac;Obowiazkowa;Szkoła
+699;BORA BORA;Plaża;Wakacje;Ocean;Wyspa;Słonce
+700;KONEWKA;Kwiaty;Podlewac;Woda;Rosliny;Ogród
+701;KFC;Kubełek;Mc'donalds;Restauracja;Fast Food;Kurczak
+702;FULL HD;Lcd;Jakosc Obrazu;Telewizor;Ready;Cyfrowy
+703;PIEKŁO;Niebo;Smoła;Diabeł;Szatan;Belzebub
+704;KLOSZ;Swiatło;żarówka;Abażur;Lampa;Sufit
+705;APTEKA;Lekarstwo;Choroba;Farmaceuta;Kupowac;Recepta
+706;WOJAK;Wojsko;Szwejk;żołnierz;Piwo;Marynarka
+707;WINDA;Winda;Wieżowiec;Dzwig;Jechac;Schody
+708;SŁONE PALUSZKI;Chipsy;Przekaska;Gryzc;Jesc;Lajkonik
+709;KLIPSY;Kobieta;Biżuteria;Przekłuwac;Ucho;Kolczyk
+710;PLAC ZABAW;Dzieci;Karuzela;Piaskownica;Hustawka;Zjeżdżalnia
+711;OŁTARZ;Krzyż;Ofiara;Kapłan;Kosciół;Ksiadz
+712;KARKONOSZE;Góry;Snieżka;Szklarska Poreba;Karpacz;Szrenica
+713;EKSHIBICJONIZM;Rozbierac Sie;Obnażac Sie;Płaszcz;Pokazywac;Nagosc
+714;PROPORCJA;Zachowac;Liczba;Boska;Układac;Matematyka
+715;PASEK DO SPODNI;Szlufka;Dziurki;Zapinac;Skóra;Sprzaczka
+716;GRZEBIEN;Włosy;Głowa;Szczotka;Czesac;Fryzura
+717;KOPUŁA;Kulista;Dach;Sufit;Okragłe;Sklepienie
+718;PORNOGRAFIA;Nagosc;Dorosły;Video;Seks;Erotyka
+719;SZAMAN;Kapłan;Magia;Indianie;Uzdrowiciel;Czarownik
+720;EWAKUACJA;Schron;Wojsko;Ucieczka;Niebezpieczenstwo;Powódz
+721;DZIEŁA SZTUKI;Wystawa;Obrazy;Antyki;Wernisaż;Muzeum
+722;REPERTUAR;Grac;Program;Kino;Przedstawienie;Teatr
+723;TOURNEE;Zespół;Artysta;Trasa;Koncert;Wystepy
+724;FLAMASTER;Mazak;Pisak;Marker;Zakreslacz;Kredka
+725;STUDIA ZAOCZNE;Uniwersytet;Weekend;Uczelnia;Wieczorowe;Dzienne
+726;WALEC DROGOWY;Pojazd;Ulica;Maszyna;Budowa;Asfalt
+727;KALKULATOR;Liczenie;Elektronika;Komputer;Dodawanie;Matematyka
+728;CYNAMON;Smak;Bruno Shulz;Kuchnia;Przyprawa;Jabłka
+729;KLAUZULA POUFNOSCI;Podpisywanie;Dokument;Nda;Tajemnica Firmowa;Zgoda
+730;PRETEKST;Powody;Wykret;Wymówka;Udawac;Pozór
+731;SZARA EMINENCJA;Zausznik;Kardynał Richelieu;Władza;Dwór;Wpływ
+732;LINKA HOLOWNICZA;Awaria;Samochód;Hak;Ciagnac;Autoserwis
+733;KOLORYSTYKA;Ton;Odcien;Barwa;Malowac;Gama
+734;PAGAJ;Kajak;Kanoe;Pływac;Łódka;Wiosło
+735;UNIA EUROPEJSKA;Panstwa;Wspólnota;Organizacja;Polska;Bruksela
+736;WIEŻA MARIACKA;Kosciół;Wit Stwosz;Hejnał;Kraków;Trebacz
+737;DERMATOLOG;Lekarz;Tradzik;Wysypka;Skóra;Pryszcze
+738;HANS KLOSS;Stawka;Wojna Swiatowa;Brunner;Oficer;Mikulski
+739;LIZAK;Owocowy;Na Patyku;Dzieci;Chupa Chups;Słodki
+740;PROSTOWNICA;Włosy;Fryzjer;Lokówka;Suszarka;żelazko
+741;CISNIENIOMIERZ;Krew;Barometr;Tetno;Mierzyc;Reka
+742;HEMOGLOBINA;Tlen;Czasteczka;Anemia;żelazo;Krew
+743;ODLUDEK;Nietowarzyski;Ludzie;Samotnik;Pustelnik;Stronic
+744;PARANOJA;Wydawac Sie;Urojenia;Obłed;Choroba Psychiczna;Lek
+745;KOMORNIK;Zaległosci;Zabierac;Andrzej Chyra;Opłaty;Długi
+746;LEGGINSY;Spodnie;Getry;Obcisłe;Aerobik;Rajstopy
+747;MAKIAWELICZNY;Podstep;Cynizm;Ksiaże;Polityk;Bezwzgledny
+748;SIKORKA;Karmnik;Ptak;Zima;Bogatka;Słoninka
+749;KAWALKADA;Orszak;Grupa;Oddział;Kon;Jechac
+750;DZIAŁKA;Grill;Ziemia;Rolna;Budowlana;Wypoczynek
+751;INTROWERTYZM;Osobowosc;Mówic;Wnetrze;Wewnatrz;Ekstrawertyk
+752;SKORUMPOWANY;Urzednik;Pieniadze;Przekupic;Łapówka;Polityk
+753;MAKABRYCZNY;Straszny;Groza;Krew;Katastrofa;Horror
+754;EURO;Unia Europejska;2012;Pieniadz;Waluta;Piłka Nożna
+755;REMONT;Mieszkanie;Robotnicy;Malowanie;Ekipa;Odnowic
+756;SZALIK;Zima;Czapka;Szyja;Owijac;Kibic
+757;SPICHLERZ;Ziarno;Budynek;Elewator;Przechowywac;Zboże
+758;DEPRESJA;żuławy Wislane;Załamanie;Smutek;Poziom Morza;Choroba Psychiczna
+759;ERKA;Pogotowie;Karetka;Samochód;Sygnał;Ambulans
+760;PISMO;Klinowe;Urzad;Charakter;Alfabet;Litery
+761;ALFABET MORSE'A;S O S;Znak;Sygnał;Kod;Krótki
+762;ANTAGONIZM;Opozycja;Przeciwnik;Niezgoda;Konflikt;Wróg
+763;PRZEPRAWA PROMOWA;Statek;Szwecja;Płynac;Brzeg;Rzeka
+764;EKSHUMACJA;Trumna;Trup;Ciała;Sekcja Zwłok;Nauka
+765;SPALONY;Mecz;Ofsajd;Napastnik;Obronca;Sedzia Liniowy
+766;EMERYT;Zus;Wiek;Rencista;Praca;Starosc
+767;SHREK;Fiona;Film Animowany;Bajka;Zielony Ogr;Osiołek
+768;FRYTKA;Smażyc;Chipsy;Ziemniak;Ketchup;Karbowana
+769;MARUDZIC;Narzekac;Niezadowolony;Muchy W Nosie;Zrzedzic;Grymasic
+770;SYNTEZA;Połaczenie;Esencja;Sedno;Podsumowanie;Analiza
+771;KLUCZ WIOLINOWY;Muzyka;Znak;Zapis;Pieciolinia;Nuty
+772;KLEPTOMAN;Złodziej;Choroba Psychiczna;Sklep;Krasc;Potrzeba
+773;MAZGAJ;Beksa;Łzy;Dziecko;Płaksa;Ryczec
+774;GPS;Pozycja;Satelita;Lokalizacja;Nawigacja;Mapa
+775;BIAŁY KRUK;Ptak;Okaz;Rzadkosc;Czarny;Unikat
+776;"DÉJ&AGRAVE; VU";Uczucie;Matrix;Przeszłosc;Wydawac Sie;Wspomnienie
+777;KWESTIONOWAC;Prawda;Negowac;Zaprzeczac;Podważac;Watpliwosc
+778;BURSZTYN;Jantar;Biżuteria;żywica;Kamien;Morze
+779;SOJUSZ;Nato;Pakt;Zgoda;Porozumienie;Wojskowy
+780;HYDROMASAŻ;Relaks;Basen;Wanna;Bicze Wodne;Jacuzzi
+781;FRAPUJACY;Nurtujacy;Zastanawiajacy;Interesujacy;Ciekawy;Intrygujacy
+782;IGLOO;Eskimos;Dom;Snieg;Zima;Lód
+783;OGŁOSZENIE;Kontakt;Anonse;Giełda;Sprzedam;Kupie
+784;MOKRADŁO;Moczary;Woda;Mgła;Błoto;Bagno
+785;TRAGEDIA SZEKSPIROWSKA;Dramat;Romeo I Julia;Gatunek Literacki;Teatr;Hamlet
+786;KAKAO;Czekolada;Mleko;Napój;Ciasto;Brazowy
+787;SEDZIWY;Podeszły;Stary;Babcia;Wiek;Dziadek
+788;WODA OLIGOCENSKA;Zródło;Studnia;Ziemia;H 2 O;Woda Artezyjska
+789;FENOMEN;Zjawisko;Ewenement;Wyjatkowy;Cud;Niezwykły
+790;WALUTA;Euro;Wymienic;Dolar;Kantor;Pieniadz
+791;MUMINKI;Bajka;Włóczykij;Tove Jansson;Migotka;Dobranocka
+792;EGZALTACJA;Ekscytacja;Fascynacja;Podniecenie;Emocje;Opanowanie
+793;KONIUGACJA;Odmiana;Koncówka;Deklinacja;Czasownik;Gramatyka
+794;INNOWACJA;Produktowa;Technologiczna;Nowosc;Projekt;Wprowadzac
+795;KALETNIK;Rzemieslnik;Szyc;Pasek;Torba;Skóra
+796;ZAMIŁOWANIE;Lubic;Pasja;Hobby;Kochac;Zainteresowania
+797;BRZYTWA;Maszynka;Ostry;Tonac;Golic Sie;Zarost
+798;ODTWARZACZ MP4;Mp3;Muzyka;Video;Słuchawki;Przenosny
+799;LITERÓWKA;Bład;Pomyłka;Klawiatura;Pisownia;Znak
+800;ROZMOWA KWALIFIKACYJNA;Rekrutacja;Zatrudnienie;Praca;Cv;Spotkanie
+801;GŁOSNIKI;Komputer;Kino Domowe;Dzwiek;Muzyka;Stereo
+802;INSCENIZACJA;Wystawiac;Przedstawienie;Sztuka;Scenariusz;Teatr
+803;DEGENERAT;Zmarnowac;Zniszczyc;Norma;Stoczyc;Zwyrodniały
+804;PIGMEJE;Afryka;Plemiona;Czarnoskóry;Murzyn;Niski
+805;UROBEK;Górnik;Skała;Kopac;Wegiel;Dzien
+806;OSA;Pszczoła;Paski;Pieczenie;żadło;Owad
+807;KOMINIARZ;Czyscic;Dach;Guzik;Szczescie;Czarny
+808;IMBRYK;Czajnik;Dzbanek;Parzyc;Herbata;Filiżanka
+809;LALKA BARBIE;Dziewczynka;Dzieci;Ken;Ubranka;Zabawka
+810;SZKOŁA PRZETRWANIA;Survival;Selekcja;Wojsko;Wyprawa;Twardziele
+811;MAMONA;Republika;Kasa;Bogactwo;Forsa;Pieniadz
+812;RELIKT PRZESZŁOSCI;Pozostałosc;Historia;Zabytek;Skamieniałosc;Zaszłosc
+813;FAMILIADA;Pytania;Karol Strasburger;Teleturniej;Rodziny;Ankieta
+814;IMIENNIK;Taki Sam;Identyczny;Nazwisko;Nazywac Sie;Dzien
+815;CZASZKA;Mózg;Szkielet;Głowa;Kosc;Hamlet
+816;ORIGAMI;Składac;Papier;Sztuka;Japonia;żuraw
+817;KATATONIK;Schizofrenia;Psychiatria;Stupor;Choroba;Kontakt
+818;KAMERA INTERNETOWA;Skype;Przekaz Obrazu;Videokonferencja;Wizja;Komputer
+819;ESKALACJA;Nateżenie;Narastanie;Konflikt;Problem;Zwiekszanie
+820;CHOCHOŁ;Róża;Słoma;Owijac;Zima;Wesele
+821;REBELIA;Zamieszki;Insurekcja;Powstanie;Bunt;Rewolucja
+822;ZABOBON;Ciemnota;Przesad;Przekonanie;Nieszczescie;Wierzyc
+823;PARAGRAF;Ustawa;Ustep;Prawo;Przewinienie;Akt Prawny
+824;OSCIEŻNICA;Okno;Zawiasy;Oprawa;Futryna;Drzwi
+825;ERGONOMIA;Dyscyplina Naukowa;Wygoda;Dostosowac;Zaprojektowac;Optymalny
+826;KOMTUR;Wielki Mistrz;Krzyżacy;Zakon Rycerski;Zakon Szpitala Najswietszej Marii Panny;Zwierzchnik
+827;PANORAMA;Racławicka;Tvp2;Widok;Wiadomosci;Szeroki
+828;ANTOLOGIA;Ksiażka;Autor;Wybór;Zestawienie;Zbiór
+829;SEGREGATOR;Dokument;Wpinac;Koszulki;Biuro;Porzadkowac
+830;MEZALIANS;Małżenstwo;Maż;żenic Sie;Stan;Nieodpowiednie
+831;LOGOPEDA;Wada;Seplenienie;Jezyk;Uczyc;Wymowa
+832;FINEZJA;Wyrafinowanie;Delikatnosc;Precyzja;Subtelnosc;Lekkosc
+833;ESKAPIZM;Religia;Ucieczka;Rzeczywistosc;Oderwanie;Wycofanie
+834;LAKTATOR;Odciagac;Pokarm;Matka;Piersi;Mleko
+835;TROLEJBUS;Komunikacja;Gdynia;Transport;Tramwaj;Prad
+836;SAKWA ROWEROWA;Wyprawa;Bagażnik;Jezdzic;Kosz;Torba
+837;ANARCHIA;Władza;Utopia;Rzadzic;Punk;Wolnosc
+838;SANDAŁY;Klapki;Lato;Buty;Stopa;Rzemien
+839;WIERCIPIETA;Adhd;Nadpobudliwy;Usiedziec;Krecic Sie;Miejsce
+840;ITAKA;Odyseusz;Grecja;Wyspa;Homer;Biuro Podróży
+841;SYGNALIZACJA SWIETLNA;Swiatła;żółte;Skrzyżowanie;Czerwone;Przejscie
+842;ZŁO;Demon;Wujek;Przemoc;Dobro;Kradzież
+843;SECESJA;Architektura;Modernizm;Art Nouveaux;Styl;Sztuka
+844;MORMON;Kosciół;Utah;Amisz;Religia;Wiara
+845;AUTOPSJA;Sekcja Zwłok;Doswiadczenie;Znac;Badac;Na Własne Oczy
+846;ONOMATOPEJA;Jezyk Polski;Figura Retoryczna;Dzwiekonasladownictwo;Srodek Stylistyczny;Poezja
+847;MELIORACJA;Woda;Osuszanie;Rowy;Ulepszenie;Rolnictwo
+848;SKARBONKA;Pieniadze;Oszczedzac;Zbierac;Wrzucac;Kieszonkowe
+849;TELEDYSK;Muzyka;Film;Mtv;Wideoklip;Piosenka
+850;GRAMOFON;Igła;Adapter;Muzyka;Płyta Winylowa;Odtwarzacz
+851;KABURA;Pistolet;Bron;Pokrowiec;Futerał;Pas
+852;GAŁKA MUSZKATOŁOWA;Przyprawa;Piernik;Smak;Korzenna;Zetrzec
+853;BAMBUS;Ped;Roslina;Murzyn;Chinszczyzna;Kiełki
+854;PEGASUS;Dzieci;Kon;Konsola Gier;Jednorożec;Super Mario Bros
+855;WYRACHOWANY;Zysk;Egoizm;Interes;Spryt;Korzysc
+856;SEX;Płec;Stosunek;Kamasutra;Pozycje;Sypialnia
+857;JARZMO;Niewola;Uprzaż;Chomato;Orka;Bydło
+858;ZORRO;Antonio Banderas;Garsyja;Maska;Czarny;Szpada
+859;KSERO;Kopiowanie;Biuro;Dokumenty;Maszyna;Toner
+860;WIELKI MUR CHINSKI;Pekin;Cud Swiata;Cegła;Budowla;Kosmos
+861;ZIEMIANKA;Partyzanci;Wykopac;Piwnica;Schronienie;Przechowywac
+862;SCIEŻKA ZDROWIA;Sport;Las;Rekreacja;Park;Cwiczenia
+863;KLEJ;Łaczyc;Wachac;Kropelka;Lepki;Papier
+864;KATAKUMBY;Podziemny;Chrzescijanstwo;Starożytny Rzym;Cmentarz;Korytarze
+865;UDAR;Mózg;Upał;Wiertarka;Apopleksja;Słonce
+866;WYDMUSZKA;Puste;Swieta Wielkanocne;Jajko;Dmuchac;Pisanka
+867;KONWÓJ;Wiezniowie;Eskorta;Chronic;Grupa Osób;Pieniadze
+868;ARCHIDIECEZJA;Podział;Biskup;Parafia;Prowincja;Kosciół
+869;RÓWNIK;40 000 Kilometrów;Południk;Równoleżnik;Kula Ziemska;Szerokosc Geograficzna
+870;BRONA;Pole;Narzedzie;Orac;Ciagnik;Rolnik
+871;IPOD;Odtwarzac;Słuchawki;Mp3;Apple;Urzadzenie Przenosne
+872;PALMA;Odbijac;Drzewo;Daktyl;Margaryna;Kokos
+873;KORONKA;Ozdoba;Bielizna;Król;Zeby;Materiał
+874;SKROBIA;Cukier;Ziemniak;Weglowodan;Roslina;Składnik
+875;PRZYZWOITKA;Spotkanie Towarzyskie;Trzecia Osoba;Dama Do Towarzystwa;Pilnowac;Panna
+876;LAWINA;Kula;Snieg;Góry;Tragedia;Zima
+877;JEDWABNIK;Morwa;Tkanina;Kokon;Nici;Chiny
+878;IMPERTYNENCJA;Bezczelnosc;Zachowanie;Arogancja;Zniewaga;Obrazliwe
+879;RH+;żyła;Grupa;Typ;Konflikt Serologiczny;Krew
+880;PRZESŁONA;Obiektyw;Fotografia;Aparat;Blenda;Głebia
+881;SZTANGA;Podnosic;Sport;Hantle;Siłacz;Gryf
+882;AUTOALARM;Złodziej;Kradzież;Szyba;Samochód;Dzwiek
+883;STRZYKAWKA;Szczepionka;Tłok;Zastrzyk;Lekarz;Narkoman
+884;ZOO;Lew;Klatki;Małpa;Zwierzeta;Dworzec
+885;MAJTEK;Statek;Marynarz;Morze;Pomywacz;Załoga
+886;SOBOWTÓR;Osoba;Klon;Podobny;Taki Sam;Blizniak
+887;ZAPROSZENIE;Urodziny;Potwierdzenie;Slub;Kartka;Wysyłanie
+888;DŻUMA;Czarna Smierc;Albert Camus;Epidemia;Choroba;Breslau
+889;METKA;Ubranie;Zakupy;Nowy;Ciuchy;Rozmiar
+890;ETUI;Przechowywac;Pióro;Pojemnik;Opakowanie;Okulary
+891;TAMBURYN;Dzwoneczki;Membrana;Instrument;Cyganie;Beben
+892;WŁÓCZYKIJ;Ryjek;Bajka;Kapelusz;Muminki;Tove Jansson
+893;GEST;Dłon;Pokazywac;Reka;Kozakiewicza;Ruch
+894;MANDOLINA;Grac;Gitara;Banjo;Struny;Instrument
+895;SWIETO DZIEKCZYNIENIA;Stany Zjednoczone;Ameryka;Uroczystosc;Indyk;Listopad
+896;INICJAŁ;Imie I Nazwisko;Litera;Ozdobny;Skrót;Poczatek
+897;PUSTOSTAN;Lokum;Opuszczony;Mieszkanie;Wolny;Lokator
+898;ZAWRÓT GŁOWY;Mdłosci;Wysokosc;Uczucie;Błednik;Krecic
+899;PSZENICA;Pieczywo;Zboże;żyto;Plony;Maka
+900;KUZYN;Dziecko;Wujek;Rodzina;Ciocia;Krewny
+901;ZAŻALENIE;Składac;Reklamacja;Ksiażka;Decyzja;Skarga
+902;ATUT;Karta;Przebijac;Przewaga;Zaleta;Brydż
+903;WOLONTARIUSZ;Zbierac;Bezpłatnie;Pomagac;Ochotnik;Charytatywnie
+904;FILMWEB;Kino;Internet;Aktor;Imdb;Portal
+905;RUPIA;Waluta;Azja;Moneta;Indie;Pieniadz
+906;KOCIOŁ;Baba Jaga;Instrument;Garnek;Naczynie;Para
+907;TERMINATOR;Sara Connor;Arnold Schwarzenegger;Mistrz;Elektroniczny Morderca;Czeladnik
+908;LAIK;Wiedza;Dyletant;Informacja;Ignorant;Amator
+909;OBÓZ;Harcerski;Namiot;Pracy;Koncentracyjny;Wakacje
+910;SEMINARIUM DUCHOWNE;Szkoła;Kosciół;Ksiadz;Uczelnia;Kleryk
+911;AWIONETKA;Mały;Pilot;Latac;Lekki;Samolot
+912;KILIMANDŻARO;Sniegi;Najwyższy;Hemingway;Góra;Afryka
+913;ŁYSY;Wypadac;Głowa;Fryzura;Włosy;Peruka
+914;WETERAN;Szosa;żołnierz;Walczyc;Wojenny;Stary
+915;SPOTKANIE RODZINNE;Okazja;Sytuacja;Imieniny;Rodzina;Obiad
+916;KAPTUR;Mnich;Nakrycie Głowy;Bluza;Kurtka;Deszcz
+917;PARASOL;Opady;Deszcz;Pogoda;Ochrona;Słonce
+918;ZBIÓR;Matematyka;Liczby;żniwa;Elementy;Pusty
+919;GROBLA;Wał;Droga;Rzeka;Staw;Wylewac
+920;BRELOK;Ozdoba;Kółko;Wisiorek;Przywieszka;Klucze
+921;STORCZYK;Kwiat;Tropikalny;Podlewac;Orchidea;Doniczka
+922;ALBEDO;Ciało Niebieskie;Swiatło;Odbijac;Optyka;Powierzchnia
+923;MECZYC;Trudzic;Marudzic;Siły;Dreczyc;Fatygowac
+924;NIENAWISC;Niechec;Uczucie;Lubic;Miłosc;Kłótnia
+925;KREATYWNOSC;Pomysł;Oryginalny;Tworzenie;Inteligencja;Nowatorstwo
+926;OSKAR;Nagroda;Statuetka;Akademia Sztuki;Film;Hollywood
+927;SPRZECZNOSC;Logika;Prawda;Niezgodnosc;Paradoks;Kłócic Sie
+928;ALKOHOL;Procenty;Wódka;Drink;Upic Sie;Pic
+929;ODKURZACZ;Kurz;Ssanie;Podłoga;Rura;Elektroluks
+930;MAJONEZ;Sos;Olej;Sałatka;Kanapka;Jajka
+931;SSANIE;Smoczek;Niemowlak;Piers;Usta;Samochód
+932;ZAGADKA;Szarada;Sfinks;Pytanie;Zadanie;Odpowiedz
+933;SŁOWNIK ORTOGRAFICZNY;Słowa;Jezyk Polski;Gramatyka;Błedy;Ksiażka
+934;FLANELA;Koszula;Szmatka;Bawełna;Materiał;Tkanina
+935;PELETON;Kolarz;Wyscig;Poscig;Rower;Grupa
+936;KOMIWOJADŻER;Zamówienie;Jezdzic;Handlowac;Akwizytor;Sprzedawca
+937;UFO;Latajacy Spodek;Niezidentyfikowany Obiekt;Statek Kosmiczny;Zielony;Kosmita
+938;OSCYPEK;Zakopane;Ser;Owca;Mleko;Góry
+939;BEZROBOCIE;Kryzys;Zasiłek;Zwalniac;Praca;Kuroniowka
+940;PEPEK;Pas;Dziura;Kolczyk;Srodek;Brzuch
+941;REGGAE;Bob Marley;Jamajka;Marihuana;Muzyka;Dredy
+942;PRZESYŁKA;Poczta;Transport;Paczka;Dostarczac;Kurier
+943;BIEGUN POŁUDNIOWY;Antarktyda;Lód;Roland Amundsen;Północny;Kula Ziemska
+944;MENTOS;Mieta;Odswieżenie;Oddech;Cukierek;Drops
+945;ZAWIESZENIE BRONI;Rozejm;Walka;Pokój;Wojna;Traktat
+946;PEDIATRA;Dziecko;Szpital;Lekarz;Neonatolog;Doktor
+947;SPITSBERGEN;Lodowiec;Morze Arktyczne;Norwegia;Wyspa;Północ
+948;ŻÓŁTODZIÓB;Poczatkujacy;Ptak;Doswiadczony;Amator;Clint Eastwood
+949;PRZEREBEL;Otwór;Lód;Rybak;Mróz;Wykuc
+950;DŁUG;Pożyczka;Pieniadze;Winien;Oddac;Kredyt
+951;ULOTKA;Informacja;Kartka;Produkt;Reklama;Roznosic
+952;APELACJA;Odwołanie;Skazywac;Wyrok;Rozprawa;Sad
+953;CENTRUM HANDLOWE;Miejsce;Budynek;Zakupy;Sklepy;Czas Wolny
+954;FILOZOFIA;Nauka;Madrosc;Platon;Rozważania;Arystoteles
+955;STUDNIA;Wiadro;Ujecie;Wies;żuraw;Woda
+956;FIGA;Suszone;Bakalie;Z Makiem;Majtki;Owoc
+957;TELEMAGAZYN;Gazeta;Godzina;Kiedy;Program;Filmy
+958;STALAKTYT;Naciek;Jaskinia;Skała;Weglan Wapnia;Sopel
+959;PRESTIDIGITATOR;Sztukmistrz;Cylinder;Iluzjonista;Cyrk;Czary
+960;PROGNOZA POGODY;Wiadomosci;Aura;Meteo;Temperatura;Deszcz
+961;GOLFSZTROM;Atlantyk;Ciepły;Ocean;Prad;Zatoka Meksykanska
+962;TERMOPILE;Bitwa;Wojna Perska;Grecja;Sparta;3
+963;ZAKONNICA;Habit;Kosciół;Kobieta;Ksiadz;Krzyż
+964;EMBARGO;Panstwo;Towary;Zakazywac;Handel;Cło
+965;JAN ROKITA;Polityk;Maria;Nelli;Poseł;Platforma Obywatelska
+966;ZAKRETKA;Otwierac;Butelka;Gwint;Słoik;Kapsel
+967;WIZYTÓWKA;Informacja;Dane Kontaktowe;Kartka;Osoba;Firma
+968;LABORATORIUM;Chemia;Kitel;Eksperyment;Doswiadczenia;Badania
+969;HUSTAWKA;Bujac Sie;Nastrój;Plac Zabaw;Dzieci;Bawic Sie
+970;SZPILKI;Ostry;Obcas;Igła;Krawiec;Buty
+971;SOLINA;Jezioro;Bieszczady;Tama;Zbiornik;San
+972;ZIELARSTWO;Pokrzywa;Rosliny;Napar;Zbierac;Rumianek
+973;TERMOFOR;Ciepło;Ogrzewac;Pojemnik;Gumowy;Woda
+974;MAKOWIEC;Kwiat;Swieta;Ziarenka;Ciasto;Monte Cassino
+975;IMPERIUM;Potega;Cesarstwo;Ryszard Kapuscinski;Mocarstwo;Rzym
+976;FLAKI Z OLEJEM;Nuda;Tłusty;Ciagnac Sie;Potrawa;Powiedzenie
+977;KOREKS;Wywoływac;Ciemnia;Klisza;Fotograf;Zdjecia
+978;OPATULONY;Okryty;Owiniety;Kocyk;Zimno;Szalik
+979;WIATROŁAP;Przedpokój;Przedsionek;Dom;Wichura;Korytarz
+980;BODY;Kobieta;W Kroku;Ubranie;Zapinac;Dziecko
+981;USG;Dzwieki;Badanie;Ciaża;Obraz;Diagnoza
+982;MITOMAN;Fantazjowac;Ego;Prawda;Kłamstwo;Opowiadac
+983;ZATRUDNIAC;Praca;Przyjmowac;Angażowac;Rozmowa;Posada
+984;ZLEW;Naczynia;Kuchnia;Woda;Zmywac;Kran
+985;ROZCZAROWANIE;Uczucie;Nadzieja;Przykrosc;Strata;Zawód
+986;RTEC;Termometr;Pierwiastek;Metal;Płynny;Hg
+987;POLE MINOWE;żołnierz;Wojna;Bomba;Wybuch;Saper
+988;CHINSZCZYZNA;Słodko-kwasny;Azja;Jedzenie;Ryż;Warzywa
+989;MSZA SWIETA;Suma;Ksiadz;Nabożenstwo;Modlic Sie;Kosciół
+990;APOPLEKSJA;Padaczka;Choroba;Drgawki;Wylew;Krwotok
+991;WZORNIK;Matryca;Forma;Przykład;Próbka;Kolory
+992;FERDYNAND MAGELLAN;Wyprawa;Odkrywca;żeglarz;Ciesnina;Dookoła Swiata
+993;GAZETA.PL;Informacje;Wyborcza;Internet;Portal;Aktualnosci
+994;DAB;Kora;Drzewo;Starosc;Las;żołedzie
+995;SOCJOPATA;Choroba Psychiczna;Osoba;Kontakt;Społeczenstwo;Nieprzystosowany
+996;WINAMP;Mp3;Piosenka;Muzyka;Odtwarzanie;Komputer
+997;TATARAK;Trawa;Woda;Staw;Łaka;Bagno
+998;HEFAJSTOS;Kowal;Kuznia;Bóg;Mitologia;Ogien
+999;KLAMERKA;Pasek;Ubrania;Buty;Zapinac;Sznurek
+1000;SŁONA WODA;Smak;Morze;Ocean;Ciecz;H 2 O
+1001;ŁUSKA;Ryba;Pocisk;Amunicja;Szczescie;Naskórek
+1002;KONTAKT;Gniazdko;Pstryczek;Wtyczka;Napiecie;Prad
+1003;WYKAŁACZKA;Dłubac;Zeby;Patyczek;Jedzenie;Igła
+1004;BAWIDAMEK;Flirciarz;Kobieta;Przyjecie;Meżczyzna;Podrywacz
+1005;FUNDAMENT;Podmurówka;Podstawa;Dom;Pustaki;Piwnica
+1006;OBCOKRAJOWIEC;Rasizm;Emigrant;Murzyn;Narodowosc;Granica
+1007;KORYTO;Rzeka;Jedzenie;Nurt;Obora;Swinie
+1008;CZCIONKA;Litera;Znak;Gutenberg;Font;Druk
+1009;ELEGANCJA;Dobry Gust;Gracja;Szyk;Wytworny;Ubranie
+1010;STATYSTYKA;Czynnik Losowy;Badanie;Teoria Prawdopodobienstwa;Dane;Matematyka
+1011;PTASIE MLECZKO;Wedel;Czekolada;Alpejskie;Słodycze;Krowa
+1012;ŁADOWARKA;Komórka;Zasilanie;Laptop;Prad;Telefon
+1013;KONIAK;Trunek;Destylat;Brandy;Napoleon;Alkohol
+1014;PESEL;Ewidencja;Data Urodzenia;Identyfikacyjny;Numer;Dowód Osobisty
+1015;DROGÓWKA;Mandat;Kontrola;Policja;Radar;Przekroczenie Predkosci
+1016;UL;Owad;Miód;Pszczoły;Pasieka;Bartnik
+1017;PROMIENIOWANIE;Radioaktywne;Roentgen;Skażenie;Uv;Bomba Atomowa
+1018;SZLOCHAC;Smutny;Płakac;Łzy;Łkac;Rozpaczac
+1019;CHOROBA WENERYCZNA;Syfilis;Droga Płciowa;Rzeżaczka;Przenosic;Kiła
+1020;PLAŻA NUDYSTÓW;Ubranie;Goły;Morze;Nagosc;Chałupy
+1021;POLIGAMIA;żona;Wielożenstwo;Monogamia;Harem;Bigamia
+1022;ZAMIATAC;Pod Dywan;Podwórko;Porzadek;Szczotka;Sprzatac
+1023;KROMKA;Kanapka;Chleb;Pajda;Smarowac;Kroic
+1024;SYFON;Babelki;Napój;Gaz;Cisnienie;Woda
+1025;WEGETARIANIN;Dieta;Zwierzeta;Mieso;Warzywa;Jesc
+1026;JUDAIZM;żydzi;Naród Wybrany;Religia;Gwiazda Dawida;Izrael
+1027;SZNURÓWKA;Stopa;Noga;But;Wiazac;Linka
+1028;KOMBAJN;Maszyna;Pole;Rolnik;Wies;żniwa
+1029;PROGRAM ANTYWIRUSOWY;Komputer;Skanowac;Bezpieczenstwo;Norton;Trojan
+1030;DRACULA;Wampir;Krew;Hrabia;Transylwania;Siedmiogród
+1031;ZAMEK BŁYSKAWICZNY;Spodnie;Guzik;Suwak;Zapinac;Rozporek
+1032;LEGIA CUDZOZIEMSKA;Jednostka;Francja;Wojsko;żołnierz;Armia
+1033;BOLEK I LOLEK;Dobranocka;Tola;Bajka;Chłopcy;Bracia
+1034;DZIÓB;Ptak;Rufa;Jesc;Łódz;Usta
+1035;STYGMATY;Znaki;Krew;Jezus Chrystus;Rana;Symbol
+1036;ESTRADA;Gwiazda;Wystep;Scena;Piosenkarz;Festiwal
+1037;WIEŻA EIFFLA;Paryż;Francja;Wysoki;Symbol;Metal
+1038;SZMARAGD;Pierscionek;Kamien Szlachetny;Krokodyl;Zielony;Biżuteria
+1039;JOLKA;Perfect;Tytuł;Budka Suflera;Imie;Krzyżówka
+1040;PRZYNAJMNIEJ;Choc;Minimum;Wystarczajaco;Bynajmniej;Ilosc
+1041;GARB;Quasimodo;Krzywy;Plecy;Kregosłup;Wielbład
+1042;DREZYNA;Tory;Reczny;Szyny;Pojazd;Kolej
+1043;WIÓRKI KOKOSOWE;Orzech;Bounty;Jedzenie;Białe;Owoc Tropikalny
+1044;STYROPIAN;Ocieplenie;Chronic;Tworzywo Sztuczne;Kuleczki;Opakowanie
+1045;HIMALAJE;Tybet;Najwyższe;Mount Everest;Azja;Góry
+1046;WASAL;Sredniowiecze;Majatek;Senior;Lennik;Feudalny
+1047;PODPASKA;Okres;Kobieta;Krwawienie;Miesiaczka;Menstruacja
+1048;MODELKA;Rewia Mody;Wybieg;Anoreksja;Mediolan;Pokaz
+1049;ANTYRAMA;Obraz;Oprawiac;Zdjecie;Szkło;Plexi
+1050;RÓŻA;Płatki;Prezent;Imie;Kwiat;Kolce
+1051;BENELUX;Belgia;Unia Europejska;Luksemburg;Panstwo;Holandia
+1052;PWN;Encyklopedia;Słownik;Wiedza;Wydawnictwo Naukowe;Skrót
+1053;HANNIBAL LECTER;Mieso;Anthony Hopkins;Milczenie Owiec;Jodie Foster;Film
+1054;PIELUCHA TETROWA;Niemowle;Pampers;Dziecko;Pranie;Przewijac
+1055;KINKIET;Swiatło;Sciana;żarówka;Klosz;Lampa
+1056;GRUZJA;Tbilisi;Osetia;Panstwo;Kaukaz;Rosja
+1057;LIZBONA;Benfica;Portugalia;Sporting;Tag;Stolica
+1058;MAKRELA;Morze;Sledz;Zwierze;Puszka;Ryba
+1059;GASTROSKOPIA;Przewód Pokarmowy;Lekarz;Wrzody żoładka;Rura;Szpital
+1060;PAKISTAN;Talibowie;Blisko Wschód;Azja;Panstwo;Islamabad
+1061;RYSY;Góry;Kasprowy Wierch;Zakopane;Najwyższy;Tatry
+1062;FORREST GUMP;Głupi;Film;Bieganie;Tytuł;Tom Hanks
+1063;CUKRZYCA;Insulina;Diabetyk;Ciażowa;Niedobór;Choroba
+1064;HIEROGLIFY;Egipt;Znaki;Papirus;Piramida;Faraon
+1065;AUTOPORTRET;Swój;Malarz;Rysunek;Odbicie;Obraz
+1066;JASKINIA;Grota;Stalaktyt;Skała;Góry;Jama
+1067;BATMAN;Nietoperz;Joker;Robin;Gotham City;Superbohater
+1068;POGROMCY DUCHÓW;Potwór;Tytuł;Straszydło;Zjawa;Łapac
+1069;TATAMI;Sztuki Walki;Japonia;Sport;Mata;Judo
+1070;DRZEMKA;Krótki;Popołudniowa;Sen;Zmeczenie;Spanie
+1071;FALSYFIKAT;Kopia;Oryginał;Fałszerstwo;Podróbka;Oszustwo
+1072;WŁÓCZNIA;Pika;Przebic;Ostrze;Grot;Bron
+1073;KOPULOWAC;Bzykac;Kochac Sie;Łóżko;Potomstwo;Spółkowac
+1074;WYJSCIE AWARYJNE;Schody;Etykieta;Pożar;Ewakuacja;Ucieczka
+1075;KRYSZTAŁ;Górski;Cukier;Kieliszek;Szkło;Minerał
+1076;OWSIANKA;Sniadanie;Płatki;Dzieci;Mleko;Zboża
+1077;PUDEŁKO;Paczka;Opakowanie;Wkładac;Buty;Karton
+1078;RECZNIK;Łazienka;Kuchenny;Plaża;Kapiel;Wycieranie
+1079;WALENTYNKI;14 Luty;Dzien Zakochanych;Miłosc;Swieto;Prezent
+1080;TRAMWAJ;Trakcja;Tory;Zajezdnia;Pociag;Autobus
+1081;WEMBLEY;Mecz;Stadion;Piłka Nożna;Koncerty;Anglia
+1082;WIERTARKA UDAROWA;Słonce;Kołek Rozporowy;Narzedzie;Dziura;Sciana
+1083;WROTKI;Nogi;Kółka;Łyżwy;Rolki;Jezdzic
+1084;LARYNGOLOG;Nos;Gardło;Choroba;Uszy;Lekarz
+1085;KOSTKA RUBIKA;Szescian;Dyrygent;Kolory;Łamigłówka;Układac
+1086;FIORD;Norwegia;Stromy;Skała;Brzeg;Zatoka
+1087;GROMNICA;Chrzest;Kosciół;Swieca;Płomien;Knot
+1088;GOLONKA;Potrawa;Wieprzowina;Mieso;Piwo;Tłuszcz
+1089;ZŁOM;Metale;Rdza;Skup;Odpady;Zbierac
+1090;GRANICA;Celnik;Tatry;Zofia Nałkowska;Panstwo;Skraj
+1091;MANCHESTER UNITED;Klub;Premier League;Anglia;Piłka Nożna;Drużyna
+1092;WŁADYSŁAW ŁOKIETEK;Niski;Władca;Sredniowiecze;Król;Polska
+1093;KARDIOCHIRURG;Serce;Operacja;Przeszczep;Religa;Bajpasy
+1094;KURCZAK Z ROŻNA;Piekarnik;Kogut;Mieso Drobiowe;Grill;Jedzenie
+1095;PIŁKA RECZNA;Dyscyplina;Karol Bielecki;6 Zawodników;Sławomir Szmal;Szczypiornisci
+1096;ROBIN HOOD;Szeryf Z Nottingham;Ksiaże Złodziei;Łuk;Marion;Las Sherwood
+1097;KORNISZON;Ocet;Słoik;Kiszony;Ogórek;Marynata
+1098;DOM;Mieszkac;Budynek;Jednorodzinny;Blok;Sciany
+1099;PELIKAN;Pisac;Ryba;Ptak;Rower;Dziób
+1100;MAŁPA;Goryl;Przodek;Afryka;Orangutan;Banan
+1101;ANIELKA;Lektura;Imie żenskie;Karusek;Anioły;Bolesław Prus
+1102;GRZECHOTNIK;Jadowity;Zabawka;Waż;żmija;Gad
+1103;GMAIL;Internet;Google;Wiadomosc;Konto Pocztowe;Wyszukiwarka
+1104;RENIFER;Sanie Mikołaja;Jelen;Rudolf;Rogi;Łos
+1105;KLOPS;Pulpet;Pieczen Rzymska;Obiad;Mieso Mielone;Sos
+1106;STOŁÓWKA;Szkoła;Kucharka;Bloczek;Jedzenie;Obiad
+1107;ŻÓŁTKO;Kura;Białko;Azjata;Kogel - Mogel;Jajko
+1108;MIŁOSC;Platoniczna;Zakochani;Nienawisc;Uczucie;Serce
+1109;KOALA;Mis;Zwierze;Australia;Eukaliptus;Torbacz
+1110;IDIOTA;Debil;Głupek;Inteligencja;Imbecyl;Kretyn
+1111;KAROL DARWIN;Małpa;Nauka;Biologia;Dobór Naturalny;Ewolucja
+1112;RUMAK;Podkowa;Stajnia;Kon;Jezdziec;Zwierze
+1113;PCHNIECIE KULA;Tomasz Majewski;Zawody;Olimpiada;Lekkaatletyka;Rzucac
+1114;CHOINKA;Swieta;Prezenty;Ubierac;Bombka;Drzewko
+1115;REKLAMÓWKA;Sklep;Siatka;Hipermarket;Zakupy;Torba Foliowa
+1116;KLEPSYDRA;Przesypywac;Piasek;Czas;Pogrzeb;Smierc
+1117;KOŁO FORTUNY;Teleturniej;Pijanowski;Hasło;Litery;Krecic
+1118;URSYNÓW;Dzielnica;Warszawa;Kabaty;Tor Służewiec;Stolica
+1119;BOHATER;Odwaga;Ratowac;Film;Postac;Sławny
+1120;PRZEKLINAC;Bluzgac;Nieładne;Wulgaryzm;Bryzdkie Słowa;Mówic
+1121;SEZAMKI;Z Miodem;Ulica;Aha;Miód;Słodycze
+1122;ELEMENT;Składnik;Piaty;Czesc;Fragment;Milla Jovovich
+1123;JAPONIA;Anime;Kwitnaca Wisnia;Manga;Tokio;Wyspy
+1124;RONDEL;Garnek;Mleko;Gotowanie;Dusic;Kuchnia
+1125;BAWARKA;Herbata;Pic;Mleko;Bayer Monachium;Niemcy
+1126;KACZOR DONALD;Disney;Tusk;Marynarski Ubiór;Prezydent;Myszka Miki
+1127;KORNIK;Robak;Szkodnik;Owad;Drzewo;Dziecioł
+1128;PIERSIÓWKA;Alkohol;Butelka;Flaszeczka;Wódeczka;Polowanie
+1129;ZDERZENIE CZOŁOWE;Kraksa;Wypadek;Ofiary;Głowa;Samochód
+1130;KUBEK;Ucho;Herbata;Pic;Garnuszek;Szklanka
+1131;BANAN;Małpa;żółty;Długi;Owoc;Chiquita
+1132;NABÓJ;Strzelac;Pistolet;Pocisk;Proch;Bron
+1133;LIR;Waluta;Italia;Pieniadze;Euro;Włochy
+1134;CHLEBAK;Kuchnia;Bułka;Przechowywac;Pojemnik;Pieczywo
+1135;MARIHUANA;Narkotyk;Palic;Konopie;Ziele;Trawa
+1136;GRYPA;Wirus;Ptasia;Choroba;Goraczka;żoładkowa
+1137;MALARZ;Jan Matejko;Farba;Sciany;Pokojowy;Artysta
+1138;SMIERC;Koniec;życie;Umrzec;Zginac;Kostucha
+1139;POPCORN;Masło;Kino;Ziarno;Prażona Kukurydza;Kolba
+1140;KOREPETYCJE;Nauczyciel;Zajecia Dodatkowe;Uczen;Szkoła;Korki
+1141;JERZY STUHR;Aktor;Seksmisja;Rola;Maciej;Wodzirej
+1142;PIGMENT;Skóra;Farba;Melanina;Kolor;Barwnik
+1143;KLAWISZ;Komputer;Pianino;Wiezienie;Przycisk;Fortepian
+1144;ZIEMIA;Kosmos;Rolnik;Grunt;Glob;życ
+1145;TANGO;Budka Suflera;Milonga;Taniec;Argentyna;Trzeba Dwojga
+1146;FRODO BAGGINS;Władca Pierscieni;Elijah Wood;Pippin;Hobbit;J.r.r. Tolkien
+1147;SZKLANKA;Drink;Herbata;Napój;Naczynie;Kubek
+1148;AURORA;Petersburg;Rewolucja Pazdziernikowa;Zorza Polarna;Okret;Pancernik
+1149;SIEKACZ;Zab;Trzonowy;Jama Ustna;Zgryz;Gryzienie
+1150;PSZCZÓŁKA MAJA;Bajka;Wodecki;Gucio;Dobranocka;Tekla
+1151;POTOP;Szwedzki;Noe;Tytuł;Woda;Sienkiewicz
+1152;AUDIOBOOK;Słuchac;Ksiażka;Radio;Lektor;Mp3
+1153;SZOFER;Kierowca;Taksówka;Wozic;Auto;Limuzyna
+1154;NIL;Afryka;Delta;Egipt;Rzeka;Amazonka
+1155;WŁOSZCZYZNA;Warzywa;Zupa;Gotowac;Pietruszka;Marchew
+1156;WRONA;Ptak;Wegiel;Czarna;Sroka;Kruk
+1157;KAMASUTRA;Instruktaż;Pozycje;Indie;Seks;Ksiażka
+1158;KUBA ROZPRUWACZ;Ofiara;Zwłoki Kobiet;Zabójca;Londyn;Seryjny Morderca
+1159;BOJA;Pława;Tor Wodny;Morze;Balon;Powierzchnia
+1160;PIATEK TRZYNASTEGO;Dzien Tygodnia;Nieszczescie;Horror;Przesad;Pech
+1161;SZUBIENICA;Wieszac;Skazaniec;Sznur;Kat;Gra
+1162;KONTO;Bankowe;Przelew;Pieniadze;Profil;Zakładanie
+1163;TEQUILA;Wódka;Meksyk;Sól;Cytryna;Alkohol
+1164;NOŻYCZKI;Włosy;Edward;Fryzjer;Narzedzie;Ciac
+1165;LAMINOWANIE;Folia;Usztywniac;Zgrzewac;Dokumenty;Papier
+1166;LINIA;Kreska;Czerwona;Cienka;Autowa;Prosta
+1167;EPIDEMIA;Grypa;Wirus;Dżuma;Zakazna;Choroba
+1168;WÓDKA;Czysta;0,5l;Alkohol;Wyborowa;Flaszka
+1169;KALORYFER;Ciepło;Okno;Miesnie;Grzejnik;żeberka
+1170;WIKINGOWIE;Północ;Skandynawia;Norwegia;Łodzie;Wojownik
+1171;KARTA DAN;Restauracja;Kelner;Spis;Menu;Jedzenie
+1172;SKRZYPCE;Struny;Altówka;Instrument;Smyczek;Kwartet
+1173;LOARA;Francja;Rzeka;Zamki;Paryż;Sekwana
+1174;HEL;Balon;Pierwiastek;Gaz;Półwysep;Gdansk
+1175;BOMBONIERKA;Pudełko;Prezent;Opakowanie;Słodycze;Czekoladki
+1176;CHARLIE CHAPLIN;Komedia;Aktor;Garnitur;Laska;Melonik
+1177;JEMIOŁA;Pasożyt;Pocałunek;Roslina;Drzewo;Boże Narodzenie
+1178;ROGAL;Bułka;Z Makiem;Ksieżyc;Croissant;Pieczywo
+1179;LEJEK;Butelka;Wlewac;Bomba;Płyn;Stożek
+1180;AKUPUNKTURA;Medycyna Tradycyjna;Igły;Medycyna Naturalna;Chiny;Nakłuwac
+1181;LAMPA ALLADYNA;Naftowa;Dżin;Dywan;życzenia;Bajka
+1182;PIES PLUTO;Bajka;Kaczor Donald;Myszka Miki;Animowany;Walt Disney
+1183;KUTIA;Wigilia;Mak;Potrawa;Bakalie;Pszenica
+1184;ISLANDIA;Kryzys;Panstwo;Europa;Gejzer;Wyspa
+1185;MAPA;Topograficzna;Globus;Geografia;Skala;Legenda
+1186;KATARYNKA;Lektura;Bolesław Prus;Korba;Melodia;Małpka
+1187;OGR;Potwór;Film Animowany;Fiona;Zielony;Shrek
+1188;FORUM;Dyskusyjne;Wymiana Pogladów;Romanum;Rozmowa Online;Internet
+1189;INTERNET;Komputer;Google;Adres Www;Siec;Mail
+1190;KLOCKI LEGO;Układac;Dzieci;Technics;Dania;Zabawka
+1191;KOŁOWROTEK;Rybak;Korbka;żyłka;Przedza;Wedka
+1192;SPÓDNICA;Ubranie;Spodnie;Kobieta;Sukienka;Mini
+1193;SAMBA;Karnawał;Taniec;Brazylia;Serwer Plików;Rumba
+1194;BIN LADEN;Wtc;Terroryzm;Przywódca;Talib;Al-kaida
+1195;FARMER;Krowy;Wies;Mleko;Rolnik;Gospodarstwo
+1196;MEFISTOFELES;Piekło;Diabeł;Ksiaże;Faust;Szatan
+1197;KOTLET SCHABOWY;Tłuc;Stek;Swinia;Mielony;Obiad
+1198;ZAB MADROSCI;Kieł;Ostatni;Ósemka;Usta;Szczeka
+1199;BURZA;Chmura;Piorun;Grzmot;Ulewa;Błyskawica
+1200;DYNIA;Halloween;Arbuz;Warzywo;Roslina Ozdobna;Pestki
+1201;ORBITA;Satelita;Ksieżyc;Słonce;Planeta;Krażyc
+1202;IKEA;Meble;Firma;Szwecja;Sklep;Wyposażenie
+1203;AKWEDUKT;Woda;Starożytnosc;Grecja;Most;Wodociag
+1204;POMYSŁ;Wpasc;Wymyslic;Wynalazek;Koncept;Idea
+1205;LIS;Tomasz;Nora;Ruda Kita;Drapieżnik;Kita
+1206;PUZZLE;Obrazek;Układac;Element;Kawałek;Dopasowac
+1207;ROLLERCOASTER;Wagonik;Tory;Wesołe Miasteczko;Oszukac Przeznaczenie;Kolejka Górska
+1208;FRYDERYK CHOPIN;Kompozytor;Fortepian;Grac;żelazowa Wola;Pianista
+1209;PIŁKA NOŻNA;Sport;Stadion;Bramka;Futbol;Mecz
+1210;GASNICA;Pożar;Czerwona;Strażak;Bhp;Butla
+1211;KONIOKRAD;Złodziej;Lasso;Western;Ranczo;Dziki Zachód
+1212;KOLEGA;Kumpel;Szkoła;Przyjaciel;Znajomy;Towarzysz
+1213;MAKUTRA;Miska;Naczynie;Kuchnia;Ciasto;Ucieranie
+1214;TANIEC Z GWIAZDAMI;You Can Dance;Tancerz;Program;Sława;Telewizja Tvn
+1215;AKWALUNG;Powietrze;Oddychac;Woda;Nurek;Głeboko
+1216;KOMODA;Mebel;Bielizna;Drewno;Szafka;Szuflada
+1217;ZARECZYNY;Małżenstwo;Narzeczeni;Oswiadczac Sie;Pierscionek;Slub
+1218;KABEL;Prad;Przewód;Gniazdko;Tv;Telefon
+1219;SEKS GRUPOWY;Trójkat;Przyjemnosc;Uprawiac;Kochac Sie;Orgazm
+1220;KARMEL;Krówka;Słodki;Smak;Braz;Cukier
+1221;MIÓD;Pszczoły;Słodkie;Małe Conieco;Ul;Kubus Puchatek
+1222;PLASTUSIOWY PAMIETNIK;Ksiażka;Lektura;Piórnik;Plastus;Dzieci
+1223;ELF;Rasa;Legolas;Basn;Władca Pierscieni;Postac
+1224;SERWATKA;Mleko;Przetwory Mleczne;Serwetka;Krowa;Białe
+1225;WIGWAM;Indianie;Apacze;Namiot;Winnetou;Chata
+1226;PISUAR;Oddawanie Moczu;Łazienka;Kibel Meski;Spłuczka;Sikanie Na Stojaco
+1227;KRYJÓWKA;Skarby;Niebezpieczenstwo;Schowac;Poscig;Tajna
+1228;ORZECH;Drzewo;Włoski;Laskowy;Do Zgryzienia;Dziadek
+1229;FORMA;Kształt;Konstrukcja;Matryca;Do Pieczenia Ciasta;Kondycja
+1230;KARAWANA;Beduin;Wielbład;Oaza;Pustynia;Kupiec
+1231;HATTRICK;Trzy;Piłka;Gol;Bramka;Punkt
+1232;PINACOLADA;Koktajl;Likier;Biały;Mleko;Sok Ananasowy
+1233;WIEŻA;Babel;Ksieżniczka;Eiffla;Figura Szachowa;Zamek
+1234;LAPTOP;Komputer Przenosny;Informatyka;Klawiatura;Notebook;Mobilny
+1235;OKAP;Zapach;Dach;Kuchenka;Powietrze;Wyciag
+1236;FRANKENSTEIN;Potwór;Monstrum;Doktor;Powiesc;Transylwania
+1237;SPINACZ BIUROWY;Papier;Drut;Łaczyc;Dokumenty;Mały
+1238;TOGA;Ubiór;Sala Sadowa;Prawnik;Sedzia;Strój
+1239;KAGANIEC;Ugryzc;Pysk;Pies;Niebezpieczny;Zakładac
+1240;KOSC;Pies;Niezgody;Rubik;Pamieci;Szkielet
+1241;ALEJKA;Ulica;Działka;Rzad;Park;Ławeczka
+1242;WIADRO;Scierka;Kubeł;Woda;Mop;Podłoga
+1243;WYCIERAC;Szyba;Czyste;StÓŁ;Mokre;Scierka
+1244;SQUASH;Sciana;Tenis;Odbijanie;Rakieta;Sport
+1245;JAN III SOBIESKI;Marysienka;Wieden;Król;Turcy;Sredniowiecze
+1246;MRÓWKOJAD;Termity;Jezyk;Mrówki;Mrowisko;Ssak
+1247;HASŁO;Odgadywac;Encyklopedia;Logowanie;Słownik;Łamac
+1248;PIRAMIDA;Faraon;Cheops;Grobowiec;Egipt;Pustynia
+1249;HALUKS;Obcas;Stopa;Koslawy Paluch;Choroba;Odcisk
+1250;KRYPTA;Grób;Wampir;Opowiesc;Cmentarz;Trup
+1251;ANDROPAUZA;Menopauza;Hormony;Klimakterium;Starosc;Meżczyzna
+1252;TELEEXPRESS;Maciej Orłos;Wiadomosci;20-E65555555555039,4;Informacje;Tv
+1253;MIKROFON;Mówic;Trzymac;Spiewac;Echo;Głos
+1254;KRAWAT;Garnitur;Koszula;Szyja;Wezeł;Mucha
+1255;KOLEJARZ;Bilety;Stacja;Pociag;Tory;Pracownik
+1256;HARRY POTTER;Czarodziej;Hogwart;Bohater;Ksiażka;J. K. Rowling
+1257;KLAWIATURA;Komputer;Przyciski;Pisanie;Qwerty;Litery
+1258;KAWIARKA;Napój;Gotowac;Parzyc;Filiżanka;Naczynie
+1259;PELE;Mistrz;Brazylia;Król Futbolu;Piłka Nożna;Legenda
+1260;PILOT;Telewizor;Mysliwiec;Właczyc;Samolot;Latac
+1261;ANTROPOLOG;Badacz;Człowiek;Naukowiec;Czaszka;Historia
+1262;FASOLKA PO BRETONSKU;Boczek;Kiełbasa;Potrawa;Sos Pomidorowy;Jesc
+1263;ŻYRAFA;Szyja;Długa;Zwierze;Afryka;Zoo
+1264;NAUSZNIKI;Zima;Zakładac;Nosic;Głowa;Czapka
+1265;MINISTRANT;Kosciół;Msza;Ksiadz;Służyc;Chłopiec
+1266;KCIUK;Serdeczny;Dłon;Ok;Palec;Wskazujacy
+1267;MACA;Dotykac;Koszerny;Maka;Pieczywo;żyd
+1268;SLIWKA W CZEKOLADZIE;Słodycz;Cukierek;Owoc;Jesc;Fiolet
+1269;TERMOS;Ciepło;Napój;Wycieczka;Zachowywac;Pic
+1270;DRUŻYNA;Zespół;Gracz;Sport;Mecz;Uczestnik
+1271;RAPSODIA;Muzyka;Utwór;Błekitna;Orkiestra;Gershwin
+1272;ELEWACJA;Sciana;Budynek;Ozdoby;Tynk;Fasada
+1273;OAZA;Woda;Pustynia;Sahara;Fatamorgana;Palma
+1274;PŁACIC;Gotówka;Wydawac;Pieniadze;Cena;Karta
+1275;BURAK;Cwikła;Botwinka;Cukrowy;Warzywo;Barszcz
+1276;SWIECA;Knot;Wosk;Gromnica;Parafina;Płomien
+1277;KAMFORA;Olejek;Płyn;Znikac;Przysłowie;Ulotny
+1278;GOL SAMOBÓJCZY;Mecz;Zawodnik;Strzał;Bramka;Piłka Nożna
+1279;BETONIARKA;Cement;Mieszac;Budowa;Pojazd;Gruszka
+1280;SMIECIARKA;Wywozic;Brudna Robota;Odpady;Oczyszczanie;Wysypisko
+1281;MADERA;Wyspa;Mann I Materna;Portugalia;Teraz Albo Nigdy;Archipelag
+1282;REJESTRACJA;Szpital;Blachy;Auto;Samochód;Numery
+1283;BIGOS;Jedzenie;Potrawa;Tradycyjna;Kapusta;Kiełbasa
+1284;PAPIEŻ;Jan Paweł Ii;Kosciół;Watykan;Benedykt Xvi;Tiara
+1285;WODNIK;Woda;Szuwarek;Styczen;Znak Zodiaku;Bajka
+1286;TARCZYCA;Gruczoł;Niedoczynnossc;Hormony;Szyja;Narzad
+1287;SŁOWO;Pismo;Zdanie;Mowa;Litery;Obietnica
+1288;KWAS;żoładkowy;Chemia;Zasada;Siarkowy;Solny
+1289;MIKOŁAJ KOPERNIK;Astronom;Obroty Sfer Niebieskich;Słonce;Torun;Ziemia
+1290;JEZIORO;Mazury;Woda;Zbiornik;Ryba;Łabedzie
+1291;JÓZEF PIŁSUDSKI;Naczelnik;Marszałek;Przewrót Majowy;Niepodległosc;Sanacja
+1292;TELEFON ZAUFANIA;Pomoc;Problem;Kłopot;Rozmowa;Dzwonic
+1293;LAST MINUTE;Biuro Podróży;Wycieczka;Wakacje;Tanio;Ostatnia Chwila
+1294;KOCZKODAN;Zwierze;Afryka;Małpa;Szympans;Zoo
+1295;VINCENT VAN GOGH;Malarz;Artysta;Obraz;Słoneczniki;Obciete Ucho
+1296;BANDEROLA;Alkohol;Papierosy;Import;Akcyza;Naklejka
+1297;NIKE;Bogini;Nagroda Literacka;Pomnik;Wojna;Marka
+1298;APOLLO;Muzy;Ksieżyc;Grecja;Kosmos;Misja
+1299;KAZIMIERA SZCZUKA;Teleturniej;Najsłabsze Ogniwo;Feminizm;Kobieta;Seplenic
+1300;RASTER;Obraz;Wektor;Grafika;Piksel;Punkt
+1301;KASZKIET;Głowa;Armia;Nakrycie;Czapka;Daszek
+1302;KAKTUS;Kolce;Pustynia;Roslina;Tequila;Bez Wody
+1303;ALLEGRO;Kupowac;Licytacja;Ebay;Aukcja;Internet
+1304;OBÓJ;Instrument;Stroik;Muzyka;Orkiestra;Dmuchanie
+1305;WIEWIÓRKA;Zwierze;Ruda;Drzewo;Kita;Skakac
+1306;CÓRKA;Mama I Tata;Rodzic;Syn;Dziewczynka;Pierworodna
+1307;KARMA;Pies;Jedzenie;Buddyzm;Sucha;Pożywienie
+1308;WRÓŻKA;Magiczna Kula;Magia;Czar;Basn;Dzwoneczek
+1309;BEZSENNOSC W SEATTLE;Meg Ryan;Waszyngton;Komedia Romantyczna;Usa;Tom Hanks
+1310;ZEMSTA;Aleksander Fredro;W Afekcie;Mur;Odwet;Papkin
+1311;KOŻUCH;Futro;Mleko;Zima;Biały;Ubranie
+1312;KOLOROWANKA;Dzieci;Kontury;Kredki;Malowanie;Papier
+1313;CZEKOLADA;Milka;Słodycze;Kakao;Wedel;Tabliczka
+1314;KAPITAN ŻBIK;Komiks;Kryminał;Sledztwo;Komisarz;Milicja Obywatelska
+1315;NAUKA JAZDY;Elka;Instruktor;Szkoła;Samochód;Kierowca
+1316;CHUCK NORRIS;Kop Z Półobrotu;Walker;Strażnik Texasu;Western;Karate
+1317;JARZEBINA;Drzewo;Korale;Jesien;Czerwony;Roslina
+1318;CAŁKA;Analiza Matematyczna;Studia;Oznaczona;Suma;Różniczka
+1319;PORÓD;Ciaża;Dziecko;Narodziny;Położna;Cesarskie Ciecie
+1320;SŁOWIK;Ptak;Spiew;Skrzydła;Poznan;Latac
+1321;BEZROBOTNY;Pensja;Zasiłek;Praca;Zarabiac;Osoba
+1322;ALLADYN;3 życzenia;Latajacy Dywan;Bajka;Dżinn;Lampa
+1323;KONICZYNA;Szczescie;Fortuna;Czterolistna;Zielony;Irlandia
+1324;DELFIN;Butlonos;Ratunek;Ssak Wodny;Walen;Ivan
+1325;DEKALOG;Mojżesz;10 Przykazan;Biblia;Synaj;Kieslowski
+1326;SKALPEL;Ciecie;Chirurg;Operacja;Nóż;Narzedzie
+1327;NAGI INSTYNKT;Erotyka;Michael Douglas;Film;Morderstwo;Sharon Stone
+1328;LUKSEMBURG;Panstwo;Bank;Radio;Ksiestwo;Róża
+1329;SZCZECIN;Swinoujscie;Port;Odra;Miasto;Polska
+1330;GLOBALNE OCIEPLENIE;Efekt Cieplarniany;Dziura Ozonowa;Lodowce;Powodzie;Dwutlenek Wegla
+1331;IBIZA;Wyspa;Seat;Hiszpania;Imprezy;Wakacje
+1332;RAFA KORALOWA;Nurkowanie;Wybrzeże;Morze;Ukwiał;Ocean
+1333;WELONKA;Ryba;Akwarium;Pomaranczowy;Pływanie;Woda
+1334;RUMCAJS;Dobranocka;Cypisek;Rozbójnik;Hanka;adorB
+1335;GIMNAZJUM;Nauka;Dzieci;Szkoła;Liceum;Podstawówka
+1336;MARYNARZ;żołnierz;Ocean;Okret;Morze;Statek
+1337;FALBANKA;Sukienka;Zasłona;Materiał;Spódniczka;Ozdoba
+1338;EDUKACJA;Men;Szkoła;Kształcenie;Lata;Nauczanie
+1339;UEFA;Mistrzostwa;Europa;Federacja;Piłka Nożna;Fifa
+1340;BEZPŁATNY;Darmowy;Dodatek;Pieniadze;Gratis;Nic
+1341;BRUKOWIEC;Kolor;Tabloid;Sensacja;Gazeta;Plotka
+1342;KEANU REEVES;Constantine;Aktor;Matrix;Johny Mnemonic;Neo
+1343;AKWARELE;Malowac;Farba;Obraz;Woda;Pedzel
+1344;AKUSZERKA;Pielegniarka;Sokrates;Poród;Brac;Dzieci
+1345;KONIECZNY;Zrobic;Poczatek;Obowiazkowy;Nieunikniony;Musiec
+1346;BARCELONA;Hiszpania;Fc;Klub Piłkarski;Katalonia;Miasto
+1347;KSIEŻNICZKA;Fiona;Zamek;Rycerz;Biały Kon;Król
+1348;ZŁOTE MYSLI;Zeszyt;Aforyzm;Metal Szlachetny;Głowa;Cytat
+1349;SAMSUNG;Elektonika;Japonia;Komórka;Firma;Marka
+1350;AUTOGRAF;Dedykacja;Sława;Dac;Idol;Podpis
+1351;SYGNAŁ;Znak;Dac;Dzwiek;Puscic;Swietlny
+1352;KRONIKARZ;Skryba;Spisywac;Historia;Gall Anonim;Dzieje
+1353;ZAKŁADNIK;Wiezic;Counter Strike;Wziac;Okup;Porwanie
+1354;GINEKOLOG;Położnik;Pochwa;Kobieta;Lekarz;Fotel
+1355;PAZNOKCIE;Pierscionek;Malowanie;Dłon;Pedicure;Palec
+1356;SYMBOL;Serce;Syrenka;Znak;Naród;Metafora
+1357;MARZENIE;Miec;Niebieskie Migdały;Złota Rybka;Spełniac;Snic
+1358;LECH POZNAN;Polska;Klub;Piłka;Bułgarska;Kolejorz
+1359;KAMIEN;Morze;Ziemia;Piasek;Filozoficzny;Skała
+1360;STEWARDESSA;Lot;Procedura Startowa;Samolot;Pasażer;Obsługa
+1361;KOMBINEZON;Służba;Chemiczny;Ochronny;Narty;Ubranie
+1362;PIROMAN;Człowiek;Choroba;Zapałki;Ogien;Palic
+1363;ŻNIWA;Zbierac;Kłosy;Kombajn;Wies;Lato
+1364;RARYTAS;Najlepszy;Smakołyk;Przysmak;Jesc;Słodki
+1365;ZNAK POKOJU;Gołab;Kosciół;Symbol;Wojna;Przekazywac
+1366;KARCER;Kara;Kraty;Recydywista;Wiezienie;Zakład Penitenciarny
+1367;NUTA;Zapis;Komponowac;Melodia;Muzyka;Klucz Wiolinowy
+1368;MATKA POLKA;Opieka;Troskliwa;Ojciec;Dzieci;Ojczyzna
+1369;TRENER;Nauka;Piłka Nożna;Szkolenie;Szef;Warsztat
+1370;TEMPERATURA;Stopnie Celsjusza;Zimno;Wysoka;Termometr;Goraczka
+1371;KSIADZ;Plebania;Kosciół;Msza;Sutanna;Religia
+1372;SNOOKER;Kij;Wbijac;Bilard;Kula;Stół
+1373;ZDROWIE;Lekarz;Krew;Tryb życia;Choroba;Kon
+1374;LUNAPARK;Disnayland;Weseołe Miasteczko;Karuzela;Koło Młynskie;Samochodziki
+1375;POBUDKA;Budzik;Wstawac;Wojsko;Sen;Rano
+1376;BANKRUCTWO;Interes;Biznes;Upadek;Pieniadze;Strata
+1377;PIECZATKA;Dokument;Legitymacja;Tusz;Znak;Stempel
+1378;RADOSC;Smiech;Szczescie;Smutek;Uczucie;Zadowolenie
+1379;EUROPOSEŁ;Bruksela;Jerzy Buzek;Deputowany;Unia Europejska;Parlament
+1380;PIECZARKI;Zbierac;Hodowla;Grzyb;Pizza;Biały
+1381;GALON;Benzyna;Miara;Ameryka;Objetosc;Litr
+1382;SUWAK;Bluza;Spódnica;Kurtka;Zamkniecie;Zamek
+1383;MARGARYNA;Tłuszcz;Masło;Smarowac;Roslina;Rama
+1384;PREGIERZ;Chłosta;Publicznosc;Przywiazac;Kara;Słup
+1385;KLOSZARD;żebrak;Bieda;Menel;Bezdomny;Schronisko
+1386;REWOLUCJA;Pazdziernikowa;Przewrót;Francuska;Rzad;Obalac
+1387;RZEZBA;Sztuka;Eksponat;Artysta;Marmur;Posag
+1388;GEJ;Meżczyzni;Pedał;Heteroseksualista;Homoseksualista;Dwóch Facetów
+1389;PROCA;Goliat;Patyk;Strzał;Bron;Guma
+1390;KOLEJ TRANSSYBERYJSKA;Pociag;Zimno;Azja;Tory;Rosja
+1391;MIGRENA;Cisnienie;Ból;Leki;Tabletki Przeciwbólowe;Głowa
+1392;KRÓLOWA;Królestwo;żona;Korona;Władca;Zamek
+1393;JEZYK POLSKI;Szkoła;Nauczyciel;Matura;Wiersz;Przedmiot
+1394;JARMUŁKA;Głowa;Judaizm;żyd;Nakrycie;Czapka
+1395;KOT W BUTACH;Bajka;Shrek;Miauczec;Zwierze;Mruczec
+1396;JAMES BOND;Jej Królewska Mosc;7;Agent;Film;Szpieg
+1397;OSZCZEDNOSCI;Skarbonka;Odkładac;Zbierac;Konto;Pieniadze
+1398;WHISKY;Szkocja;Dżem;Alkohol;Ballanteines;Koniak
+1399;DEBILKA;Półgłówek;Wariatka;Idiota;Głupia;Szalona
+1400;ŁOTR;Nikczemnik;Zbój;Bandyta;Zło;Napastnik
+1401;ZAKAZANY OWOC;Jabłko;Waż;Grzech;Adam I Ewa;Raj
+1402;MÓZG;Ptak;Głowa;Myslec;Miec;Półkula
+1403;OGON;Lisi;Merdac;Ciagnac;Zwierzeta;Kita
+1404;PSYCHOLOG;Problem;Psychiatra;Lekarz;Kozetka;Pomoc
+1405;CELEBRYTA;Paparazzi;Telewizja;Sława;Plotka;Gwiazda
+1406;SPARTIATA;Kserkses;Wychowanie;Wojownik;Leonidas;Termopile
+1407;PROFESOR;Zaliczenie;Nauczyciel;Doktor;Wykład;Uniwersytet
+1408;HULA HOP;Koło;Zabawa;Krecic;Obrecz;Biodra
+1409;KIEŁBASA;Kiszka;Mieso;Wybory;Sklep Miesny;Parówka
+1410;FEMINISTKA;Meżczyzni;Kazimiera Szczuka;Nie Lubic;Sufrażystka;Wojowac
+1411;TŁUMACZKA;Posredniczyc;Przekład;Polski;Jezyk;Przysiegły
+1412;BLOK RYSUNKOWY;Malowac;Kredka;Szkoła;Plastyka;Dzieci
+1413;GES;Zwierze;Teatrzyk Zielona ...;Pieczona;Kaczka;Kopac
+1414;MUMIFIKACJA;Ciało;Egipt;Wnetrznosci;Faraon;Balsam
+1415;BAGAŻNIK;Koło;Rower;Przewozic;Chowac;Auto
+1416;MADAME TUSSAUDS;Wosk;Postacie;Rzezba;Muzeum;Londyn
+1417;PRZYJACIELE;Bliski;Serial;Pies;Komedia Sytuacyjna;Kolega
+1418;SZCZUR;Mysz;Deratyzacja;Gryzon;Kanały;Piwnice
+1419;DZIEN DZIECKA;Swieto;Pociecha;Prezent;Czerwiec;Pierwszy
+1420;WIEZIENIE;Klawisz;Cela;Kara;Wyrok;Krata
+1421;ROWEREK MAGNETYCZNY;Cwiczyc;Pedały;Kondycja;Przyciagac;Siłownia
+1422;FLASZKA;Butelka;Szkło;Wódka;Litr;Picie
+1423;SAMOLOT;Leciec;Wycieczka;Skrzydła;Ladowac;Lotnisko
+1424;OBRAZ;Malowac;Sciana;Płótno;Rama;Picasso
+1425;PET;Papieros;Fajki;Gasic;Filtr;Palic
+1426;PODKOLANÓWKA;Długa;Skarpeta;Rzepka;Antygwałtka;Udo
+1427;DOWÓD;Osobisty;Prawo Jazdy;Zbrodnia;Zbierac;18 Lat
+1428;IZAAK;Abraham;Ofiara;Biblia;Newton;Prawo
+1429;LASKA;Starzec;Dziewczyna;Wanilia;Isc;Zrobic
+1430;SKUCHA;Guma;Skakac;Potkniecie;Gra;Bład
+1431;ŻELKI;Galaretka;Mis;Gumowe;Haribo;Słodycze
+1432;PRZEKAZ PODPROGOWY;Mózg;Swiadomosc;Ułamek;Poczta;Krótki
+1433;PAWILON;Kupowac;Sprzedaż;Budynek;Budka;Sklep
+1434;MORZE BAŁTYCKIE;Polska;Fale;Pływac;Woda;Ocean
+1435;PLANDEKA;Płachta;Brezent;Cieżarówka;Ochrona;Przykrycie
+1436;KLAPS;Pupa;Kara;Uderzac;Dziecko;Film
+1437;JAN MIODEK;Jezykoznawca;Bralczyk;Słownik;Ojczyzna- Polszczyzna;Miód
+1438;BIAŁY;Barwa;Kolor;Snieg;Czarny;Kruk
+1439;ALFONS;Burdel;Streczyciel;Prostytutka;Opiekun;Imie
+1440;PRAGA;Warszawa;Słowacja;Stolica;Czechy;Dzielnica
+1441;KŁÓDKA;Drzwi;Klucz;Zamykac;Zamek;Buzia
+1442;DOBROC;Uprzejmosc;Poczciwosc;Zło;Empatia;Miły
+1443;KIPER;Wino;Degustator;Smak;Osoba;Organoleptyczny
+1444;KROPKA NA I;Tvn 24;Prosto W Oczy;Monika Olejnik;Politycy;Program
+1445;RUKOLA;Zielony;Listek;Sałata;Zioło;Przyprawa
+1446;WYCIERACZKA;Próg;Deszcz;Samochód;Drzwi;Podłoga
+1447;KURZAJKA;Pieprzyk;Krosta;Dermatolog;Wypalac;Brodawka
+1448;POZYTYWKA;Melodia;Grac;Krecic;Zabawka;Katarynka
+1449;BENEDYKT XVI;Głowa Koscioła;Biel;Jan Paweł Ii;Papież;Watykan
+1450;LACZKI;Buty;Klapki;Frote;Obuwie;Kapcie
+1451;KROPIDŁO;Woda;Swiety;Chrzcic;Ksiadz;Koleda
+1452;WOJNA;Secesyjna;Konflikt Zbrojny;Swiatowa;Smierc;Bitwa
+1453;KOPCIUSZEK;Macocha;Pantofelek;Ksieżniczka;Północ;Bajka
+1454;SEKS;Łóżko;Uprawa;Stosunek;Pieprz;Grupowy
+1455;KADARKA;Alkohol;Wegry;Wino;Napój;Butelka
+1456;PROTAGONISTA;Tytułowy;Ksiażka;Główny Bohater;Oponent;Aktor
+1457;CYTAT;Motto;Sentencja;Przytaczac;Literatura;Cudzysłów
+1458;KILT;Szkot;Kiecka;Kratka;Spódnica;Tradycyjny
+1459;MATRIX;Film;Macierz;Keanu Reeves;Morfeusz;Neo
+1460;OPTYK;Okulary;Soczewki;Oprawki;Sklep;Szkło
+1461;ZAKUPY;Nabywac;Robic;Market;Sklep;Allegro
+1462;ZŁAMANY ZAB;Zepsuty;Dentysta;Siekacz;Ból;Gips
+1463;DYLEMAT;Problem;Wybór;Niepewnosc;Kłopot;Wiedziec
+1464;WATROBA;Marskosc;Organ;żółc;żelazo;Alkohol
+1465;JOJO;Koło;Zabawka;Dieta;Sznurek;Efekt
+1466;JEZUS CHRYSTUS;Trójca Swieta;Syn;Krzyż;Bóg;Ciern
+1467;SORBET;Lód;Owoc;Mrożony;Deser;Orzezwiajacy
+1468;ZAPAŁKI;Patyczki;Siarka;Papieros;Ogien;Drewno
+1469;BESTSELLER;Pisarz;Sukces;Sprzedawac;Popularny;Ksiażka
+1470;KALOSZE;Walonki;Buty;Gumiaki;Kałuża;Deszcz
+1471;PANNA MŁODA;Wesele;Welon;Suknia Slubna;Uciekac;Kosciół
+1472;NIBYNÓŻKI;Konczyna;Pierwotniak;Organellum;Pantofelek;Prawdziwy
+1473;ZDZBŁO;Zielony;Belka;Trawa;Murawa;Oko
+1474;WINDYKATOR;Komornik;Wierzyciel;Pieniadze;Dług;Zaległosci
+1475;ROSJA;Zaborca;Car;Matrioszka;W. Putin;Moskwa
+1476;LASSO;Krecic;Petla;Dziki Zachód;Sznur;Western
+1477;SKOK NA BUNGEE;Nogi;Lina;Wiazac;Dół;Przepasc
+1478;LATAJACY HOLENDER;Legenda;Widmo;Okret;Statek;Piraci Z Karaibów
+1479;STUDIA WIECZOROWE;Ksieżyc;Rano;Dzienne;Dobranocka;Zaoczne
+1480;ATENA;Sowa;Bogini;Madrosc;Olimp;Grecja
+1481;CIAGNIK;Traktor;Wies;Pojemnosc;Kupic;Blenders
+1482;KSIEGA EZECHIELA;Stary Testament;Kochelet;Biblia;Swiety;Pismo
+1483;LEMUR;Madagaskar;Małpiatka;Oczy;Zły Duch;Zwierze
+1484;RYNEK;Bruk;Ratusz;Kwadrat;Główny Plac;Czarny
+1485;HONOR;Czesc;Duma;Ojczyzna;Prawosc;Godnosc
+1486;RZESA;Powieka;Oko;Stac;Staw;Tusz
+1487;SALETRA;Szynka;Sól;Utleniacz;Nawóz Sztuczny;Materiał Wybuchowy
+1488;ZWIERZETA;Swinia;Kon;Pies;Czworonóg;Stworzenie
+1489;KULFON;Uszy;żaba;Bajka;Monika;Nos
+1490;HISZPANIA;Madryt;Półwysep Iberyjski;Portugalia;Byk;Barcelona
+1491;OGAREK;Diabeł;Dola;Swieca;Bóg;Szatan
+1492;ZAPAŁ;Energia;Ochota;Praca;Chec;Robota
+1493;TELEFON KOMÓRKOWY;Antena;Sms;Bell;Siec;Mms
+1494;PRZYSZŁA KRYSKA NA MATYSKA;Ułamkowa;Kreska;Bayer Leverkusen;Bramkarz;Przysłowie
+1495;DOMOFON;Klatka;Otwierac;Nazwisko;Dzwonic;Telefon
+1496;KARIMATA;Izolacja;Spiwór;Namiot;Zwijac;Ziemia
+1497;KARTA;Reka;Trzymac;Papier;Kredytowa;Gra
+1498;IMIE;Chrzest;Mówic;Osoba;Na Przykład;Nazwa
+1499;NIESPODZIANKA;Prezent;Kinder;Wiedziec;Urodziny;Zaskoczenie
+1500;HALUCYNACJE;Miraż;Grzyby;Fatamorgana;Przewidzenie;Omamy
+1501;WOJNA BŁYSKAWICZNA;Bitwa;Plan Biały;Napasc;Szybko;Zamek
+1502;MODA NA SUKCES;Telenowela;Ogladac;Ridge Forrester;Tasiemiec;Brooke Logan
+1503;TUNEL;Droga;Korytarz;Po Ziemia;Jechac;Kret
+1504;BARYŁKA;Beczka;Drewniana;Toczyc;Ropa Naftowa;Wino
+1505;BRZUCHOMÓWCA;Jeff Dunham;Pacynka;Usta;Kukiełka;Lalka
+1506;WIERZBA PŁACZACA;Ryk;Drzewo;Oko;Beksa;Łzy
+1507;PRZYSTANEK WOODSTOCK;Festiwal;Muzyka;Jurek Owsiak;Koncert;Wosp
+1508;MORZE;Plaża;Bałtyk;Woda;Kapac Sie;Wakacje
+1509;AGENCJA TOWARZYSKA;Sex;Dom Publiczny;Burdel;7;Prostytutka
+1510;CZESC;Mówic;Witam;Dzien Dobry;Tereska;żegnac Sie
+1511;RESOR;Koło;Amortyzator;Auto;Samochód;Spreżyna
+1512;PODWIAZKA;Noga;Bielizna;Kabaretka;Order;Studniówka
+1513;KOMEDIA SYTUACYJNA;Serial;Tragedia;Sitcom;Dramat;Smiech
+1514;FILEMON;Dobranocka;Bonifacy;Piec;Przygody;Kot
+1515;KISIEL;Galaretka;Proszek;Felieton;Krochmal;Budyn
+1516;NIC;Zero;Brak;Pustka;Wszystko;Nie
+1517;KATANA;Japonski Miecz;Bron;Szabla;Kurtka Jeansowa;Samuraj
+1518;KATAKLIZM;Kleska;Tragedia;Powódz;Smierc;Katastrofa
+1519;BILET;Wilk;Miesiac;Autobus;Podróż;Kasa
+1520;NIETOPERZ;Noc;Latac;Gacek;Krew;Skrzydła
+1521;ŻUŻEL;Piach;Grand Prix;Tomasz Gollob;Szlaka;Sport Motorowy
+1522;MARTWA NATURA;Płótno;Dzbanek;Obraz;Malowac;Owoce
+1523;GWÓZDZ;Wbijac;Łepek;Program;Młotek;Trumna
+1524;OJCIEC CHRZESNY;Marlon Brando;Rodzina;Sakrament;Mafia;Matka
+1525;NIESKONCZONOSC;Koniec;Os;Ósemka;Wiecznosc;Granica
+1526;ZADUSZKI;Swieci;Cmentarz;Zmarli;Znicz;Listopad
+1527;MIM;Ireneusz Krosny;Gestykulacja;Teatr;Cisza;Twarz
+1528;AURA;Pogoda;Poswiata;Atmosfera;Zły;Dobry
+1529;BOSNIA I HERCEGOWINA;Bałkany;Panstwo;Rozpad;Sarajewo;Jugosławia
+1530;ZAKRESLACZ;Zaznaczac;Odblask;Papier;Flamaster;Tekst
+1531;NUMEREK;Loteria;Seks;Liczba;Szatnia;Szczesliwy
+1532;SAD OSTATECZNY;Grzech;Apokalipsa;Bóg;Wyrok;Koniec Swiata
+1533;SZPADA;Biała Bron;Zorro;Floret;Szabla;Szermierka
+1534;KRESY WSCHODNIE;Litwa;Ukraina;Rosja;Białorus;Wołyn
+1535;BATERIA;Alkaliczna;Akumulator;Ładowac;Telefon;Wyczerpac
+1536;PACHA;Pot;Reka;Zapach;Pachwina;Antyperspirant
+1537;NEKROLOG;Smierc;Informacja;Kartka;Klepsydra;Ogłoszenie
+1538;SIWY;Biały;Włosy;Szary;Blondyn;Srebrny
+1539;PROCES;Zmiana;Cywilny;Kafka;Rozprawa;Sad
+1540;STARZEC;Babcia;Młody;Dziadek;Siwy;Laska
+1541;POTENCJA;Możliwosc;Zdolnosc;Libido;Seks;Erekcja
+1542;IPHONE;Panel Dotykowy;Jabłko;Apple;Internet;Telefon Komórkowy
+1543;HELLOWEEN;Pazdziernik;Swiety;Zaduszki;Dynia;Ameryka
+1544;PSYCHEDELICZNY;Hipis;Obłakany;Narkotyki;Muzyka;Stan
+1545;KAPUS;Papla;Donos;Zdrajca;Skarga;Tajemnica
+1546;ZYSK;Praca;Przychody;Dostac;Korzysc;Strata
+1547;CLINT EASTWOOD;Western;Kapelusz;Dolary;Złoto;Aktor
+1548;KONSOLA;Komputer;Gzyms;Gra;Psp;Telewizor
+1549;MARCHEWKOWE POLE;Warzywo;Lady Pank;Pomaranczowy;Włoszczyzna;Karoten
+1550;NESESER;Delegacja;Biznesman;Wyjazd;Walizka;Torba
+1551;BUKA;Bac Sie;Potwór;Strach;Fioletowy;Muminki
+1552;LONT;Dynamit;Knot;Palic;Boom;Sznurek
+1553;ROMAN POLANSKI;Reżyser;Polak;Sex Afera;Autor Widmo;Nóż W Wodzie
+1554;KIKUT;Ciac;Czesc;Amputacja;Reka;Konczyna
+1555;RUMIEN;Choroba;Skóra;Czerwony;Plama;Policzek
+1556;DROŻDŻÓWKA;Ciasto;Rosnac;Jagodzianka;Słodki;Wypiek
+1557;GŁUCHY TELEFON;Ucho;Mówic;Zabawa;Szept;Cicho
+1558;ELOKWENCJA;Mówic;Madry;Słowa;Ładny;Inteligencja
+1559;BARBAKAN;Budowla;Brama;Obrona;Mur;Krakow
+1560;GITARA;Instrument;Akord;Struny;Skrzypce;Muzyka
+1561;KRANÓWKA;Zmywac;Kurek;Pic;Przegotowany;Woda
+1562;HOROSKOP;Przyszłosc;Wróżka;Zodiak;Gwiazda;Czytac
+1563;NAPOLEON III;Bonaparte;Siostrzeniec;Cesarz Francuzów;Rewolucja;Niski
+1564;KREM;Smarowac;Nawilżac;Suche;Rece;Twarz
+1565;TATUAŻYSTA;Salon;Miami Ink;Robic;Osoba;Skóra
+1566;KLOWN;Skecz;Maska;Cyrk;Malowac;Smiech
+1567;WYSYPKA;Alergia;Skóra;Krosta;Kropka;Pokrzywka
+1568;PROTOPLASTA;Dziadek;Ród;Przodek;Najstarszy;Poprzednik
+1569;CAR;Rosja;Cesarz;Władca;Iwan Iv Grozny;Król
+1570;HAN SOLO;Ksieżniczka Leia;Harrison Ford;Główny Bohater;George Lukas;Gwiezdne Wojny
+1571;SZLIK;Koperta;Poczta;Znaczek;Wysyłac;List
+1572;NAGRANIE;Słuchac;Piosenka;Dyktafon;Muzyka;Płyta
+1573;SKAFANDER;Nurek;Uniform;Kombinezon;Motyl;Pływac
+1574;BOLONCZYK;Pies;Proces;Włochy;Rasa;Magisterka
+1575;SZCZEPIONKA;Bakteria;Zastrzyk;Igła;Antidotum;Przeciwciało
+1576;IVAN GROZNY;Moskwa;Inflanty;Car;Rosja;Xvi Wiek
+1577;PONCZO;Indianie;Wełna;Głowa;Koc;Rekaw
+1578;MYDEŁKO FA;Siabada;Myc Sie;Disco Polo;Piosenka;Kapiel
+1579;FINAŁ;Koniec;Meta;Mecz;Mistrzostwa;Zakonczyc
+1580;LANCE ARMSTRONG;Amerykanin;Rekordzista;Kolarstwo;Discovery;Tour De France
+1581;DIETA CUD;Slim Fast;Kilogramy;Kalorie;Grubas;Odchudzanie
+1582;REPETA;Jedzenie;Dodatkowa;Powtórka;Porcja;Dokładka
+1583;START;Bieg;Poczatek;Meta;Zawody;Wystrzał
+1584;SPACER;Wózek;Po Lesie;Buty;Chodzic;Za Reke
+1585;BLONDYNKA;Dowcipy;Nielegalna;Brunetka;Głupia;Włosy
+1586;PING-PONG;Piłka;Stół;Rakietka;Tenis;Odbijac
+1587;DESZCZÓWKA;Pitna;Podwórko;Snieg;Woda;Opad
+1588;JEŻ;Kłujacy;Jabłko;Kolce;Tuptac;Zwierze
+1589;BŁOTO;Zmieszac;Brud;Woda;Mokro;Bagno
+1590;PODAŻ;Towar;Cena;Popyt;Zapotrzebowanie;Rynek
+1591;KLUB;Impreza;Nocny;Piłkarski;Bar;Taniec
+1592;GRAD;Woda;Zima;Pogoda;Lód;Snieg
+1593;NAWIGACJA SAMOCHODOWA;Cel;Mapa;Trasa;Lokalizacja;Gps
+1594;SMYK;Berbec;Ubrania;Mały;Dzieci;Sklep
+1595;MAJERANEK;Grochówka;Oregano;Kiełbasa;Przyprawa;Ziele
+1596;PIERZYNA;Łóżko;Gruba;Kołdra;Przykryc;Spac
+1597;BASEN;Czepek;Pływac;Kostium Kapielowy;Ratownik;Chlor
+1598;PRZELEW;Internetowy;Pieniadze;Konto;Bankowy;Przesyłac
+1599;BUDZIK;Zegarek;Komórka;Rano;Nastawiac;Godzina
+1600;LEKSYKON;Hasło;Denis Diderot;Ksiażka;Słownik;Encyklopedia
+1601;SOWA;Hey;Madrosc;Kubus Puchatek;Pióra;Ptak
+1602;ZAUROCZENIE;Randka;Kochanie;Zachwyt;Fascynacja;Fatalne
+1603;SREBRO;Złoto;Talar;Szary;Biżuteria;Szlachetny
+1604;HOKUS POKUS;Magia;Mówic;Abrakadabra;Zaklecie;Czary
+1605;KWIAT;Doniczka;Zapach;Bukiet;Kalafior;Róża
+1606;ONANIZM;Masturbacja;Reka;Walic;Samogwałt;Penis
+1607;SWINKA;Choroba;Wietnamska;Skarbonka;Morska;Koryto
+1608;KLEKS;Pióro;Papier;Akademia;Pan;Atrament
+1609;BÓL;Cierpienie;Zmeczenie;Głowy;Uczucie;Tabletka
+1610;NAZWA;Nadac;Własna;Firma;Miano;Okreslenie
+1611;OSCIEŻE;Okno;Futryna;Drzwi;Obramówka;Wejscie
+1612;RAK;Zodiak;Chodzic W Tył;Krab;Woda;Szczypce
+1613;RED BULL;Dodawac;Skrzydła;Sporty Ekstremalne;Napój Energetyczny;Pobudzenie
+1614;TRENING;Przygotowanie;Kondycja;Wysiłek;Sport;Szkolic
+1615;INTERNAT;Mieszkac;Student;Stancja;Bursa;Szkoła
+1616;WULKAN;Stożek;Lawa;Erupcja;Energii;Krater
+1617;PIRANIA;Pływa;Słodkowodna;Ryba;Mieso;Drapieżna
+1618;MAŁŻONEK;Wesele;żona;Slub;Obraczka;Narzeczony
+1619;KOSMOPOLITA;Globalizm;Patriotyzm;Jednosc;Obywatel;Swiat
+1620;MALOWANIE;Paleta;Farby;Obraz;Pedzel;Picasso
+1621;POPYT;Zapotrzebowanie;Ekonomia;Konsument;Kupic;Podaż
+1622;SŁUCHAWKI;Głowa;Stereo;Zmysł;Uszy;Muzyka
+1623;PLAYBOY;Magazyn;Erotyka;Rozbierac;Króliczki;Gazeta Dla Panów
+1624;BIAŁY MIS;Piosenka;Pluszowy;Dla Dziewczyny;Kolor;Disco Polo
+1625;KIR;Wstażka;Czarny;Matriał;Strój;żałoba
+1626;CUKIEREK;Słodki;Paiperek;Czekoada;Landrynka;Ssac
+1627;PAZNOKIEC;Pazur;Palec;Lakier;Obcinacz;Tips
+1628;MANEWR;Parkowac;Strategia;Zagrywka;Ominiecie;Ruch
+1629;SLALOM;Gigant;Sport;Omijac;Góra;Narty
+1630;PINEZKA;Gwózdz;Przypinac;Szpilka;Korek;Tablica
+1631;KUSZA;Wilhelm Tell;Bełt;Polowanie;Strzelac;Cieciwa
+1632;SŁOMIANY WDOWIEC;żona;Siano;Wyjazd;Maż;Delegacja
+1633;STRES;Egzamin;Zdenerwowanie;Napiecie;Wyniki;Nerwowy
+1634;PANTOGRAF;Zasilanie Pociagu;Pojazd Szynowy;Dach;Prad;Tramwaj
+1635;KUSY;Waski;Diabeł;Ciasny;Krótki;Skapy
+1636;PUSZKA;Butelka;Pandory;Aluminium;Farby;Piwo
+1637;LOT;Samolot;Powietrze;W Kosmos;Ptak;Skrzydła
+1638;KOLARSTWO;Wyscig;Rower;Lance Armstrong;Opona;Peleton
+1639;RAFFAELLO;Biały;Migdał;Ferrerro Roche;Rafał;Kokos
+1640;ODNOWA;Naprawa;Odpoczynek;Biologiczna;Regeneracja;Spa
+1641;KOŁACZ;Praca;Pieczywo;Chleb;Okrag;Przysłowie
+1642;SUFLER;Teatr;Pamiec;Cugowski;Podpowiedz;Budka
+1643;MICHAEL PHELPS;Pływanie;Basen;Jackson;Woda;Mistrz Olimpijski
+1644;RYBA;Skrzela;Karp;Zwierze;Woda;Łuski
+1645;GŁÓD;Afryka;Pragnienie;Jedzenie;Bieda;Danio
+1646;UWAGA;Ostrzeżenie;Spostrzeżenie;Niebezpieczenstwo;Program;Dzienniczek
+1647;CELNIK;Granica;Bramka;Lotnisko;Strażnik;Kontrola
+1648;WEDKA;żyłka;Ryby;Haczyk;Przyneta;Kołowrotek
+1649;ROCKEFELLER;Anja Orthodox;Ameryka;Bogaty;Pieniadze;Zespół
+1650;PSYCHIATRA;Głowa;Lekarz;Zygmunt Freud;Wariat;Kozetka
+1651;PAMPERS;Rzepy;Tetra;Bobas;Pielucha;Przewijac
+1652;REZERWA;Na Boku;Cwiczenia;Zapas;żołnierz;Wojsko
+1653;TRIATHLON;Bieg;Trzy;Rower;Pływanie;Kolarstwo
+1654;ZASPA;Zima;Wiatr;Zawieje;Nieprzejezdny;Snieg
+1655;RULETKA;Koło;Kasyno;Losowanie;Rosyjska;Kulka
+1656;STATOIL;Benzyna;Zegarek;Babcia;Stacja;Tankowac
+1657;NEVADA;Kasyno;Stan;Ameryka;Las Vegas;Usa
+1658;KOSCIÓŁ;Niedziela;Dzwony;Ksiadz;Msza;Katedra
+1659;TOTEM;Indianie;Kołek;Przodek;Religia;Słup
+1660;SCIAGA;Matura;Sprawdzian;Zrzynac;Pomoc;Podgladac
+1661;SEN;Noc;Pidżama;Łóżko;Odpoczynek;Spac
+1662;MUSLI;Błonnik;Płatki;Dieta;Mleko;Sniadanie
+1663;RODZYNKI;Winogrono;Ciasto;Bakalie;Suszyc;Pomarszczone
+1664;ŻAŁOBNY;Orszak;Pogrzeb;Strój;Marsz;Posmiertny
+1665;WIESZAK;Ubranie;Przymierzalnia;Sklep;Szafa;Garderoba
+1666;MANDARYNKA;Skórka;Pomarancz;Klementynka;Sok;Owoc Cytrusowy
+1667;TRZESIENIE ZIEMI;Płyty Tektoniczne;Skala Richtera;Kataklizm;Haiti;Tsunami
+1668;IRONMAN;Komiks;Pływanie;Hawaje;Triathlon;Maiden
+1669;MILENIUM;Wiek;Windows;Tysiaclecie;Czas;Bank
+1670;CIAŻA;Brzuch;Stan Błogosławiony;9 Miesiecy;Dziecko;Brzemiennosc
+1671;ULRICH VON JUNGINGEN;1410;Wielki Mistrz;Wojna;Zakon;Krzyżacy
+1672;BASTYLIA;Rewolucja;Francja;Jakobini;Budynek;Burzyc
+1673;KWASNICA;Kapusta;Golec Orkiestra;Zasada;Talerz;Zupa
+1674;NETBOOK;Mały;Laptop;Komputer;Przenosny;Klikac
+1675;BERMUDY;Spodenki;Wyspy;Ocean Atlantycki;Wielka Brytania;Trójkat
+1676;KASA;Fiskalna;Bank;Sklep;Rachunek;Pieniadze
+1677;NADGORLIWY;Chciec;Faszyzm;Za Bardzo;Zapaleniec;Solidny
+1678;POMARANCZA;Mechaniczna;Skórka;Owoc;Cytrus;Grapefruit
+1679;ZWIERZE;Las;Krowa;Pies;Stworzenie;Zoo
+1680;MATURA;Już Za Rok;Kasztan;Stres;Licuem;Egzamin
+1681;BABCIA;Stary;Dziadek;Wnuczka;Siwizna;Mama
+1682;KOLARZÓWKA;Kierownica;Rower;Koła;Bmx;Szosa
+1683;MULTIWITAMINA;Składniki Mineralne;Owoce;Tabletki;Zdrowie;Sok
+1684;KOMPUTER;Monitor;Dysk;Grac;Atari;Internet
+1685;ODPOWIETRZAC;Odkrecac;Spuszczac;Wentyl;Kaloryfer;Zawór
+1686;KURCZYC SIE;Zimna Woda;Rozciagac;Pranie;Kogut;Zmniejszac Sie
+1687;LOMBARD;Komis;Zastaw;Małgorzata Ostrowska;Pieniadze;Szklana Pogoda
+1688;SALTO;Akrobat;Sport;Obrót;Gimnastyka;Akrobata
+1689;GUMISIE;Jagody;Sok;Bajka;Iktorn;Kala
+1690;TALIZMAN;Magia;Wisiorek;Amulet;Szczescie;Swiecic
+1691;ZATRZASK;Guzik;Zamek;Winda;Drzwi;Zapiecie
+1692;REKODZIEŁO;Oryginalnosc;Biżuteria;Robótki Reczne;Hand Made;Sztuka
+1693;DZBAN;Lesny;Wazon;Ucho;Napój;Wino
+1694;PAPIEROS;Dym;Uzależnienie;Palic;Nałóg;Marlboro
+1695;ZWARTY;Mur;Złożony;Scisły;Pasowac;Skupiony
+1696;SZKLARNIA;Szkło;Temperatura;Szyba;Folia;Ochrona
+1697;TOMB RAIDER;Angelina Jolie;Grobowiec;Archeolog;Lara Croft;Gra Komputerowa
+1698;ZAGŁADA;Holocaust;Tragedia;Niszczenie;Mordowanie;Ludzkosc
+1699;NAPIWEK;Restauracja;Zostawic;Reszta;Kelner;Drobne
+1700;ŁOS;Zwierze;Rogi;Klepa;Jelen;Las
+1701;DOSTEPNY;Dla Każdego;Otwarty;Obecny;Osiagalny;Abonent
+1702;MIERNY;Ocena;Dopuszczajacy;Stopien;Przecietny;Nedzny
+1703;ANGINA;Gardło;Migdałki;Goraczka;Infekcja;Choroba
+1704;WILGOC;Powietrze;Mokro;Plesn;Woda;Susza
+1705;PUCHAR;Pic;Nagroda;Lody;Kielich;Trofeum
+1706;SAKIEWKA;Pieniadze;Torebka;Mieszek;Woreczek;Monety
+1707;RONDO;Koło;Jechac;Turbinowe;Skrzyżowanie;Kapelusz
+1708;JELEN;Sarna;Frajer;Dziczyzna;Poroże;Łania
+1709;ZEUS;Piorun;Bóg;Olimp;Mitologia;Władza
+1710;KATAR;Sienny;Nieżyt Nosa;Panstwo;Alergia;Kichac
+1711;RAJD;Monte Carlo;Czas;Trasa;Wyscig;Paryż Dakar
+1712;BUNKIER;Schron;Chowac Sie;Golf;Wojna;Niemcy
+1713;ŻYCZENIA;Swieta;Najlepszego;Kartka Urodzinowa;Składac;Wysyłac
+1714;SPOWIEDZ;Ksiadz Robak;Kosciół;Pokuta;Konfesjonał;Grzech
+1715;POPIÓŁ;Palic;Papieros;Kremacja;Ogien;Diament
+1716;LUFCIK;Powietrze;Mały;Wietrzyc;Uchylac;Okno
+1717;CHERUBIN;Arka Przymierza;Anioł;Putto;Skrzydła;Walentynki
+1718;KONGLOMERACJA;Różny;Połaczenie;Element;Zlepek;Miasto
+1719;STRZELEC;Pistolet;Wolny;Zodiak;Łuk;Wyborowy
+1720;PAPKA;Mazia;Dziecko;Zupka;Mikser;Kasza Manna
+1721;POLSKI;Matura;Hymn;Lekcja;Ojczyzna;Jezyk
+1722;WALENTYNKA;Swieto;14-lut;Zakochany;Serce;Kartka
+1723;OBIEKT;Zabytkowy;Grafika;Przedmiot;Budowlany;Obserwowac
+1724;GRAFIT;Rysunek;Kolor;Ołówek;Cyrkiel;Wegiel
+1725;MLEKO;Krowa;Kakao;Biały;Kawa;Łaciate
+1726;SZKOŁA;Podstawowa;Uczen;Dziennik;Gimnazjum;Nauczyciel
+1727;ZJAWA;Postac;Duch;Mara;Widziadło;Upiór
+1728;OCZYWISTY;Wiadome;Klarowny;Watpliwosc;Jasny;Ewidentny
+1729;JEANSY;Rurki;Levis;Sztruksy;Denim;Dzwony
+1730;BIUSTONOSZ;Piersi;Kobieta;Push Up;Bielizna;Stanik
+1731;FIRMAMENT;Niebo;Sklepienie Niebieskie;Gwiazdozbór;Sfera;Swieci
+1732;12 GROSZY;Piosenka;Knż;Złoty;Pieniadz;Kazik
+1733;ALIBABA;Bajka;Tysiac;Sezam;Arab;40 Rozbójników
+1734;ASTYGMATYZM;Wada;O. Pio;Oczy;Okulary;Wzrok
+1735;MASZYNKA DO GOLENIA;Zarost;Ostrza;Pianka;Brzytwa;Gillette
+1736;COMA;Spiaczka;Zespół;Piotr Rogucki;Hipertrofia;Przecinek
+1737;BRYDŻ TOWARZYSKI;Karty;Partner;Przypadek;4 Osoby;Sportowy
+1738;LESBOS;Homo;Wyspa;Grecja;Morze Egejskie;Gej
+1739;LUNCH;Popołudnie;Biuro;Obiad;Posiłek;Jedzenie
+1740;CZAROWNICA;Stos;Miotła;Salem;Sabrina;Wiedzma
+1741;MAGNOLIE;Zapach;Kwiat;Drzewo;Stalowe;Krzew
+1742;KLER;Duchowni;Kosciół;Kapłani;Papież;Społeczenstwo
+1743;IMPREZA;Balanga;Zabawa;Akademik;Dyskoteka;Alkohol
+1744;KOTARA;Roleta;Stora;Firanka;Zasłona;Parawan
+1745;STRONA INTERNETOWA;Komputer;Www;Witryna;Dokument;Http
+1746;CEP;Narzedzie Rolnicze;Proste;Młócic;Kij;Dzierżak
+1747;ROZPOREK;Wtorek;Zabki;Suwak;Rozpinac;Spodnie
+1748;MASON;Wolnomularz;Członek;Loża;Rytuał;Liberał
+1749;AŻUR;Przeswitujacy;Koronka;Dziurka;Tkanina Artystyczna;Zdobienie
+1750;SYLABA;Fonologia;Zgłoska;Jezyk;Wyraz;Akcent
+1751;BILL CLINTON;Stany Zjednocznone;Hillary;Prezydent;Rozporek;Monica Lewinsky
+1752;FLUORESCENCYJNY;Mikroskop;Luminescencja;W Nocy;Swiecacy;Fosfor
+1753;BÓBR;Płakac;Zwierze;Tama;Rzeka;Zeby
+1754;BEZPRZEWODOWY;Nadajnik;Kabel;Internet;Mobilny;Telefon
+1755;CIASTKO;Z Czekolada;Ekler;Słodkie;Kruche;Cukiernia
+1756;CHRZEST;Komunia;Sakrament;Niemowle;Jan;Bierzmowanie
+1757;ANDRZEJKI;Listopad;Wosk;Wróżby;Imieniny;Zabawa
+1758;TASIEMIEC;Moda Na Sukces;Jelita;Uzbrojony;Pasożyt;Serial
+1759;LIKIER;Baileys;Alkohol;Słodki;Gesty;Adwokat
+1760;WEZYR;Minister;Monarchia Muzułmanska;Persja;Doradca;Sułtan
+1761;MONTEZUMA;Gra Komputerowa;Aztekowie;Indianie;Meksyk;Władca
+1762;BARBARZYNCA;Okrutny;Człowiek Prymitywny;Konan;Pierwotny;Dziki
+1763;PSZCZOŁA;Pasieka;Truten;Ul;Miód;Maja
+1764;OTCHŁAN;Piekło;Czelusc;Głebia;Przepasc;Nieskonczonosc
+1765;KSIEGOWA;Główna;Podatki;Rozliczenie;Finanse;Biuro
+1766;KORPORACJA;Duży;Organizacja;Syndykat;Koncern;Firma
+1767;KOBZA;Struny;Szkocja;Instrument;Grac;Dudy
+1768;GLORIA;Chwała;Gaynor;Estefan;In Excelsis Deo;Sława
+1769;PLOTKA;Gwiazda;Skandal;Fama;Vip;Obgadywanie
+1770;DOMINO;Kamienie;Kostki;Gra;Płytka;Dopasowac
+1771;ZASILANIE;Akumulator;Prad;Moc;Energia;Baterie
+1772;ZAKLECIE;Czarodziej;Różdżka;Hokus Pokus;Abrakadabra;Magia
+1773;KOAGULACJA;Proces Chemiczny;Koloid;żel;Pasta;Jogurt
+1774;NIRWANA;Oczyszczenie;Kurt Cobain;Zespół Rockowy;Wyzwolenie;Buddyzm
+1775;RADA NADZORCZA;Zarzad;Korporacja;Firma;Prezes;Dyrektor
+1776;ORDER;Złoto;Virtuti Militari;Medal;Gwiazda;Odznaczenie
+1777;ABITURIENT;Szkoła;Ukonczyc;Student;Uczen;Matura
+1778;SYNAGOGA;Jarmułka;Judaizm;Swiatynia;Bożnica;żydzi
+1779;SEDES;Toaleta;Łazienka;Kibel;Siadac;Deska Klozetowa
+1780;FORTEL;Sztuczka;Wybieg;Podstep;Trik;Spryt
+1781;FALA;Akustyczna;Elektromagnetyczna;Uderzeniowa;Morze;Wojsko
+1782;EKSMISJA;Pismo;Mieszkanie;Usuniecie;Bruk;Wyprowadzka
+1783;SZARADA;Rebus;Wiersz;Łamigłówka;Krzyżówka;Zagadka
+1784;AKWARIUM;Pływanie;Woda;Glonojad;Szklane;Rybki
+1785;MARKA;Symbol;Nazwa;Firma;Producent;Logo
+1786;SZPIEG;Agent;Kraina Deszczowców;Panstwo;Wywiad;Skradac Sie
+1787;PARIAS;Wyrzutek;Ucisniony;Biedak;Indie;Kasta
+1788;KRZYŻÓWKA;Wypełniac;Litery;Hasło;Kratka;Scrabble
+1789;GRATIS;Za Darmo;Promocja;Wiecej;Procent;Dodatek
+1790;MARATON;Filmowy;490 Rok Pne;Bieg;Kilometry;Sport
+1791;MAJOWIE;Cywilizacja;Indianie;Hieroglify;Starożytnosc;Meksyk
+1792;SMIERCIONOSNY;Zabijac;Bron;Niebezpieczny;Szkodliwy;Ładunek
+1793;KATHARSIS;Oczyszczenie;Teatr Grecki;Sztuka;Doda;Duchowe
+1794;ORGANIZACJA;Grupa;Społeczenstwo;Narodów Zjednocznych;Stowarzyszenie;Instytucja
+1795;DELIRIUM TREMENS;Szał;Obłed;Biała Goraczka;Majaczenie;Alkohol
+1796;TOTALIZATOR SPORTOWY;Milion;Kumulacja;Gra;Wygrana;Lotto
+1797;PERŁA;Małża;Masa;Naszyjnik;Organiczny;Biżuteria
+1798;GOOGLE MAPS;Lokalizacja;Trasa;Hybryda;Teren;Zdjecie Satelitarne
+1799;STACJA BENZYNOWA;Bezołowiowa;On;Paliwo;Przy Drodze;Tankowanie
+1800;ADAM MAŁYSZ;Telemark;Skoki Narciarskie;Wisła;Wasik;Belka Startowa
+1801;OKŁADKA;Oprawa;Foliowa;Sztywna;Ksiażka;Introligator
+1802;OLGA JACKOWSKA;Paranoja Jest Goła;Boskie Buenos;Maanam;Cykady Na Cykladach;Kora
+1803;ELABORAT;Profesor;Pisemne;Tekst;Długi;Opracowanie
+1804;SZCZEKOSCISK;żuchwa;Zeby;Skurcz;Rekin;Przykurcz Miesni
+1805;GORACA CZEKOLADA;Mleczna;Napój;Rozgrzewajacy;Słodki;Kakao
+1806;ROZPUSZCZALNIK;Farba;Rozcienczac;Steżenie;Łatwopalny;Opary
+1807;ŻALUZJE;Opuszczac;Ciemno;Okno;Rolety;Zasłaniac
+1808;KAUKAZ;Azja;Góry;Elbrus;Rasa;Owczarek
+1809;VOODOO;Klatwa;Laleczka;Czary;Afryka;Zombie
+1810;ALBERT EINSTEIN;E=mc2;Profesor;Szalony;Atom;Fizyk
+1811;DEGRENGOLADA;Upadek;W Dół;Spadek Warosci;Staczanie Sie;Dno
+1812;FIKCJA;Naukowa;Rzeczywistosc;Literacka;Kłamstwo;Nieprawda
+1813;PARAPETÓWKA;Impreza;Wprowadzic Sie;Okno;Mieszkanie;Goscie
+1814;DEFETYZM;Zwyciestwo;Pesymizm;Siejesz;Porażka;Niewiara
+1815;KLAUSTROFOBIA;Pomieszczenie;Lek;Winda;Ciasny;Zamkniety
+1816;ZASADA;Obyczaj;Reguła;Chemia;Kwas;Odczyn
+1817;SEMAFOR;Trakcja;Pociag;Swietlny;Opuszczony;Tory Kolejowe
+1818;MATADOR;Byk;Hiszpania;Czerwona Plachta;Muleta;Korrida
+1819;MATA;Bambus;Dywanik;Joga;Zapasy;Plecionka
+1820;MIARKA;Liczyc;Przebrac;Krawiec;Centymetr;Linijka
+1821;MAKE UP;Malowanie;Makijaż;Puder;Szminka;Tusz
+1822;WACHTA;Dyspozycja;Nocna;Służba;Dyżur;żeglarstwo
+1823;BIURKO;Mebel;Odrabiac Lekcje;Uczen;Komputer;Praca
+1824;FANKLUB;Gwiazda;Idol;Grupa;Wielbiciel;Zespół
+1825;RYM;Składac Sie;Strofa;Wiersz;Poeta;Biały
+1826;GRES;Glazura;Ceramika;Kafelki;Terakota;Kamien
+1827;PUMA;Kot;Czarny;Nike;Adidas;But Sportowy
+1828;BARBÓRKA;Kopalnia;Swieto;Górnik;Wegiel;Czarny
+1829;POMOC;Pierwsza;Ratowac życie;Pogotowie;S.o.s.;Zakupy
+1830;SZOGUN;Japonski Generał;Richard Chamberlain;Harakiri;Film;Miecz
+1831;INKASENT;Poborca;Podatek;Pieniadze;Rachunek;Płacic
+1832;POJEDYNEK;Szermierka;Szachy;Dwóch;Walka;Rywalizacja
+1833;SPRINTER;100m;Stoper;Szybko;Olimpiada;Mercedes
+1834;WARTA;Pzu;Czuwanie;Wojsko;Poznan;Rzeka
+1835;KARBURATOR;Samochód;Silnik Spalinowy;Paliwo;Rozruch;Gaznik
+1836;WACHA;Paliwo;Wartownia;Benzyna;Samochód;Strażnica
+1837;KABAŁA;Ruch Religijny;Pasjans;Cyganka;Madonna;Wróżba
+1838;COCA COLA;Czerwony;Napój Gazowany;Odrdzewia;Puszka;Fanta
+1839;AWATAR;Film 3d;Forum;Skóra;Cyberprzestrzen;Obrazek
+1840;GRYF;Herb;Mityczne Zwierze;Lew;Gitara;Podstrunnica
+1841;KORELACJA;Współzależnosc;Stosunek;Zgranie;Powiazanie;Pomiedzy
+1842;KOMIWOJAŻER;Wedrowiec;Domokrażca;Handlowiec;Handel;Akwizytor
+1843;WOLTYŻER;Kon;Napoleon;Cyrk;Jezdziec;Gimnastyka
+1844;PERGAMIN;Papier;Pieczenie;Piramidy;Zwój;Egipt
+1845;KARCZMA;Jadłodajnia;Jadło;Knajpa;Gospoda;Bar
+1846;MAKSIMUM;Ekstremum;Ekstremalny;Minimalny;Minimum;Najwiecej
+1847;FIDEL CASTRO;Havana;El Comandante;Dyktator;Przywódca;Kuba
+1848;STANOWISKO;Ranga;Posada;Wysoki;Punkt Widzenia;Postawic
+1849;ZAPALNICZKA;Ogien;Gaz;Papieros;Zapałki;Płomien
+1850;PIESC;Zaciskac;Reka;Boks;Palce;Dłon
+1851;ORZEZWIENIE;Chłodny;Bryza;Napój;Mieta;Guma Do żucia
+1852;PROGRESYWNY;Nowoczesny;Zwiekszanie;Modernistyczny;Do Przodu;Postep
+1853;PIANA;Kapiel;Biały;Białko;Piwo;Gasnica
+1854;RATATUJ;Potrawa;Bajka;Szczur;Ratatouille;Gotowanie
+1855;LAPSUS;Przejezyczenie;Pomyłka;Nieumyslny;Niezamierzony;Bład
+1856;ETER;Anestezjolog;Paliwo;Zapach;Usypiac;Rozpszczalnik
+1857;DROMADER;Baktrian;Wielbład;Jeden;Garb;Pustynia
+1858;MARSZRUTA;Kierunek Marszu;Kolumna;Plan Drogi;Punkty W Terenie;Wojsko
+1859;BLAMAŻ;Hanba;Osmieszenie;Kompromitacja;Wstyd;Porażka
+1860;SKALP;Skóra;Zrywac;Trofeum;Indianie;Włosy
+1861;TRABANT;Samochód;Wartburg;Nrd;Plastik;Mydelniczka
+1862;TRAKTOR;Ciagnik;Plon;Orac;Pole;Pojazd
+1863;ROWER;Łancuch;Kolarzówka;Tour De France;Składak;Górski
+1864;FUTERAŁ;Pokrowiec;Opakowanie;Ochraniacz;Instrument;Skrzypce
+1865;NIESMIERTELNY;Smierc;Wieczny;Christopher Lambert;Wampir;Film
+1866;MEDYTACJA;Om;Buddyzm;Trans;Kwiat Lotosu;Skupienie
+1867;KOSMITA;Marsjanin;E.t.;Zielony;Stwór;Ufo
+1868;TABORET;Stołek;Krzesło;Kuchnia;Siedziec;Bez Oparcia
+1869;ANALIZA;Matematyczna;Badanie;Rozkład;Rozbiór;Synteza
+1870;PALCAT;Poganiac;Kon;Bacik;Jezdziec;Szpicruta
+1871;MASECZKA;Twarz;Cera;Odżywka;Ogórek;Kosmetyczka
+1872;KUBA;Ameryka Srodkowa;Hawana;Cygaro;Wojewódzki;Fidel Castro
+1873;DOPAMINA;Szczescie;Serotonina;Hormon;Mózg;Euforia
+1874;BITA SMIETANA;Lody;Ubijac;Snieżka;Deser;Biały
+1875;SÓL;Przyprawa;Pieprz;Jodowana;Wieliczka;Chlorek Sodu
+1876;WILKOŁAK;Pełnia;Ksieżyc;Noc;Zamiana;Wilk
+1877;SPOŁECZENSTWO;Populacja;Zbiorowosc;Ludzie;Wspólnota;Panstwo
+1878;HARCERSTWO;Skaut;Lilijka;Obóz;Zhp;Hufiec
+1879;SWINGERS;Rozpusta;Sex;Wymiana;Klub;Znudzenie
+1880;DZWIEK;Gama;Słyszec;Muzyka;Ton;Głos
+1881;SKRYBA;Odrecznie;Pióro;Ksiega;Pisarz;Mnich
+1882;RZAD;Władac;Sejm;Senat;Polityka;Premier
+1883;ZNICZ;Grób;Swieczka;Zapalac;Cmentarz;Ogien Olimpijski
+1884;NIEUJEMNY;Plus;Minus;Ujemny;Zero;Dodatni
+1885;SYNONIM;Bliskoznaczny;Równy;Podobny;Słownik;Wyraz
+1886;WENFLON;Rurka;Igła;żyła;Szpital;Kroplówka
+1887;EXCALIBUR;Lancelot;Bron;Celtowie;Miecz Swiatła;Król Artur
+1888;ROGATKA;Obrzeża;Przejazd Kolejowy;Miasto;Posterunek;Budynek
+1889;SZABAT;Odpoczynek;żydzi;Swieto;Sobota;Stworzenie Swiata
+1890;MANIFESTOWAC;Transparent;Pochód;Pokazywac;Demonstrowac;Ulica
+1891;KRYZYS;Spowolnienie Gospodarcze;Zwolnienia Grupowe;Recesja;Załamanie;Sztab
+1892;DOSTATEK;Nadmiar;Bogactwo;Zasobnosc;Wystawnosc;Przepych
+1893;FUNDUSZ EMERYTALNY;Oszczednosci;Ubezpieczenie;Otwarty;Składki;Filar
+1894;GŁOS;Spiewac;Słuchac;Wybory;Krtan;Mówic
+1895;PKP;Jeżdzic;Wagon;Konduktor;Pociag;Wars
+1896;SZERMIERKA;Szabla;Floret;Olimpiada;Sport;Szpada
+1897;NIECKA;Dolina;Zagłebienie;Teren;Geografia;Łagodna
+1898;OGIER;Klacz;Kon;Stajnia;Maczo;Pasc
+1899;ULEWA;Burza;Chmura;Deszcz;Niebo;Woda
+1900;STRAJK;Przerwa;Zwiazki Zawodowe;Praca;Szpital;Pielegniarka
+1901;CHINY;Komunizm;Plac Tiananmen;Panstwo Srodka;Azja;Skosnooki
+1902;SPIWÓR;Obóz;Posciel;Namiot;Spac;Kołdra
+1903;PIŻAMA;Łóżko;Sen;Strój;Ubranie;Noc
+1904;ROK AKADEMICKI;żak;Uczelnia;365 Dni;Studia;Semestr
+1905;FATAMORGANA;Woda;Karawana;Pustynia;Złudzenie;Oaza
+1906;MYDELNICZKA;Pojemnik;Łazienka;Umywalka;Rece;Mydło
+1907;POT;Pachy;Mokry;Antyprespirant;Dezodorant;Upał
+1908;BANKOMAT;Karta;Bank;Pin;Pieniadze;Wybierac
+1909;ABDYKACJA;Przestac;Zrzec Sie;Władza;Król;Ustapic Ze Stanowiska
+1910;PARKIET;Drewno;Tanczyc;Cyklinowac;Giełda;Podłoga
+1911;FILIŻANKA;Porcelana;Kawa;Pic;Kubek;Spodek
+1912;MELISA;Pic;Liscie;Zaparzyc;Uspokajac;Nerwy
+1913;MANEKIN;Figura;Sklep;Wystawa;Plastik;Ubranie
+1914;LECZO;Potrawa;Wegry;Cukinia;Warzywa;Papryka
+1915;KOPERTA;Znaczek;List;Łapówka;Wysyłac;Adres
+1916;KOMPAS;Azymut;Magnes;Biegun;Strony Swiata;Busola
+1917;OGÓREK MAŁOSOLNY;Zielony;Kiszony;Konserwowy;Warzywo;Zakaska
+1918;CZUJNIK;Zmiana;Reagowac;Mierzyc;Sprawdzac;Kontrolowac
+1919;STEFAN BATORY;Król Polski;Siedmiogród;Statek;Xvi Wiek;Bona
+1920;SZLAK;Góry;Mapa;Turystyka;Wycieczka;Wytyczac
+1921;POSCIEL;Kołdra;Łóżko;Spac;Przescieradło;Scielic
+1922;MAZURY;Mamry;Pod Namiot;Warmia I;Jeziora;Jacht
+1923;KLASY;Skakanie;Szkoła;Kreda;Gra;Dzieci
+1924;KSIEGARNIA;Podrecznik;Regał;Kupowac;Sklep;Ksiazka
+1925;AGENT TOMEK;Marczuk - Pazura;Afera;Telewizja;Szpieg;Kasia
+1926;FORMUŁA 1;Bolid;Wyscigi;Samochód;Kubica;Tor
+1927;ZEBRA;Czarny;Afryka;Kon;Paski;Biały
+1928;KONCERT;Scena;Wystep;Widownia;Gwiazda;życzen
+1929;AUTOMAT;Pralka;Robot;Mechanizm;Karabin;Gra
+1930;MIKROSKOP;Okular;Ogladac;Preparat;Biologia;Powiekszenie
+1931;WITRAŻ;Kolorowy;Okno;Szyba;Wizerunek;Kosciół
+1932;WNIOSEK URLOPOWY;Wypisac;Wczasy;Wakacje;Druk;Praca
+1933;LEKTOR;Film;Mówic;Czytac;Pismo Swiete;Tłumaczenie
+1934;SOLNICZKA;Przyprawa;Wieliczka;Słone;Cukier;Pieprz
+1935;SUTANNA;Ubranie;Koloratka;Ksiadz;Strój;Czarny
+1936;STUDNIÓWKA;Zabawa;Matura;Egzamin;Szkoła Srednia;Bal
+1937;BARŁÓG;Wyrko;Nieporzadek;Spac;Posłanie;Łóżko
+1938;KLAMKA;Pocałowac;Zapadac;Drzwi;Zamykac;Szpital Wariatów
+1939;FAŁSZERZ;Pieniadze;Osoba;Kopia;Podrabiac;Falsyfikat
+1940;SUPEŁ;Gordyjski;Rozplatac;Wiazac;Wezeł;Sznurowadła
+1941;STEREOTYP;Szufladkowac;Przesad;Wyobrażenie;Kalka;Przekonanie
+1942;DYWAN;Latajacy;Odkurzac;Podłoga;Alladyn;Perski
+1943;PIERNIKI;Torun;Baba Jaga;Ciastka;Nadzienie;Miód
+1944;KAPIBARA;Swinia;Ssak;Cejrowski;Najwiekszy;Gryzon
+1945;KITEL;Szpital;Pielegniarka;Lekarz;Fartuch;Biały
+1946;SŁUCHAWKA;Dzwonic;Prysznic;Telefon;Rozmawiac;Ucho
+1947;ODRA;Granica;Choroba;Rzeka;Wrocław;Szczepienie
+1948;AKCENT;Sylaba;Jezyk;Obcy;Mówic;Przedostatnia
+1949;WIDELEC;Sztucce;Jesc;Zupa;Nóż;Łyżka
+1950;TWARÓG;Smietana;Ser Biały;Sól;Krowa;Szczypiorek
+1951;MIS KORALGOL;Niedzwiedz;Wieczorynka;Dzieci;Dobranocka;Uszatek
+1952;SPÓJNOSC;Zgodnosc;Scisle;Kompatybilnosc;Pasowac;Poglady
+1953;PROMIEN;Laser;Słonce;Okrag;Koło;Srednica
+1954;PRZEDŁUŻACZ;Rozgałeziacz;Gniazdko;Kabel;Przewód;Prad
+1955;LOGO;Grafika;Marka;Firma;Emblemat;Znak
+1956;SZPACHLOWAC;Ubytki;Remont;Wyrównac;Sciana;Nakładac
+1957;MAZUREK DABROWSKIEGO;Legiony;Piesn;Józef Wybicki;Jeszcze;Hymn
+1958;KOMPLEKSY;Akceptacja;Problem;Posiadac;Kobieta;Wady
+1959;NOBEL;Maria Skłodowska-curie;Dostac;Wybuch;Nagroda;Dynamit
+1960;WALIZKA;Bagaż;Pakowac;Dokumenty;Podróż;Ubrania
+1961;CZOSNEK;Aromat;Zabek;Warzywo;Wampir;Sos
+1962;ABAŻUR;żarówka;Ozdoba;Osłona;Sufit;Klosz
+1963;ROZKŁAD JAZDY;Pociag;Godzina;Przyjazd;Odjazd;Autobus
+1964;ZAKOPANE;Górale;Gubałówka;Krupówki;Oscypki;Tatry
+1965;EUROWIZJA;Edyta Górniak;Festiwal;Piosenka;Europa;Konkurs
+1966;GOZDZIK;Komuna;Kwiat;P R L;Czerwony;Dzien Kobiet
+1967;MECH;Zielony;Miekki;Poszycie;Las;Drzewo
+1968;POLITECHNIKA;Uniwersytet;Uczelnia;Inżynier;Szkoła;Studiowac
+1969;PAŁAC KULTURY;Stolica;Warszawa;Budynek;Rosjanie;Iglica
+1970;PACZKA;Listonosz;Wysyłka;Priorytet;Pudełko;Poczta
+1971;KOREKTOR;Długopis;Wysychac;Maskowac;Biały;Do Twarzy
+1972;EKSPRESS DO KAWY;Pianka;Kuchnia;Mleko;Urzadzenie;Capuccino
+1973;KOZA;Trawa;Zwierze;Rogi;Mleko;Góra
+1974;PANTOFELEK;Noga;Stopa;Pierwotniak;Kopciuszek;But
+1975;NARTY;Snieg;Góry;Zima;Jezdzic;Sport
+1976;TATUAŻ;Ciało;Igła;Henna;Marynarz;Ramie
+1977;WETERYNARZ;Choroba;Pies;Eskulap;Zwierzeta;Lekarz
+1978;BAZAR;Kupowac;Sprzedawac;Handel;Targ;Rynek
+1979;ZRENICA;Wzrok;Ciemno;Powiekszac Sie;Swiatło;Oko
+1980;DŁUGOPIS;Flamaster;Zeszyt;Wkład;Pisac;Pisak
+1981;ROZKRECIC;Zegarek;Czesci;Impreze;Interes;Koło
+1982;BAGNO;Moczary;Mokro;Podmokły;Błoto;Bagno
+1983;ADAM;Mickiewicz;Biblia;Raj;Pierwszy;Ewa
+1984;LOBBY;Wpływac;Pozaparlamentarna Grupa;Nacisk;Kuluary;Nakłaniac
+1985;DIETA;Otyłosc;Odchudzanie;Stosowac;Kalorie;Nadwaga
+1986;SZPITAL;Karetka;Operacja;Leczyc;Lekarz;Izba Przyjec
+1987;MUNDUREK;Ziemniaki;Giertych;Szkoła;żołnierz;Ubranie
+1988;KURTYNA;Scena;Zasłaniac;Opadac;żelazna;Teatr
+1989;REGIPS;Zaprawa;Remont;Równac;Sciana;Płyta
+1990;SWIECA ZAPACHOWA;Płomien;Palic Sie;Aromat;Wosk;Knot
+1991;LUDOBÓJSTWO;Zbrodnia;Masowo;Holocaust;Mordowac;Wojna
+1992;FINLANDIA;Laponia;Wódka;Renifery;Sw. Mikołaj;Skandynawia
+1993;STOPER;Bieg;Sport;Czas;Zegarek;Odmierzac
+1994;NOTATNIK;Informacje;Zapisywac;Zeszyt;Kartki;Notes
+1995;CECHA;Charakterystyczna;Opisywac;Mantysa;Własciwosc;Przymiot
+1996;WIESZAC PRANIE;Ubranie;Klamerki;Sznur;Mokry;Pralka
+1997;PASJANS;Układac;Karty;Talia;Pajak;Gra
+1998;WIRTUALNY;Pamiec;Rzeczywisty;Serwer;Realny;Internet
+1999;MŁYN;Zboże;Maka;Woda;Kamien;Koło
+2000;STADION;Sport;Trybuny;Piłka Nożna;Boisko;Lekkoatletyka
+2001;KIEROWNICA;Skrecac;Sterowac;Reka;Kółko;Samochód
+2002;JAN PAWEŁ II;Polak;Wadowice;Watykan;Papież;Karol Wojtyła
+2003;POLSKA;Kraj;Nasz;Hymn;Ojczyzna;Biało-czerwoni
+2004;PIN;Kod;Numer;Bezpieczenstwo;Bankomat;Telefon
+2005;TEMPERÓWKA;Strugac;Ołówek;Ostrzyc;Piórnik;Kredki
+2006;PIELGRZYMKA;Czestochowa;Mekka;Isc;Religia;Jasna Góra
+2007;MC'DONALDS;Frytki;Fast Food;Szybka Obsługa;Shake;Hamburger
+2008;AUTOSTOP;Podróż;Droga;Kciuk;Samochód;Łapac
+2009;WIEDZMA;Kot;Wróżby;Baba;Czarownica;Stara
+2010;MONITOR;Piksel;Lcd;Wyswietlac;Komputer;Ekran
+2011;BELFAST;Irlandia;Stolica;Północna;Ira;Miasto
+2012;AFRONT;Nietakt;Zniewaga;Obrazic;Nieuprzejmosc;Faux Pas
+2013;CYRK;Klaun;Sztuczki;Namiot;Zwierzeta;Arena
+2014;ICHTIOLOGIA;Badania;Dziedzina;Wiedza;Ryby;Nauka
+2015;CZAJNIK;Woda;Gotowac;Elektryczny;Wrzec;Gwizdek
+2016;TABELA;Excel, Word;Kolumny I Wersy;Komórki;Linie;Dane
+2017;AKT;Fotografia;Nagosc;Sad;Dokument;Prawny
+2018;APOKALIPSA;Objawienie Sw. Jana;Koniec Swiata;Zagłada;Jezdzcy;Nowy Testament
+2019;EJAKULACJA;Sex;Penis;Orgazm;Sperma;Wytrysk
+2020;TELEEKSPRES;17.00;Pociag;Tvp 1;Orłos;Wiadomosci
+2021;BRZYDULA;Przemko;Viola;Moda;Tvn;Serial
+2022;GANGSTER;Mafia;Al Capone;Prohibicja;Przestepca;Bandyta
+2023;DENTYSTA;Zeby;Stomatolog;Lekarz;Plomba;Leczyc
+2024;ETANOL;C2h5oh;Zwiazek;Pic Wódke;Metanol;Alkohol
+2025;SZELKI;Spadac;Spodnie;Pasek;Zapinac;Trzymac
+2026;OPATRUNEK;Rana;Gaza;Krew;Ochrona;Zakładac
+2027;ORNAMENT;Dekoracja;Wzór;Roslinny;Malowac;Ozdoba
+2028;TRZEPAK;Dywan;Podwórko;Poprzeczka;Fikołki;Kurz
+2029;BAWARIA;Monachium;Oktoberfest;Niemcy;Land;Piwo
+2030;UZURPATOR;Zagarnac;Należy Sie;Przejac;Władza;Prawo
+2031;TELESKOP;Astronomia;Luneta;Gwiazdy;Planety;Hubble
+2032;NAGNIOTEK;Stopa;Palec;Skóra;Buty;Odcisk
+2033;ZMYWARKA;Myc;Kuchnia;Pralka;Naczynia;Maszyna
+2034;KURA;Znosic;Jajko;Kogut;Ptak;Drób
+2035;PINOKIO;Dżepetto;Pajacyk;Drewno;Nos;Kłamac
+2036;BAL;Bawic Sie;Bal;Przebieranców;Taniec;Zabawa
+2037;ZŁODZIEJ;Krasc;Rabunek;Zabrac;Przestepca;Vii Przykazanie
+2038;LAWA;Wezuwiusz;Erupcja;Etna;Krater;Wulkan
+2039;MOHER;Materiał;Czapka;Beret;Babcia;Wełna
+2040;SZWECJA;Sztokholm;Gustaw;Skandynawia;Panstwo;Potop
+2041;FIRANA;Karnisz;Okno;Wisiec;Zasłona;żaluzja
+2042;ROZDZIAŁ;Dzielic;Etap;Czesc;Ksiażka;Powiesc
+2043;GRZAŁKA;Ciepło;Gotowac;Czajnik;Elektryczna;Prad
+2044;WYBORY PREZYDENCKIE;Głosowanie;Kaczynski;Demokracja;Urna;Fałszowac
+2045;AMBULANS;Sanitariusz;Na Sygnale;Ratownik;Erka;Karetka
+2046;PRZYZWYCZAJENIE;Czesto;Nawyk;Miec;Nałóg;Zawsze
+2047;SKUWKA;Długopis;Flamaster;Mazak;Zatyczka;Wyjatek
+2048;BILON;Pieniadze;Metal;Drobne;Banknot;Moneta
+2049;LOTNISKO;Samolot;Czekac;Okecie;Terminal;Port
+2050;WIELKI SZLEM;Turniej;Lewa;Brydż;Wszystko;Tenis
+2051;TAXI;Jezdzic;Taxometr;Złotówa;Taryfa;żółty Samochód
+2052;BIEDRONKA;Kropki;Zakupy;Dyskont Spożywczy;Owad;Sklep
+2053;ASYSTENT;Uczelnia;Stanowisko;Prezes;Sekretarz;Pomocnik
+2054;EGIPT;Panstwo;Pustynia;Piramidy;Afryka;Faraon
+2055;KONFERENCJA;Posiedzenie;Organizowac;Prasowa;Wykład;Zebranie
+2056;BAZYLIKA;Kosciół;Nawa;Swiatynia;Swiety Paweł;Kaplica
+2057;KORSYKA;Sardynia;Francja;Wyspa;Morze Sródziemne;Napoleon Bonaparte
+2058;TESTOSTERON;Jadra;Lejdis;Meżczyzna;Hormon;Film
+2059;ŁODZ PODWODNA;żółta;Morze;Okret;Juliusz Verne;U- Boot
+2060;WIELKI POST;Sroda Popielcowa;Wielkanoc;Karnawał;Swieto;40 Dni
+2061;POLOWANIE;Dziczyzna;Mysliwy;Zwierzyna;Łowy;Tropienie
+2062;ŁAJBA;Woda;Statek;Stary;Pływac;Łódz
+2063;EKUMENIZM;Chrzescijanie;Religia;Kosciół;Wyznanie;Wspólnota
+2064;WYWROTOWIEC;Demonstracja;Obalic;Rewolucja;Zamieszki;Bunt
+2065;FOLDER;Katalog;Plik;Reklama;Ulotka;Prospekt
+2066;GURU;Duchowy Przywódca;Czcic;Hinduizm;Mentor;Sekta
+2067;BAŻANT;Ptak;Drób;Piwo;Polowac;Złoty
+2068;UGODA;Konsensus;Porozumienie;Konflikt;Zgoda;Strona
+2069;PAPILOTY;Loki;Wałki;Fryzura;Włosy;Głowa
+2070;CNOTA;Prawiczek;Zaleta;Dziewica;Moralnosc;Tracic
+2071;EWIDENCJA;Ludnosc;Wykaz;Rejestracja;Spis;Statystyka
+2072;WSTRZYMANIE OGNIA;Przerwanie;Zawieszenie Broni;Rozejm;Walka;Bitwa
+2073;MŁOTEK;Gwozdzie;Wbijac;Kabinerki;Sciana;Narzedzie
+2074;DEBET;Bank;Saldo;Pieniadze;Konto;Karta
+2075;RUBASZNY;Kiedys;Swobodny;Bezceremonialny;Prosty;Sprosny
+2076;ABORDAŻ;Walka;Piraci;Bitwa;Statek;Atak
+2077;SZAFRAN;Krokus;żółty;Barwnik;Przyprawa;Kwiat
+2078;JUWENALIA;Impreza;Uniwersytet;Szkoła;Student;Koncert
+2079;KORDON SANITARNY;Posterunek;Epidemia;Choroba;Wojsko;Kwarantanna
+2080;MAJÓWKA;Piknik;Weekend;Wiosna;Wyjazd;Maj
+2081;NASZA SZKAPA;Dzieci;Kobyła;Nowela;Maria Konopnicka;Lektura
+2082;UKŁAD SŁONECZNY;Mikołaj Kopernik;Planeta;Wenus;Ziemia;Orbita
+2083;CZAPKA NIEWIDKA;Głowa;Magia;Znikac;Zobaczyc;Czarodziejski
+2084;EKLER;Zamek Błyskawiczny;Krem;Bita Smietana;Ciastko;Ptys
+2085;DZIELNICOWY;Komisariat;Policjant;Rewir;Mundur;Funkcjonariusz
+2086;SYMBIOZA;Współżycie;Korzysc;Organizm;Łaczyc;Mutualizm
+2087;TRABKA;Instrument Dety;Dmuchac;Słon;Grac;Eustachiusza
+2088;ZAPOWIEDZ;Film;Tv;Kino;Zwiastun;Trailer
+2089;SZKŁO;Szyba;Rozbic;Butelka;Szklanka;Huta
+2090;BESTIA;Bajka;Dzikie Zwierze;Zwyrodniałosc;Potwór;Piekna
+2091;BARSZCZ BIAŁY;żur;Zupa;Jajko;Kwasny;Burak
+2092;KIEŁBASA WYBORCZA;Przekupstwo;Hasło;Polityk;Populizm;Elekcja
+2093;CHRZEST BOJOWY;Przechodzic;Bitwa;Wojna;żołnierz;Sakrament
+2094;PIECHOTA MORSKA;Desant;Marynarka;żołnierz;Armia;Wojsko
+2095;SMAKOŁYK;Pyszny;Potrawa;Palce Lizac;Dobry;Jedzenie
+2096;PARTYCYPACJA;Razem;Współuczestniczenie;Udział;Robic;Zawody
+2097;ZASMAŻKA;Patelnia;Sos;Maka;Zupa;Zagescic
+2098;APASZKA;Wiazac;Dodatek;Szyja;Szalik;Chusta
+2099;RUPIECIE;Niepotrzebne;Starocie;Graty;Rzecz;Przedmioty
+2100;ŁACHMANY;Nedzarz;Bieda;Ubranie;Szmaty;Zniszczone
+2101;TEZAURUS;Encyklopedia;Leksykon;Hasło;Słownik;Zbiór
+2102;KANISTER;Benzyna;Zbiornik;Pojemnik;Zapas;Paliwo
+2103;ZARZADZANIE;Kierowanie;Menedżer;Dyrektor;Władanie;Marketing
+2104;AWIZO;Zawiadomienie;Przesyłka;Polecony;Poczta;List
+2105;KOBRA;Okularnik;Waż;Kryminał;Sensacja;Indie
+2106;PANELE;Podłoga;Scienne;Deski;Drewno;Parkiet
+2107;BRANSOLETKA;Biżuteria;Reka;Nosic;Przegub;Ozdoba
+2108;CYRKIEL;Geometria;Ołówek;Kreslic;Kółko;Rysowanie
+2109;RUCHOME SCHODY;Winda;Wjeżdżac;Metro;Pietro;Urzadzenie
+2110;MISTYFIKACJA;Udawac;Kłamstwo;FAŁSZ;Przebranie;Oszustwo
+2111;LICZYDŁO;Dodadawnie;Koraliki;Preciki;Kalkulator;Matematyka
+2112;PIZZA;Okragły Placek;Ser;Ciasto;Margarita;Napoletana
+2113;SZWAGIER;Bratowa;Kolaska;Siostra;Rodzina;Maż
+2114;POŻAR;Straż;Zapalic;Gasic;Woda;Ogien
+2115;SUDOKU;Wpisywac;Krzyżówka;Gra;Cyferki;Kwadrat
+2116;RAMKA NA ZDJECIE;Aparat;Cyfrowy;Fotografia;Stawiac;Obraz
+2117;FOKARIUM;Zoo;Basen;Hel;Uchatka;Niewola
+2118;STOPA;Noga;Pieta;Poruszanie Sie;Cukrzycowa;Palce
+2119;FARMACEUTA;Lek;Recepta;Apteka;Medycyna;Syrop
+2120;SZAMBONUREK;Studzienka;Wywozic;Scieki;Kanalizacja;Zbiornik
+2121;EKSTRAWAGANCJA;Oryginalny;Przesada;Wyróżniac Sie;Niepospolity;Dziwny
+2122;PRZESTROGA;Pouczenie;Rada;Uwaga;Ostrzeżenie;Nauczka
+2123;BEZKRÓLEWIE;Ustrój;Władza;Panstwo;Monarchia;Rzadzic
+2124;FILM;Kamera;Fabuła;Kino;Aktor;Oskar
+2125;NAGRYWARKA;Dvd;Płyta;Komputer;Wypalic;Nero
+2126;PLESN;Stary;Popsute;Ser;Chleb;Grzyb
+2127;WAHADŁOWIEC;Prom;Rakieta;Challenger;Kosmos;Nasa
+2128;ALTER EGO;Podmiot Liryczny;Osobowosc;Drugie Ja;Tożsamosc;Autor
+2129;PARAWAN;Wiatr;Lekarz;Zasłonic;Scianka;Plaża
+2130;ISLAM;Religia;Meczet;Muzułmanin;Koran;Mahomet
+2131;FELIETON;Gazeta;Artykuł;Miesiecznik;Dziennikarstwo;Prasa
+2132;KALAMBURY;Hasła;Rysowanie;Gra;Odgadywanie;Pokazywanie
+2133;RYNSZTOK;Ulica;Sciek;Zanieczyszczenia;Kanał;Słownictwo
+2134;MODYFIKACJA;Korekta;Inne;Poprawka;Dopasowac;Zmiana
+2135;ŁÓŻKO PIETROWE;Spac;Podwójny;Drabinka;Dziecko;Noc
+2136;BRZOZA;Kora;Las;Sok;Biała;Drzewo
+2137;KAWALERKA;Samotny;Wynajmowac;Pokój;Garsoniera;Mieszkanie
+2138;SZYPUŁKA;Ped;Kwiat;Łodyga;Owoc;Roslina
+2139;KATALIZATOR;Napedzac;Samochód;Reakcja Chemiczna;Przyspieszac;Stymulowac
+2140;MICHAŁ ANIOŁ;Kaplica Sykstynska;Malarz;Freski;Rzym;Architekt
+2141;PAMIATKA;Wycieczka;Suwenir;Nie Zapomniec;Wakacje;Gadżet
+2142;TYROL;Austria;Innsbruck;Kapelusz Z Piórkiem;Jodłowanie;Alpy
+2143;SKANER;Obraz;Stare Zdjecia;Czytnik;Digitalizacja;Komputer
+2144;RECYKLING;Odpady;Surowce Wtórne;Segregowanie Smieci;Przetwarzanie;Ekologia
+2145;ŻYCIE;Wzloty I Upadki;Egzystencja;Smierc;Istnienie;Poczecie
+2146;NUDYSTA;Plaża;Golas;Ubranie;Naturysta;Nagosc
+2147;KILLER;Film;Morderstwo;Zabójca;Cezary Pazura;Komisarz Ryba
+2148;DIADEM;Korona;Miss;Głowa;Kamien Szlachetny;Ksieżna
+2149;AKUSTYKA;Słuch;Fonia;Sala Koncertowa;Fale Dzwiekowe;Fizyka
+2150;KONOPIA;Wyskoczyc;Palic;Filip;Indyjskie;Marihuana
+2151;TORA;Biblia;żydzi;Mojżesz;Piecioksiag;Swiety
+2152;SZLAFROK;Kapiel;Frotte;Recznik;Prysznic;Łazienka
+2153;CV;życiorys;Prezentacja;List Motywacyjny;Aplikacja;Praca
+2154;IZOTOP;Ozon;Pierwiastek Chemiczny;Atom;Neutrony;Proton
+2155;DIESEL;Olej Napedowy;Ropa;Benzyna;Samochód;Silnik
+2156;ROCKY BALBOA;Film;Rambo;Ring;Sylwester Stallone;Bokser
+2157;OKRUCIENSTWO;Sprawianie Bólu;Bezdusznosc;Zadawanie Cierpienia;Znecac Sie;Tortury
+2158;NAPLETEK;Skóra;Penis;Stulejka;Obrzezanie;żoładz
+2159;KOLOSEUM;Starożytnosc;Rzym;Budowla;Gladiator;Amfiteatr
+2160;OGŁADA;Wychowanie;Kultura;Obycie;Elegancja;Towarzystwo
+2161;WF;Szkoła;Lekcja;Przedmiot;Cwiczenia;Sport
+2162;SZARANCZA;Rój;Plaga;Pszczoła;Konik Polny;Owad
+2163;INAUGURACJA;Rok Akademicki;Uroczysta;Pierwszy;Otwarcie;Rozpoczecie
+2164;BEZŁAD;Nieporzadek;Bałagan;Brak Organizacji;Chaos;Pokój
+2165;ZYGOTA;Komórka;Zapłodnienie;Zarodek;Gameta;Stadium
+2166;ASYMILACJA;Mimikra;żyd;Obcokrajowiec;Dostosowanie;Imigrant
+2167;PONCZOCHY;Nogi;Podwiazki;Samonosne;Rajstopy;Kabaretki
+2168;OCEANOGRAFIA;Nauka;Badac;Biologia;Morze;Statek
+2169;OCZOPLAS;Gałki;Patrzec;Wzrok;Ruchy;Widziec
+2170;WEZUWIUSZ;Wulkan;Erupcja;Etna;Pompeje;Lawa
+2171;SCHLEBIAC;Komplement;Kadzic;Przypodobac Sie;Podlizywac Sie;Chwalic
+2172;OKIEŁZNAC;Ujarzmic;Opanowac;Dzikie Zwierze;Poskromic;Kon
+2173;STROBOSKOP;Migac;Lampa;Rytm;Swiatło;Dyskoteka
+2174;IMPREGNOWAC;Ochrona;Woda;Zabezpieczac;Drewno;Bejca
+2175;CHRZAN;Ostry;Sos;Korzen;Cwikła;Przyprawiac
+2176;TWARZ;Głowa;Maska;Czaszka;Lico;Nos
+2177;WYCIAG KRZESEŁKOWY;Narty;Kolejka Linowa;Wjazd;Szczyt;Góry
+2178;ENIGMATYCZNY;Zagadkowy;Szyfr;Sekret;Tajemniczy;Ukrywac
+2179;AFIRMACJA;Lubic;Pochwalac;Okazywac;Akceptacja;Radosc
+2180;WYKIDAJŁO;Wejsc;Bramkarz;Ochrona;Lokal;Bar
+2181;DROGA MLECZNA;Galaktyka;Kosmos;Niebo;Noc;Gwiazda
+2182;HEKATOMBA;Zniszczenie;Zagłada;Ofiara;Kataklizm;Apokalipsa
+2183;DONICZKA;Parapet;Ziemia;Kwiatki;Sadzic;Rosliny
+2184;DYSORTOGRAFIA;Pisac;Dyktando;Uczen;Bład;Dysleksja
+2185;PALEC;Grozic;Kciuk;Wskazujacy;Paznokiec;Dłon
+2186;TYGRYS;Kot;Lew;Pregi;Zwierze;Drapieżnik
+2187;KORONACJA;Król;Głowa;Insygnia;Tron;Ceremonia
+2188;ZIMA;Mróz;Pora Roku;Snieg;Ferie;Styczen
+2189;GŁEBIA;Dno;Morze;Gdanska;Kolor;Ostrosc
+2190;PERGOLA;Altana;Zadaszenie;Ogród;Kolumny;Budowla
+2191;BALDACHIM;Daszek;Łożko;Konstrukcja;Osłona;Sypialnia
+2192;EGZEKUTYWA;Wykonac;Organ;Trójpodział;Panstwo;Władza
+2193;GRONO;Wino;Nasza Klasa;Rodzynki;Znajomi;Serwis Internetowy
+2194;ORGAZM;Drink;Wytrysk;Przyjemnosc;Seks;Ejakulacja
+2195;METAMORFOZA;Przekształcenie;Owidiusz;Przeobrażenie;Przemiana;Kora
+2196;WAZON;Flakon;Wstawic;Kwiaty;Woda;Bukiet
+2197;INWIGILACJA;Permanentna;Agent;Obserwowac;Sledzic;Tajny
+2198;KREM PRZECIWZMARSZCZKOWY;Kosmetyk;Zmarszczki;Twarz;Stary;Cera
+2199;SLAJD;Przezrocze;Prezentacja;Rzutnik;Fotografia;Zdjecie
+2200;WIÓRY;Stolarz;Rżniecie;Drwa;Piła;Trociny
+2201;CZARNA PORZECZKA;Sok;Czerwona;Owoc;Krzak;Jagoda
+2202;WIOSNA;Kwitnac;Pora Roku;Zima;Lato;Zielenic
+2203;ODÓR;Zapach;Fetor;Smród;Nos;Wachac
+2204;OSTRACYZM;Niechec;Odrzucenie;Potepienie;Akceptacja;Wykluczenie
+2205;GOFROWNICA;Piec;Cukier Puder;Bita Smietana;Ciasto;Wafel
+2206;PASMANTERIA;Sklep;Kupowac;Dodatki Krawieckie;Guziki;Nici
+2207;GRAFIK;Poligrafia;Komputerowy;Artysta;Projektowac;Rysowac
+2208;TABLICA KORKOWA;Szkoła;Sciana;Przypinac;Pinezka;Notatka
+2209;PASZTETOWA;Wedlina;Kiełbasa;Drosed;Z Królika;Mielony
+2210;CENTYMETR;Miara;Jednostka;Linijka;Dziesiec;Długosc
+2211;KATARAKTA;Wodospad;Choroba;Zacma;Oczy;Nil
+2212;ŁAZNIA PAROWA;Kapiel;Sauna;Wilgotnosc;Temperatura;Rzym
+2213;SCHLUDNY;Czysty;Porzadny;Wygladac;Niezabrudzony;Zadbany
+2214;PARTNER;Biznes;Maż;Zwiazek;Seksualny;Para
+2215;TONER;Kartridż;Tusz;Drukarka;Proszek;Kolor
+2216;DZIKI ZACHÓD;Western;Kowboj;Stany Zjednoczone;Szeryf;Indianie
+2217;GAZ MUSZTARDOWY;Iperyt;I Wojna Swiatowa;Majonez;Bron Biologiczna;Trujacy
+2218;KSIEŻYC;Zacmienie;Satelita;Ciało Niebieskie;Nów;Krażyc
+2219;AMAZONKA;Woda;Ameryka Południowa;Piranie;Piers;Rzeka
+2220;DUSIC;Szyja;Oddychac;Gotowac;Powietrze;Boa
+2221;MYSLEC;Rozumowac;Byc;Głowa;Mózg;Sadzic
+2222;NOWINA;Przekazywac;Plotka;Informacja;Wiesc;Aktualnosc
+2223;LOCZKI;Fryzura;Dziecko;Włosy;Trwała;Krecone
+2224;CUKIERNICZKA;Smak;Pojemnik;Naczynie;Herbata;Słodzic
+2225;ATAK SERCA;Ludzie;Miażdżyca Tetnic;Zator;Zawał;Choroba
+2226;EKG;Serce;Zapis;Zawał;Badanie;Kardiolog
+2227;ŁONO MATKI;Płód;Kobieta;Miejsce;Brzuch;Dziecko
+2228;FUNKCJA;Sinus;Stanowisko;Odwzorowanie;Matematyka;Trygonometryczna
+2229;KOMUNIZM;Karol Marks;Z S R R;Ustrój;P R L;Socjalizm
+2230;JURATA;Bałtyk;Hel;Plaża;Miasto;Morze
+2231;KRAŻOWNIK;Flota;Statek;Marynarka;Szosa;Okret Wojenny
+2232;WELON;Panna Młoda;Suknia Slubna;Oczepiny;Głowa;Złota Rybka
+2233;OLIWKA;Sałatka;Zielen;Do Ciała;Tłuszcz Roslinny;Olej
+2234;PODESZWA;Obcas;Czesc;But;Stopa;Szewc
+2235;FRANCZYZA;System;Umowa;Licencja;Sprzedaż;Logo
+2236;SŁOIK;Szkło;Przetwory;Zakretka;Dżem;Wek
+2237;ZAKŁADKA;Ksiażka;Strony;Zaznaczac;Otwierac;Czytac
+2238;KRZYWOPRZYSIESTWO;Rozprawa;Sad;Zeznania;FAŁSZ;Kłamstwo
+2239;SCIÓŁKA LESNA;Bór;Warstwa;Liscie;Podłoga;Poszycie
+2240;SŁONIK;Szczescie;Mały;Dumbo;Trabalski;Traba
+2241;SPACJA;Komputer;Odstep;Pisac;Klawiatura;Znak
+2242;OŁÓW;Pierwiastek;Amunicja;Pb;Cieżki;żołnierzyk
+2243;ZASŁONA DYMNA;Papieros;Firanka;Wojna;Kotara;Widocznosc
+2244;DAMA PIK;Karty;Talia;Wino;Kierki;Figura
+2245;LEKKOATLETYKA;Olimpiada;Biegi;Dyscyplina;Sport;Maraton
+2246;ANEGDOTA;Dowcip;Historyjka;Smieszne;Opowiadanie;żart
+2247;TECZA;Kolory;Deszcz;Niebo;Słonce;Pryzmat
+2248;WRESTLING;Hulk Hogan;Ring;Zapasy;Boks;Walka
+2249;PRZESZŁOSC;Przyszłosc;Pamiec;Historia;Kiedys;Terazniejszosc
+2250;PANIKOWAC;Spokój;Strach;Napiecie;Afera;Histeryzowac
+2251;KROCHMAL;Maka;Obrus;Posciel;Skrobia Ziemniaczana;Sztywny
+2252;TAK-TAK;Era;Taryfa;Nie;Karta;Telefon
+2253;KONSERWATYSTA;Poglady;Tradycjonalista;Prawica;Zmiany;Liberał
+2254;FABRYKA;Przemysł Samochodowy;Produkcja;Wytwarzac;Tasma;Zakład
+2255;XERO;Papier;Kopiowac;Urzadzenie;Powielac;Biuro
+2256;TARKA;Kuchnia;Surówka;Sałatka;Metal;Warzywa
+2257;EKIERKA;Trójkat;Kreslic;Kat Prosty;Szkoła;Linijka
+2258;SCHIZOFRENIA;Psychoza;Urojenia;Choroba Psychiczna;Rozdwojenie Jazni;Wariat
+2259;WC;Szalet;Ubikacja;Toaleta;Kibel;Klozet
+2260;EREMITA;Religia;Pustelnik;Asceza;Izolacja;Odosobnienie
+2261;TRUMNA;Smierc;Cmentarz;Skrzynia;Zmarły;Pogrzeb
+2262;MIESZKO I;Władca;Polanie;Król Polski;Bolesław Chrobry;Dobrawa
+2263;MICHAŁ WISNIEWSKI;Reklama;Artysta;Mandaryna;Ich Troje;Czerwony
+2264;GÓRNIK;Slask;Wegiel;Barbórka;Szyb;Kopalnia
+2265;KOLORATKA;Sutanna;Kołnierzyk;Szyja;Biały;Ksiadz
+2266;SZKOŁA RODZENIA;Oddychanie;Cwiczenia;Położna;Kobieta;Ciaża
+2267;ALFABET;Pismo;Porzadek;Znaki;Abecadło;Litery
+2268;ROLMOPS;Ryba;Sledz;Wykałaczka;Marynowac;Słoik
+2269;KOŁO ZEBATE;Trybik;Element;Zegar;Połaczenie;Urzadzenie
+2270;SŁONINA;Smalec;Swinia;Skwarki;Zasmażka;Tłuszcz
+2271;STARÓWKA;Miasto;Warszawa;Rynek;Spacerowac;Historia
+2272;PATAT;Ziemniak;Słodki;Pieczony;Roslina;Kartofel
+2273;KARUZELA;Krecic Sie;Diabelski Młyn;Dzieci;Krzesełka;Plac Zabaw
+2274;ŁZA;Płakac;Beksa;Anna Wyszkoni;Oko;Smutek
+2275;TRABA POWIETRZNA;Wiatr;Cyklon;Wichura;Tornado;Huragan
+2276;MAKARON;Zupa;Kluski;Jedzenie;Zupka Chinska;Spagetti
+2277;SPORTY EKSTREMALNE;Spadochron;Bungee;Ryzyko;Niebezpieczenstwo;Adrenalina
+2278;TRZMIEL;Bzyczenie;Owad;Lot;Zapylanie;Pszczoła
+2279;PENDRIVE;Pamiec Przenosna;Dane;Usb;Dysk;Stick
+2280;DYREKTYWA;Rozporzadzenie;Przepisy;Instrukcja;Ustawa;Rozkaz
+2281;OBRACZKA;Slub;Złoto;Biżuteria;Palec;Symbol
+2282;DZIEN KOBIET;Tulipan;Swieto;Pani;8 Marca;Gozdziki
+2283;WÓŁ PIŻMOWY;Krowa;Zwierze;Ameryka Północna;Siersc;Ssak
+2284;ANALFABETA;Pisac;Umiec;Czytac;Nieuk;Potrafic
+2285;TOMAHAWK;Indianin;Bron;Siekierka;Apacz;Toporek
+2286;SKYPE;Telefon;Mikrofon;Komputer;Komunikator;Połaczenie
+2287;ZSYP;Wieżowiec;Karaluchy;Wyrzucac;Smieci;Kosz
+2288;TIK TAK;2 Kalorie;Pan Fasola;Odswieżenie;Ciotka Klotka;Zegar
+2289;OLEJ;Tłuszcz;Głowa;Smażyc;Napedowy;Opałowy
+2290;MIGAC;Głuchoniemi;Samochód;Skrecanie;Kierunkowskaz;Gestykulowac
+2291;ZABAWNY;Rozweselajacy;Humorystyczny;żartobliwy;Wesoły;Smieszny
+2292;TUNCZYK;Puszka;Olej;Sałatka;Ryba;Sos
+2293;TEORIA;Nauka;Hipoteza;Wzglednosci;Fizyka;Praktyka
+2294;GRILL;Ruszt;Ogien;Kiełbasa;Mieso;Palenisko
+2295;KOLCZYKI;Uszy;Ozdoba;Biżuteria;Klipsy;Dziurki
+2296;URZAD SKARBOWY;Okienko;Pit;Rozliczenie;Podatek;Miejski
+2297;BIATHLON;Narty;Sikora;Bieg;Strzelanie;Sport
+2298;ESKIMOS;Człowiek;Zima;Grenlandia;Arktyka;Alaska
+2299;LINIJKA;Mierzyc;Długosc;Centymetr;Szkoła;Linia
+2300;SPREŻYNA;Resory;Amortyzacja;Materac;Drut;Skrecona
+2301;KROKIEW;Sufit;Dach;Belka;Drewno;Skocznia
+2302;SPOŁEM;Sklep;Spożywczy;Siec;Socjalizm;Spółdzielnia
+2303;TUZIN;Dwanascie;Kopa;Ilosc;Dużo;Liczba
+2304;MUROWAC;Beton;Sciana;Cegły;Budowac;Zaprawa
+2305;BITWA POD GRUNWALDEM;Krzyżacy;Jan Matejko;1410 Rok;Władysław Jagiełło;Obraz
+2306;WARZYWNIAK;Sklep;Osiedle;Zieleniak;Owoce;Stragan
+2307;KARTA KREDYTOWA;Bank;Visa;Pożyczka;Master Card;Pieniadze
+2308;PRZEPISY DROGOWE;Kodeks;Znaki;Prawo;Łamanie;Ograniczenia
+2309;FINISZ;Kompletny;Koniec;Start;Meta;Wyscig
+2310;ABSTRAKCJA;Rzeczywistosc;Oderwany;Nierealny;Idea;Dosłowny
+2311;KIWI;Owoc;Nowa Zelandia;Ptak;Nielot;Zielony
+2312;TOM;Ksiażka;Encyklopedia;Czesc;Kolekcja;Dzieło
+2313;FONTANNA;Woda;Strumien;Ławka;Park;Tryskac
+2314;ERUDYCJA;Omnibus;Informacja;Oczytanie;Wiedza;Wszechstronnosc
+2315;MODLITWA;Pacierz;Ojcze Nasz;Msza;Bóg;Religia
+2316;KALAFIOR;Warzywo;Kwiat;Bułka Tarta;Zupa;Brokuł
+2317;KUCHNIA POLSKA;Przepis;Gotowanie;Jedzenie;Narodowy;Bigos
+2318;LEN;Leżec;Obibok;Wiersz;Robic;Tapczan
+2319;MAŻ STANU;Prezydent;Władza;Dyplomata;Polityk;Autorytet
+2320;TRYWIALNY;Łatwy;Nieskomplikowany;Banalny;Pospolity;Prostota
+2321;SYSTEM OPERACYJNY;Komputer;Program;Informatyka;Windows;Linux
+2322;METRÓWKA;Budowa;Miara;Długosc;Odległosc;Tasma
+2323;WARKOCZ;Uczesanie;Zaplatac;Chałka;Włosy;Fryzura
+2324;CHŁOPI;Reymont;Rolnicy;Boryna;Wies;Powiesc
+2325;AMNEZJA;Pamiec;Wspomnienia;Mózg;Wypadek;Zanik
+2326;MAKSYMA;Przysłowie;Aforyzm;Mysl;Sentencja;Madrosc
+2327;ACAPULCO;Meksyk;Kurort;Przebój;Pacyfik;Ameryka Północna
+2328;LODY NA PATYKU;Mrożone;Lizanie;Zimne;Wafelek;Kulki
+2329;MOZARELLA;Makaron;Biały;Pomidory;Ser;Włochy
+2330;AUKCJA;Sprzedaż;Przebijac;Cena;Licytowac;Allegro
+2331;WARIOGRAF;Badanie;Oszukiwac;Wykrywacz Kłamstw;Kryminał;Przesłuchanie
+2332;BESSA;Giełda;Akcje;Hossa;Spadek;Kryzys
+2333;DZIURKACZ;Kartka;Otwór;Segregator;Biuro;Zszywacz
+2334;BLUETOOTH;Transfer Danych;Połaczenie;Bezprzewodowy;Telefon;Komórka
+2335;TERMIT;Społeczny;Mrówka;Drewno;Owad;Kopiec
+2336;ENIGMA;Kod;Maszyna;Szyfr;Niemcy;Ii Wojna Swiatowa
+2337;NUMIZMATYKA;Pieniadze;Moneta;Banknoty;Kolekcjonowac;Zbierac
+2338;ABSOLUTORIUM;Zaliczenie;Indeks;Magister;Studia;Dyplom
+2339;GRYMASIC;Jedzenie;Krecic Nosem;Dziecko;Marudzic;Wybrzydzac
+2340;KRACH;Spadek;Bessa;Spółka;Załamanie;Giełda
+2341;ATLAS;Kontynenty;Siłownia;Mapy;Ksiażka;Klej
+2342;SZKOCJA;Skapiec;Anglia;Kilt;Wielka Brytania;Whisky
+2343;WIEDZMIN;żebrowski;Geralt;Ciri;Biały Wilk;Sapkowski
+2344;SLIMAK;Powolny;Domek;Rogi;Winniczek;Muszla
+2345;MARKER;Gruby;Mazak;Kolory;Pisak;Niezmywalny
+2346;PZPR;Gomułka;Komunizm;Partia;Zjazd;Socjalizm
+2347;WKŁAD;Tusz;Własny;Kominkowy;Znicz;Długopis
+2348;FISZBINOWIEC;Walen;Ocean;Wieloryb;Gorset;Plankton
+2349;POMPON;Zima;Czapka;Nakrycie Głowy;Kulka;Wełna
+2350;SKRZYP POLNY;Napar;Ogród;Zielarstwo;Roslina;Chwasty
+2351;ALERGIA;Kichac;Wysypka;Katar;Uczulenie;Pyłki
+2352;PROZA;Poezja;Powiesc;Literatura;Epika;Beletrystyka
+2353;ROPA NAFTOWA;Paliwo;Baryłka;Złoża Kopalne;Rafineria;Benzyna
+2354;CHAŁKA;Pieczywo;Masło;Bułka;Słodki;Warkocz
+2355;OCENIAC;Nota;Punktacja;Wartosciowac;Szkoła;Sprawdzian
+2356;NUMER SERYJNY;Informacja;Produkt;Oznaczenie;Cyfry;Fabryka
+2357;EPOS;Odyseja;Iliada;Opowiesc;Homer;Epopeja
+2358;PACYNKA;Teatr;Dzieci;Lalka;Przedstawienie;Reka
+2359;TWARDY DYSK;Pojemnosc;Zapisywac;Komputer;Bajt;Pamiec
+2360;PASKUDNY;Szkaradny;Brzydki;Okropny;Obrzydliwy;Wstretny
+2361;TASMA IZOLACYJNA;Kabel;Elektryka;Bezpieczenstwo;Prad;Gnizadko
+2362;DUCHOWIENSTWO;Ksiadz;Zakon;Kosciół;Jezuici;Krzyż
+2363;PANSTWO OPIEKUNCZE;Podatki;Bezrobotny;Socjalizm;Szwecja;Zasiłek
+2364;CASABLANCA;Ingrid Bergman;Maroko;Miasto;Czarno-biały;Port
+2365;GRZECHOTKA;Zabawka;Waż;Dzwiek;Dziecko;Niemowlak
+2366;WAHADŁO;Wychylenie;Zegar;Amplituda;Ruch;Zwisac
+2367;NAKRETKA;Gwint;Sruba;Otwieracz;Butelka;Korek
+2368;WIATRAK;Prad;Energia;Ramiona;Młyn;Don Kichot
+2369;PRUSZYC;Posypywac;Snieg;Cukier Puder;Niebo;Padac
+2370;PIERWIASTEK;Układ Okresowy;Potega;Chemia;Matematyka;Kwadratowy
+2371;BŁAD;Nieprawidłowosc;Pomyłka;Naprawic;Ortograficzny;Obliczenia
+2372;PORTMONETKA;Pieniadze;Monety;Kieszen;Banknot;Portfel
+2373;PARÓWKA;Hot Dog;Wedlina;Sniadanie;Mieso;Berlinki
+2374;MIKSTURA;Lekarstwo;Magik;Mieszanina;Składniki;Połaczenie
+2375;ORZESZKI ZIEMNE;Pistacje;Słone;Arachidy;Solone;Fistaszki
+2376;ZACZYN;Fermentowac;Chlebowy;Zakwas;Drożdże;Zapoczatkowac
+2377;WILLA;Bogacz;Ogród;Basen;Posiadłosc;Dom
+2378;SYZYF;Mitologia;Wtaczac Kamien;Prace;żeromski;Tartar
+2379;PIORUNOCHRON;Chata;Odgramiacz;Dach;Benjamin Franklin;Wies
+2380;GRENLANDIA;Lód;Dania;Zima;Eskimos;Wyspa
+2381;DESKA DO PRASOWANIA;Koszule;Prostowac;żelazko;Snowboard;Surfing
+2382;HALABARDA;Rycerz;Topór;Siekiera;Bron;Sredniowiecze
+2383;SWISTAK;Zwierze;Sen Zimowy;Reklama;Sreberka;Czekolada
+2384;HISTORYK;Przeszłosc;Nauka;Humanista;Daty;Szkoła
+2385;KORONER;Dochodzenie;Lekarz;Sad;Zwłoki;Kryminał
+2386;IKAR;Wyspa;Dedal;Skrzydła;Latac;Wosk
+2387;LUPA;Szkło;Powiekszenie;Zegarmistrz;Soczewka;Lornetka
+2388;TOSTER;Opiekac;Chleb;Urzadzenie;Kuchnia;Grzanka
+2389;DRZWI;Otwierac;Pukac;Klamka;Zamykac;Zamek
+2390;WIKIPEDIA;Wiedza;Encyklopedia;Online;Portal Internetowy;Edytowanie
+2391;LESNE RUNO;Owca;Mech;Sciółka;Podszyt;Grzyby
+2392;ALASKA;Stany Zjednoczone;Przystanek;Ameryka;Kanada;Północ
+2393;BAWEŁNA;Koszula;Roslina;Plantacja;Materiał;Tkanina
+2394;GRINGO;Wojciech Cejrowski;Turysta;Biały;Ameryka Łacinska;Meksyk
+2395;KOŁYSKA;Dziecko;Hustac;Leżec;Bujanie;Sen
+2396;ARA;Klatka;Papuga;Kolorowy;Powtarzac;Ptak
+2397;CHOMIK;Swinka Morska;Puszysty;Zwierze Domowe;Gryzon;Klatka
+2398;KARNAWAŁ;Wielkanoc;Okres;Post;Rio De Janeiro;Zabawa
+2399;GLOBUS;Migrena;Miniatura;Swiat;Kula Ziemska;Kontynenty
+2400;OTWIERACZ;Piwo;Zamykac;Kapsel;Narzedzie;Butelka
+2401;KORYTARZ;Izba;Długi;Mieszkanie;Przedpokój;Wejscie
+2402;KREWETKA;Skorupiaki;Różowy;Owoce Morza;Sushi;Restauracja
+2403;BERŁO;Tron;Władza;Insygnia;Korona;Król
+2404;KARYKATURA;Przesada;Osoba;Cechy Szczególne;Rysunek;Smieszne
+2405;BOLID F1;Gokart;Ferrari;Robert Kubica;Wyscig;Bmw Sauber
+2406;WYSPA;Lad;Morze;Madagaskar;Skarbów;Wolin
+2407;MOLO;Woda;Morze;Cumowac;Pomost;Sopot
+2408;SZADZ;Lód;Zima;Szron;Mróz;Osad
+2409;STANCZYK;Obraz;Wesele;Błazen;Malarz;Jan Matejko
+2410;SMS;Komórka;Wysyłac;Wiadomosc;Pisac;160 Znaków
+2411;PIEROGI RUSKIE;Ciasto;Jedzenie;Farsz;Ziemniaki;Twaróg
+2412;ZGRZEWKA;Opakowanie;Sztuki;Szesciopak;Woda Mineralna;Piwo
+2413;BILARD;Stół;Snooker;Łuzy;Kule;Kij
+2414;KIEROWCA TAKSÓWKI;Robert De Niro;Samochód;Napiwek;Kilometrówka;Taryfa
+2415;KORKI;Wino;Korepetycje;Samochód;Szampan;Buty Piłkarskie
+2416;OŁÓWEK;Kredka;Grafit;Rysik;Drewno;Szkic
+2417;SYROP KLONOWY;Kanada;żywica;Słodki;Gesty;Drzewo
+2418;KROWA;Doic;Mleko;Milka;Byk;Wymiona
+2419;GAZETA;Papier;Wiadomosci;Wyborcza;Mucha;Dziennik
+2420;FACECI W CZERNI;Agent;Kosmici;Meżczyzni;Will Smith;Film
+2421;IROKEZ;Głowa;Indianin;Włosy;Punk;Fryzura
+2422;KONSTYTUCJA;Prawo;Dokument;Trybunał;Ustawa Zasadnicza;3 Maja
+2423;KARMAZYN;Przypływ;Krew;Kolor;Ryba;Czerwien
+2424;SKAKAC;Małysz;Przez Płotki;Kangur;Do Góry;Spadochron
+2425;METRO;Warszawa;Musical;Podziemna Kolej;Gazetka;Pociag
+2426;SZCZYPIOREK;Zielony;Przyprawa;Natka;Twaróg;Cebula
+2427;BOSMAN;Marynarz;Stopien;Prace Pokładowe;Statek;Piwo
+2428;MASTURBACJA;Onanizm;Samozadowolenie;69;Przyjemnosc;Rozkosz
+2429;WII;Gry Wideo;Konsola;Play Station;Bezprzewodowe;Nintendo
+2430;UBUNTU;Root;Linux;Darmowe Oprogramowanie;Debian;System
+2431;PLUTON;Bomba Atomowa;Pierwiastek;żołnierz;Oddział;Planeta
+2432;ENDORFINY;Mózg;Orgazm;Czekolada;Szczescie;Hormon
+2433;BLUSZCZ;Pnacze;Doniczka;Oplatac;Roslina;Kwiat
+2434;DZIEN;Miesiac;Noc;Doba;Godzina;Słonce
+2435;WANTA;Lina;Szanta;Jacht;żeglarstwo;Rejs
+2436;KRYM;Morze Czarne;Półwysep;Jaskółcze Gniazdo;Ukraina;Jałta
+2437;EUGENIKA;Nauka;Geny;Gatunek;Dziedziczenie;Nazisci
+2438;PRZYSTANEK NA ŻADANIE;Stop;Autobus;Tramwaj;Guzik;Reka
+2439;AZBEST;Eternit;Pokrywac;Dach;Szkodliwy;Rakotwórczy
+2440;KASETA VIDEO;Film;Odtwarzacz;Vhs;Tasma;Dvd
+2441;CMENTARZ;Grób;Powazki;Nekropolia;Trumna;Pogrzeb
+2442;ŁUK;Kusza;Cieciwa;Strzały;Wilhelm Tell;Robin Hood
+2443;ONUCA;Noga;Skarpeta;Stopa;żołnierz;Wojsko
+2444;KRASNAL;Hałabała;Skrzat;Królewna Snieżka;Snieżka;Ogrodowy
+2445;SZALENIEC;Psychicznie Chory;Wariat;Oszołom;Nienormalny;Kaftan Bezpieczenstwa
+2446;NIC ARIADNY;Tezeusz;Labirynt;Kłebek;Minotaur;Mitologia
+2447;HIPODROM;Służewiec;Jezdziectwo;Wyscigi;Kon;Tor
+2448;KING KONG;Film;Ogromny;Goryl;Małpa;Wielki
+2449;AVIOMARIN;Podróż;Wymioty;Nudnosci;Lokomotiv;Samochód
+2450;ARMATA;Wojna;Kula;Działo;Proch;Bron
+2451;GUANTANAMO;Jeniec;Kuba;Obóz Koncentracyjny;Talibowie;Wiezienie
+2452;KRZYSZTOF KOLUMB;Indianie;Odkrywca;1492;Ameryka;Podróżnik
+2453;REWOLWEROWIEC;Dziki Zachód;Pistolet;Western;Południe;Kowboj
+2454;HORMON;Zwiazek Chemiczny;Adrenalina;Gruczoły;Wzrostu;Testosteron
+2455;DRUKARKA;Tusz;Papier;Laserowa;Komputer;Atramentowa
+2456;WIENIEC LAUROWY;Nagroda;Olimpiada;Starożytnosc;Spoczac;Igrzyska
+2457;MACOCHA;Pasierb;Ojczym;Przybrana;Rodzic;żona/maż
+2458;OPIUM;Odurzajacy;Przeciwbólowy;Narkotyk;Morfina;Mak
+2459;REKLAMA;Baner;Ulotka;Bilboard;Telewizja;Produkt
+2460;ATOL;Ocean;Tropikalny;Rafa Koralowa;Wyspa;Laguna
+2461;PENICYLINA;Antybiotyk;Zastrzyk;Chory;Alexander Fleming;Lekarstwo
+2462;GONG;Uderzac;Instrument;Obiad;Runda Bokserska;Sygnał
+2463;SREDNIK;Rozdzielanie;Znak Interpunkcyjny;Zdanie Złożone;Przecinek;Kropka
+2464;ŻARÓWKA;Pomysł;Swiatło;Lampa;Edison;Klosz
+2465;OPOLE;Festiwal;Miasto;Amfiteatr;Odra;Slask
+2466;FESTIWAL PIOSENKI ŻOŁNIERSKIEJ;Mundur;Morze;Scena;Wojsko;Kołobrzeg
+2467;POZIOMICA;Pion;Równy;Budowa;Warstwica;Izohipsa
+2468;OPERA;Aria;Mydlana;Tenor;Libretto;Moniuszko
+2469;MIROSŁAW HERMASZEWSKI;Łajka;Lot Kosmiczny;Kosmos;Rakieta;Astronauta
+2470;TRADZIK;Wypryski;Pryszcz;Skóra;Dermatolog;Dojrzewanie
+2471;SCIERKA;Tkanina;Do Naczyn;Szmata;Sprzatac;Do Kurzu
+2472;LATARNIK;Brzeg;Swiatło;Wysoki;Morze;Sienkiewicz
+2473;ANATOMIA;Czesci;Człowiek;Miesnie;Organy;Ciało
+2474;KASJOPEA;Galaktyka;Niebo;Mitologia;Gwiazdozbiór;Andromeda
+2475;MACIEK MALENCZUK;Waglewski;Piosenkarz;Pudelsi;Homo Twist;Czarna Mamba
+2476;WIRTUALNA POLSKA;Portal;Wiadomosci;Wyszukiwarka;Poczta;Internet
+2477;USMIECH;Usta;Radosc;Wargi;Emocje;Wesoły
+2478;KISZONA KAPUSTA;Bigos;Pierogi;Sałata;Ogórek;Kwasny
+2479;HOLLYWOOD;Film;Gwiazdy;Ameryka;Beverly Hills;Los Angeles
+2480;SFINKS;Egipt;Piramida;Faraon;Starożytny;Siec Restauracji
+2481;NAPOLEON;Wódz;Francja;Koniak;Elba;Cesarz Francuzów
+2482;CAPPUCINO;Mleko;Kawa;Pianka;Włochy;Espresso
+2483;DRWAL;Rabac;Topór;Scinac;Las;Drzewo
+2484;WYKŁADZINA;Pcv;Panele;Podłoga;Dywan;Biuro
+2485;TSUNAMI;Powódz;Trzesienie Ziemi;Fala;Ocean;Woda
+2486;DOMOWE PRZEDSZKOLE;Telewizja;Hałabała;Dzieci;żłobek;Program
+2487;SMIECH;Radosc;Rozbawienie;żart;Emocje;Beczka
+2488;MALBORK;Zamek;Krzyżacy;Miasto;Cegła;Pomorze
+2489;PIS;Blizniacy;Gosiewski;Partia;Kaczynscy;Ugrupowanie
+2490;HONOLULU;Plaża;Morze;Usa;Stolica;Hawaje
+2491;ZUS;Starosc;Ubezpieczenie;Renta;Emerytura;Składka
+2492;PODATEK;Vat;Dochodowy;Urzad Skarbowy;Akcyza;Pit
+2493;STRAŻ OGNIOWA;Drezyna;Pożar;Wóz;Remiza;Gasic
+2494;ZGAGA;Manti;Pieczenie;Przełyk;żoładek;Nadkwasnosc
+2495;WYLICZANKA;Entliczek;Zabawa;Dzieci;Rymowanka;Ene Due
+2496;PSEUDONIM ARTYSTYCZNY;Inny;Ukrycie;Nazwisko;Bolesław Prus;Autor
+2497;ZAMIESZKI;Demonstracja;Tłum;Protest;Policja;Ludzie
+2498;JAROCIN;Miasto;Festiwal Rockowy;Polski Woodstock;Poznan;Wielkopolskie
+2499;ADAPTACJA FILMOWA;Na Podstawie;Scenariusz;Ksiażka;Powiesc;Kino
+2500;CUDZYSŁÓW;Przenosnia;Znak Interpunkcyjny;Ptaszki;Apostrof;Cytat
+2501;POCZTÓWKA;Widokówka;Wyjazd;Pozdrowienia;Wakacje;życzenia
+2502;ETIOPIA;Afryka;Głód;Murzyn;Panstwo;Addis Abeba
+2503;KOŁO RATUNKOWE;Pomoc;Milionerzy;Morze;Statek;Tonacy
+2504;SNOPOWIAZAŁKA;Zboże;żniwa;Maszyna;Rolnik;Kombajn
+2505;OKRAGŁY STÓŁ;Prl;Król Artur;Lech Wałesa;Solidarnosc;Obrady
+2506;AZALIA;Kwiaty;Różanecznik;Krzew;Rododendron;Maj
+2507;JEZYK MIGOWY;Rece;Głuchy;Dogadywac Sie;Niemowa;Gesty
+2508;STANISŁAW WOKULSKI;Lalka;Izabella Łecka;Rzecki;Bolesław Prus;Pozytywizm
+2509;MEANDER;Ornament;Zakret;Zakole;Koryto;Rzeka
+2510;BENEFICJENT;Dostawac;Korzysc;Zyskiwac;Dotacja Ue;Odbiorca
+2511;GADU GADU;Emotikony;Znajomi;Komunikator;Słoneczko;Internet
+2512;KREGLE;Flinstonowie;Strike;Gra;Kula;Rzucac
+2513;OGRODZENIE;Parkan;Płot;Brama;Siatka;Dom
+2514;BIDON;Napój;Rower;Butelka;Kolarz;Rama
+2515;KARAOKE;Piosenka;Tekst;Amatorzy;Spiew;Konkurs
+2516;WITAMINA C;Cytryna;Przeziebienie;Papryka;Szkorbut;Kwas Askorbinowy
+2517;WADEMEKUM;Informacje;Przewodnik;Ksiażka;Poradnik;Przepisy
+2518;KINO DOMOWE;Film;Głosniki;Ekran;Dvd;Zestaw
+2519;GABKA;Kapiel;Porowaty;Prymitywne Zwierze;Mycie;Prysznic
+2520;KRESKA UŁAMKOWA;Mianownik;Matematyka;Symbol;Licznik;Dzielenia
+2521;KROSNA;Nici;Materiał;Osnowa;Przasniczki;Tkanie
+2522;KATARZYNA FIGURA;Pociag Do Hollywood;Killer;Seksbomba;Kingsize;Aktorka
+2523;JOGURT NATURALNY;Nabiał;Smietana;Krowa;Mleko;Kefir
+2524;AMBROZJA;Niesmiertelnosc;Napój;Nektar;Grecja;Bogowie
+2525;PABLO PICASSO;Hiszpania;Artysta;Malarz;Kubizm;Obraz
+2526;OSZUKIWAC;Nieprawda;Krasc;Krecic;Kłamac;Ofiara
+2527;GREENWICH;Przedmiescia;Południk Zerowy;Londyn;Anglia;Długosc Geograficzna
+2528;OWCA;Milczenie;Oscypek;Baran;Wełna;Czarna
+2529;ZATOKA POMORSKA;Odra;Szczecin;Gdanska;Morze Bałtyckie;Swinoujscie
+2530;PŁYTA DVD;Krażek;Film;Naped;Cd;Nosnik Danych
+2531;NUDNOSCI;Choroba;Ciaża;Kac;Wymioty;Samopoczucie
+2532;GOOGLE;Wyszukiwarka;Poczta;Internet;Microsoft;Gmail
+2533;NUCIC;Melodia;Spiewac;Mruczec;Cicho;Piosenka
+2534;PIASKOWNICA;Babki;Foremki;Łopatka;Dzieci;Plac Zabaw
+2535;JOANNA D'ARC;Orlean;Stos;Paryż;Francja;Dziewica
+2536;GOTOWE NA WSZYSTKO;Ameryka;Kobiety;Serial;Eva Longoria;Tajemnica
+2537;ZAPIEKANKA;Jesc;Budka;Fast-food;Ser;Bułka
+2538;GONDOLA;Balon;Kosz;Łódz;Woda;Wenecja
+2539;JANKO MUZYKANT;Nowela;Skrzypce;Bohater;Lektura;Sienkiewicz
+2540;KLON;Kanada;Lisc;Naukowcy;Drzewo;Kopia
+2541;LUCYFER;Diabeł;Szatan;Upadły;Piekło;Anioł
+2542;PENTAGON;Piec;Budynek;Wojsko;11 Wrzesnia;Departament Obrony Usa
+2543;BAŁWAN;Ulepic;Kula;Zima;Marchewka;Snieg
+2544;TRAMPOLINA;Akrobata;Gimnastyka;Skakac;Cyrk;Sport
+2545;SŁON;Traba;Afryka;Indie;Zwierze;Uszy
+2546;MONOPOLY;Hotele;Pieniadze;Gra Planszowa;Dom;Pionki
+2547;DZIADEK MRÓZ;Babcia;Prezenty;Ziab;Rosja;Swiety Mikołaj
+2548;CHUSTECZKA HIGIENICZNA;Nos;Smarkac;Wycierac;Katar;Jednorazowa
+2549;HOMEOPATIA;Medycyna Naturalna;Ziołolecznictwo;Niekonwencjonalny;Lekarstwo;Roztwór
+2550;GRZBIET;Koci;Fala;Kark;Górski;Plecy
+2551;AFRYKA;Kontynent;Czarny;Murzyn;Sahara;Nil
+2552;SKORPION;Pustynia;Kolec Jadowy;Szczypce;Zodiak;Pajeczak
+2553;ZDRAPKA;Złotówka;Wygrana;Totolotek;Drapanie;Los
+2554;PORZEKADŁO;Frazeologizm;Madrosc;Powiedzenie;Przysłowie;Mówic
+2555;MYDŁO;Rece;Powidło;Szare;Fa;Brud
+2556;SALA KONCERTOWA;Muzyka;Scena;Wystep;Zespół;Grac
+2557;PUSZEK OKRUSZEK;Dziadek;Kłebuszek;Natalka Kukulska;Pies Bernardyn;Tytuł Piosenki
+2558;GLADIATOR;Maximus;Starożytny Rzym;Arena;Russell Crowe;Walka
+2559;ANEKS;Pokój;Umowa;Uzupełnienie;Kuchenny;Zmiana
+2560;BAGAŻ PODRECZNY;Pakowac;Lekki;Schowek;Samolot;Blisko
+2561;KANTOR;Wymiana;Euro;Kurs;Waluta;Dolar
+2562;SOK MALINOWY;Słodki;Przeziebienie;Napój;Rozgrzewac;Woda
+2563;TADEUSZ KOSCIUSZKO;Bitwa Pod Racławicami;Powstanie;Insurekcja;Polak;Niepodległosc
+2564;ŻELATYNA;Galaretka;Nóżki;Zastygac;Meduza;Spożywcza
+2565;NIEWIASTA;Dziewczyna;Roztropna;Kobieta;Meżczyzna;Płec
+2566;JARMARK;Festyn;Targ;Sprzedaż;Odpust;Kupiec
+2567;DURSZLAK;Cedzak;Okra;Makaron;Sito;Dziurkowane
+2568;RYSUNEK;Kredki;Obrazek;Kartka Papieru;Ołówek;Grafika
+2569;SLEDZTWO;Policja;Przestepstwo;Dochodzenie;Detektyw;Postepowanie
+2570;GODZILLA;Japonia;Film;Dinozaur;Potwór;Gad
+2571;WYROK W ZAWIESZENIU;Sad;Wiezienie;Odroczenie;Kara;Skazac
+2572;ŁANIA;Las;Rogi;Sarna;Jelen;Samica
+2573;KANKAN;Francja;Noga;Taniec;Kabaret;Moulin Rouge
+2574;HIV;Aids;Krew;Zakażenie;Wirus;Choroba
+2575;ŻUBR;Piwo;Rogi;Zwierze;Reklama;Białowieża
+2576;NEONÓWKA;Kabaret;Reklama;żarówka;Swiatło;Gaz Szlachetny
+2577;LAMPA;Swiatło;żarówka;Nafta;Samochód;Nocna
+2578;OZON;Gaz;Freon;Tlen;Izotop;Burza
+2579;KURNIK;Domek;Kogut;Ptak;Jajka;Grzeda
+2580;JONASZ;Prorok;Biblia;Wieloryb;Stary Testament;Połknac
+2581;DYSKIETKA;Megabajt;Komputer;Dane;Nosnik;Stacja
+2582;DETEKTYW W SUTANNIE;Tv;Zagadka;Ksiadz;Ojciec Mateusz;Serial
+2583;HIPNOZA;Wahadło;Kaszpirowski;Sen;Sugestia;Parapsychologia
+2584;GRZYBOBRANIE;Borowik;Koszyk;Las;Zbierac;Trujace
+2585;ŁADA;Samara;Rosja;Samochód;Auto;Rzeka
+2586;KRET;Zwierze;Podziemny;Slepy;Kopiec;Kopac
+2587;PARIS HILTON;Skandal;Dziedziczka;Hotel;Pornografia;Blondynka
+2588;MUR PRUSKI;Cegła;Sredniowiecze;Burzyc;Niemcy;Zabudowa
+2589;LOTOS;Roslina;Kwiat;Joga;Benzyna;Paliwo
+2590;TABLICA MENDELEJEWA;Chemia;Układ Okresowy;Masa Atomowa;Pierwiastki;Izotopy
+2591;PŁYTA WINYLOWA;Gramofon;Muzyka;Analogowa;Adapter;Thomas Edison
+2592;KRÓL MACIUS PIERWSZY;Korona;Chłopiec;Dzieci;Janusz Korczak;Ksiażka
+2593;KAMELEON;Gad;Zmieniac;Maskowac;Kolor;Jaszczurka
+2594;PLACEBO;Terapia;Obojetny;Udawac;Chory;Lekarstwo
+2595;KAMASZE;Wojsko;żołnierz;Ludwik Dorn;Stopa;Cholewka
+2596;KARAFKA;Alkohol;Wino;Kryształ;Szkło;Naczynie
+2597;DEPILACJA BRAZYLIJSKA;Wyrywac;Wosk;Włosy;Salon Kosmetyczny;Gładkosc
+2598;KARAMBOL;Jechac;Zderzenie;Samochód;Kraksa;Wypadek
+2599;PIOTRUS PAN;Latac;Nibylandia;Chłopiec;Piraci;Dzwoneczek
+2600;PREZENTACJA;Rzutnik;Power Piont;Przedstawiac;Temat;Projektor
+2601;MASKA;Zasłaniac;Twarz;Karnawał;Bal;Teatr
+2602;GWIEZDNE WOJNY;Miecz Swietlny;Vader;Film;Rycerz Jedi;George Lucas
+2603;KLUCZ;Francuski;Drzwi;Kłódka;Zamek;Otwierac
+2604;SZAMPAN;Alkohol;Nowy Rok;Babelek;Toast;Korek
+2605;ALARM;Samochodowy;Wyjaca Syrena;Przeciwpożarowy;Budzik;Zegarek
+2606;SMOK WAWELSKI;Jama;Ogien;Zamek;Zwierze;Owca
+2607;WATA CUKROWA;Dzieci;Słodycze;Biała;Szklana;Na Patyku
+2608;GRA;Sport;Zabawa;Planszowa;Komputerowa;Aktor
+2609;METRONOM;Taktomierz;Muzyka;Tempo;Cieżarek;Wahadło
+2610;NASZA KLASA;Strona Internetowa;Logowanie;Znajomi;Szkoła;Portal Społecznosciowy
+2611;POLICZEK;Rumieniec;Skóra;Okragły;Twarz;Uderzac
+2612;MÓWIC;Usta;Recytowac;Opowiadac;Struny Głosowe;Jezyk
+2613;KACZKA KRZYŻÓWKA;Dziwaczka;Rozwiazywac;Park;Ptak;Polowanie
+2614;CWICZYC;Siłownia;Sport;Akrobacje;Gimnastyka Sportowa;Wychowanie Fizyczne
+2615;KOLIBER;Nektar;Kwiat;Najmniejszy;Latanie;Ptak
+2616;LUSTRO;Odbicie;Zwierciadło;Alicja;Szkło;Patrzec
+2617;MUSZKIETER;Portos;Aleksander Dumas;D'artagnan;Francja;Atos
+2618;WIRTUOZ;Grac;Doskonały;Mistrz;Instrument;Muzyk
+2619;KOZIOŁEK MATOŁEK;Rogi;Bajka;Pacanów;Makuszynski;Postac
+2620;LEONARDO DA VINCI;Ostatnia Wieczerza;Mona Lisa;Dan Brown;Oswiecenie;Kod
+2621;JUTRZENKA;Słonce;Poranek;Swit;Wschód;Dzien
+2622;SŁON TRABALSKI;Wiersz;Julian Tuwim;Tomasz;Tytuł;Zapominalski
+2623;GRA W WARCABY;Plansza;Szachownica;Pionki;Zbijanie;Szachy
+2624;ADAM MICKIEWICZ;Poeta;Pisarz;Pan Tadeusz;Litwa;Wieszcz
+2625;MADAGASKAR;Film Animowany;Kino;Bajka;Wyspa;Afryka
+2626;LICYTACJA;Kupowac;Aukcja;Sprzedawac;Allegro;Podbic
+2627;MILIONERZY;Hubert Urbanski;Tvn;Teleturniej;Tv;Koło Ratunkowe
+2628;LORD;Vader;Tytuł;Anglia;Szlachcic;Wielka Brytania
+2629;RZUT KARNY;Pole Karne;Faul;Jedenastka;Sedzia;Piłka Nożna
+2630;NOC;Ksieżyc;Gwiazdy;Spac;Dzien;Słonce
+2631;GANGES;Krokodyl;Rzeka;Indie;Woda;Zanieczyszczenia
+2632;BIBLIOTEKA;Wypożyczalnia;Lektury;Ksiażka;Szkoła;Publiczna
+2633;KOT;Miauczec;Mruczenie;Lew;Pies;Zwierze
+2634;PODDASZE;Strych;Mieszkanie;Dach;Dom;Adaptacja
+2635;BRUKSELKA;Kapusta;Belgia;Mała;Warzywo;Kapusniak
+2636;WIT STWOSZ;Gotyk;Rzezbiarz;Kraków;Kosciół Mariacki;Ołtarz
+2637;RÓW MARIANSKI;Dno;Cisnienie;Ocean Spokojny;Pacyfik;Głebina
+2638;OLIMPIADA;Igrzyska;Znicz;4 Lata;Medale;Zawody Sportowe
+2639;QUAD;Czterokołowiec;Rekreacja;Pojazd;Jazda;Teren
+2640;ŻELAZKO;Prasowanie;Deska;Pognieciony;Ubranie;Dusza
+2641;SŁOWNIK;Jezyk;Hasło;Szukac;Definicja;Ksiażka
+2642;ODRUCH WARUNKOWY;Kolano;Pies;Eksperyment;Iwan Pawlow;Uczyc
+2643;TABU;Łamac;Zakazany;Temat;Kultura;Milczenie
+2644;KAJAK;Potok;Spływ;Rzeka;Wiosło;Czółno
+2645;BRYCZESY;Obcisłe;Dżokej;Kon;Spodnie;Jezdziectwo
+2646;PREZERWATYWA;Ciaża;Atykoncepcja;Zabezpieczenie;Lateks;Kondom
+2647;WRÓBELEK ELEMELEK;Dobranocka;Latac;Ptak;Mały;Kartofelek
+2648;SPÓŁDZIELNIA;Mieszkanie;Praca;Osiedle;Wspólnota;Zarzadzanie
+2649;GRAŻDANKA;Cyrylica;Alfabet;Bukwy;Rosja;Piotr I
+2650;KALENDARZ;Dzien;Data;Julianski;Gregorianski;Imieniny
+2651;JAHWE;Bóg;Mojżesz;Biblia;żydowski;Imie
+2652;WRZECIONO;Włókiennictwo;Przasc;Spiaca Królewna;Ukłuc;Nic
+2653;NEOSTRADA;Telefon;Dostep;Komputer;Telekomunikacja Polska;Internet
+2654;USB;Komputer;Pendrive;Wtyczka;Łacze;Wejscie
+2655;CURLING;Kamien;Olimpijska;Kanada;Lód;Szczotka
+2656;KUZNIA;Podkowa;Młot;Kowadło;Kowal;Miech
+2657;SYDNEY;Pollack;Olimpiada;Australia;Kangur;Kontynent
+2658;KON TROJANSKI;Iliada;Zwierze;Odyseusz;Mitologia;Homer
+2659;KIMONO;Gejsza;Ubiór;Karate;Franek;Japonia
+2660;BOKSERKI;Bielizna;Meżczyzna;Spodnie;Majtki;Piesciarstwo
+2661;WIELBŁAD;Dromader;Piasek;Dwugarbny;Pustynia;Wielbład
+2662;USTA;Mówic;Opryszczka;Szminka;Wargi;Pocałunek
+2663;TERRY PRATCHETT;Swiat Dysku;Wiedzmikołaj;Dwukwiat;Pisarz;Fantasy
+2664;ODGŁOS;Wydawac;Dzwiek;Szczekanie;Echo;Pukanie
+2665;SUPERNIANIA;Dorota Zawadzka;Karny Jeżyk;Pomoc;Opiekunka;Tvn
+2666;ZREBAK;Mały;Dziecko;Kon;Klacz;Ogier
+2667;WARIS DIRIE;Kwiat Pustyni;Mogadisz;Nomadowie;Somalia;Ucieczka
+2668;SZLAFMYCA;Szlachcic;Spac;Czapka;Pompon;Noc
+2669;PI;Ludolfina;Koło;3.14;Obwód;Radian

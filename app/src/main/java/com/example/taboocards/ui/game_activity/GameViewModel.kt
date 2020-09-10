@@ -8,6 +8,7 @@ import android.widget.Toast
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.ViewModel
 import com.example.taboocards.R
+import com.example.taboocards.data.card.CardRepository
 import com.example.taboocards.data.game.GameDetails.Companion.pointsToWinGameDetails
 import com.example.taboocards.ui.game_activity.dialog.DialogCreator
 import com.example.taboocards.ui.game_activity.team.*
@@ -17,6 +18,7 @@ class GameViewModel(
     private var timerCoordinator: TimerCoordinator,
     private var dialogCreator: DialogCreator,
     private var teamRepository: TeamRepository,
+    private var cardRepository: CardRepository,
     private val context: Context
 ) : ViewModel() {
 

@@ -28,6 +28,8 @@ private const val skipChances: Int = 3
 @Suppress("NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
 class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
 
+    //TODO: jak czas minie a app jest w fazie po wcisnięciu kwadrata, to wywala błąd
+
     private var fm: FragmentManager = supportFragmentManager
     private lateinit var gameViewModel: GameViewModel
     private lateinit var currentScoreTextView: TextView

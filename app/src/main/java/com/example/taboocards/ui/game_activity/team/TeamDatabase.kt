@@ -8,7 +8,7 @@ import androidx.room.RoomDatabase
 @Database(entities = [Team::class], version = 1, exportSchema = false)
 abstract class TeamDatabase : RoomDatabase() {
 
-    abstract fun scoreDao(): TeamDao
+    abstract fun teamDao(): TeamDao
 
     companion object {
 
@@ -24,7 +24,7 @@ abstract class TeamDatabase : RoomDatabase() {
 
         private fun buildDatabase(context: Context) = Room.databaseBuilder(
             context,
-            TeamDatabase::class.java, "todo-list.db"
+            TeamDatabase::class.java, "team-list.db"
         ).build()
     }
 

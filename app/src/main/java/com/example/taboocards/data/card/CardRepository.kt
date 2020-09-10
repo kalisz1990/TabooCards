@@ -1,23 +1,10 @@
 package com.example.taboocards.data.card
 
-class CardRepository private constructor(private val cardDao: CardDao) {
+interface CardRepository {
 
-    fun addCard(card: Card) {
-        cardDao.addCard(card)
-    }
+    fun addCard(card: Card)
 
-    fun getCards() = cardDao.getCards()
+    fun getCard(id: Int?): Card
 
-    companion object {
-        @Volatile
-        private var instances: CardRepository? = null
-
-        fun getInstance(cardDao: CardDao) =
-            instances
-                ?: synchronized(this) {
-                instances
-                    ?: CardRepository(cardDao)
-                        .also { instances = it }
-            }
-    }
+    fun deleteAllCards()
 }

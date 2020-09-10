@@ -1,22 +1,19 @@
 package com.example.taboocards.data.card
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
 
-class CardDao {
+@Dao
+interface CardDao {
 
-    private val cardList = mutableListOf<Card>()
-    private val cards = MutableLiveData<List<Card>>()
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun addCard(card: Card)
 
-    init {
-        cards.value = cardList
-    }
+    @Query("SELECT * FROM table_cards WHERE id = :id")
+    fun getCard(id: Int?): Card
 
-    fun addCard(card: Card) {
-        cardList.add(card)
-        cards.value = cardList
-    }
-
-    fun getCards() = cards as LiveData<List<Card>>
-
+    @Query("DELETE FROM table_cards")
+    fun deleteAllCards()
 }

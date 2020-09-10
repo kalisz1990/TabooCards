@@ -1,6 +1,9 @@
 package com.example.taboocards.koin
 
 import androidx.room.Room
+import com.example.taboocards.data.card.CardDatabase
+import com.example.taboocards.data.card.CardRepository
+import com.example.taboocards.data.card.CardRepositoryImpl
 import com.example.taboocards.ui.game_activity.GameViewModel
 import com.example.taboocards.ui.game_activity.dialog.DialogCreator
 import com.example.taboocards.ui.game_activity.team.TeamDatabase
@@ -15,7 +18,6 @@ import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
 val appModule = module {
-
     single { TimerCoordinator(get()) }
     single { StartGameDialog() }
     single { SettingsDialog() }
@@ -23,21 +25,28 @@ val appModule = module {
 }
 
 val viewModule = module {
-
-    viewModel { GameViewModel(get(), get(), get(), get()) }
+    viewModel { GameViewModel(get(), get(), get(), get(), get()) }
     viewModel { MenuViewModel(get(), get()) }
 }
 
 val databaseModule = module {
     single { TeamRepositoryImpl(get()) as TeamRepository }
+    single { CardRepositoryImpl(get()) as CardRepository }
 
     single {
-        Room.databaseBuilder(androidApplication(), TeamDatabase::class.java, "table_score")
+        Room.databaseBuilder(androidApplication(), TeamDatabase::class.java, "table_team")
             .build()
     }
 
-    single { get<TeamDatabase>().scoreDao() }
+    single {
+        Room.databaseBuilder(androidApplication(), CardDatabase::class.java, "table_cards")
+            .build()
+    }
+
+    single { get<TeamDatabase>().teamDao() }
+    single { get<CardDatabase>().cardDao() }
 
 }
+
 
 
