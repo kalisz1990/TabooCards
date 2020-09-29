@@ -1,4 +1,4 @@
-package com.example.taboocards.ui.game_activity.team
+package com.example.taboocards.ui.game_activity.teams
 
 import androidx.room.*
 

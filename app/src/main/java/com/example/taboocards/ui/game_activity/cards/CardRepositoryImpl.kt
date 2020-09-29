@@ -1,4 +1,4 @@
-package com.example.taboocards.data.card
+package com.example.taboocards.ui.game_activity.cards
 
 class CardRepositoryImpl(
     private val cardDao: CardDao

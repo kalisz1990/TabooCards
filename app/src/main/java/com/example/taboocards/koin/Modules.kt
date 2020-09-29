@@ -1,14 +1,14 @@
 package com.example.taboocards.koin
 
 import androidx.room.Room
-import com.example.taboocards.data.card.CardDatabase
-import com.example.taboocards.data.card.CardRepository
-import com.example.taboocards.data.card.CardRepositoryImpl
+import com.example.taboocards.ui.game_activity.cards.CardDatabase
+import com.example.taboocards.ui.game_activity.cards.CardRepository
+import com.example.taboocards.ui.game_activity.cards.CardRepositoryImpl
 import com.example.taboocards.ui.game_activity.GameViewModel
 import com.example.taboocards.ui.game_activity.dialog.DialogCreator
-import com.example.taboocards.ui.game_activity.team.TeamDatabase
-import com.example.taboocards.ui.game_activity.team.TeamRepository
-import com.example.taboocards.ui.game_activity.team.TeamRepositoryImpl
+import com.example.taboocards.ui.game_activity.teams.TeamDatabase
+import com.example.taboocards.ui.game_activity.teams.TeamRepository
+import com.example.taboocards.ui.game_activity.teams.TeamRepositoryImpl
 import com.example.taboocards.ui.game_activity.timer.TimerCoordinator
 import com.example.taboocards.ui.menu_activity.MenuViewModel
 import com.example.taboocards.ui.menu_activity.settings.SettingsDialog

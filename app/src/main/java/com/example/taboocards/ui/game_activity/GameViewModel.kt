@@ -2,16 +2,16 @@ package com.example.taboocards.ui.game_activity
 
 import android.content.Context
 import android.os.AsyncTask
-import android.util.Log
+import android.widget.LinearLayout
 import android.widget.TextView
-import android.widget.Toast
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.ViewModel
 import com.example.taboocards.R
-import com.example.taboocards.data.card.CardRepository
+import com.example.taboocards.ui.game_activity.cards.CardRepository
 import com.example.taboocards.data.game.GameDetails.Companion.pointsToWinGameDetails
+import com.example.taboocards.ui.game_activity.csv.CardGenerator
 import com.example.taboocards.ui.game_activity.dialog.DialogCreator
-import com.example.taboocards.ui.game_activity.team.*
+import com.example.taboocards.ui.game_activity.teams.*
 import com.example.taboocards.ui.game_activity.timer.TimerCoordinator
 
 class GameViewModel(
@@ -39,6 +39,7 @@ class GameViewModel(
         )
     }
 
+    //TODO: do menuViewModel?
     fun addTeamToDb(teamName: String?) {
         AsyncTask.execute {
             val newTeam = Team(teamName, 0)
@@ -64,6 +65,35 @@ class GameViewModel(
         asyncClass.execute()
     }
 
+    fun changeTeam(team1: String, team2: String, currentTeamNr: Int): String {
+        return if (currentTeamNr == 1) {
+            team1
+        } else {
+            team2
+        }
+    }
+
+    fun isGameOver(textView: TextView, pointsToWin: String): Boolean {
+        return textView.text == pointsToWin
+    }
+
+    fun clearDB() {
+        AsyncTask.execute {
+            teamRepository.deleteAllTeams()
+        }
+    }
+
+    fun finishGame(currentTeamName: String?, fm: FragmentManager?) {
+        dialogCreator.createDialog(
+            R.layout.custom_dialog_game_activity,
+            "$currentTeamName ${context.getString(R.string.won)}",
+            fm,
+            context.getString(R.string.finish)
+        )
+        timerCoordinator.stopTimer()
+    }
+
+
     fun skipButton(skipTextView: TextView, teamPoints: TextView, teamName: String?): String {
         var chances: Int = skipTextView.text.toString().toInt()
         return if (chances > 0) {
@@ -75,36 +105,18 @@ class GameViewModel(
         }
     }
 
-    fun changeTeam(team1: String, team2: String, currentTeamNr: Int): String {
-        return if (currentTeamNr == 1) {
-            team1
-        } else {
-            team2
-        }
-    }
+    fun generateCard(): ArrayList<String> {
+        val cardExample = CardGenerator(context).generate()
+        val list = arrayListOf<String>()
 
-    fun clearDB() {
-        AsyncTask.execute {
-            teamRepository.deleteAllTeams()
-        }
-    }
+        list.add(cardExample.mainWord)
+        list.add(cardExample.s1)
+        list.add(cardExample.s2)
+        list.add(cardExample.s3)
+        list.add(cardExample.s4)
+        list.add(cardExample.s5)
 
-    fun changeCard() {
-        TODO("Not yet implemented")
-    }
-
-    fun isGameOver(textView: TextView, pointsToWin: String): Boolean {
-        return textView.text == pointsToWin
-    }
-
-    fun finishGame(currentTeamName: String?, fm: FragmentManager?) {
-        dialogCreator.createDialog(
-            R.layout.custom_dialog_game_activity,
-            "$currentTeamName ${context.getString(R.string.won)}",
-            fm,
-            context.getString(R.string.finish)
-        )
-        timerCoordinator.stopTimer()
+        return list
     }
 
     private class AsyncClassToUpdatePoints(
@@ -146,4 +158,6 @@ class GameViewModel(
             teamRepository.updateTeam(team)
         }
     }
+
+
 }

@@ -7,12 +7,10 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.fragment.app.FragmentManager
-import androidx.room.Room
 import com.example.taboocards.ui.menu_activity.MenuActivity
 import com.example.taboocards.R
 import com.example.taboocards.data.game.GameDetails.Companion.pointsToWinGameDetails
 import com.example.taboocards.data.game.GameDetails.Companion.tourTimeGameDetails
-import com.example.taboocards.ui.game_activity.team.TeamDatabase
 import kotlinx.android.synthetic.main.activity_game.*
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 
@@ -41,8 +39,8 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         setContentView(R.layout.activity_game)
 
         gameViewModel = getViewModel()
+
         firstActivitySetup()
-        initializeRoom()
         clearDatabase()
         openStartDialog()
         addTeamsToDB()
@@ -58,6 +56,7 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         skip_chances_textView_GameActivity_numbers.text = skipChances.toString()
         currentScoreTextView = score_team_1_game_activity
         currentTeamName = team1Name
+        generateCard()
     }
 
     private fun openStartDialog() {
@@ -92,6 +91,7 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
             currentScoreTextView = score_team_2_game_activity
             skip_chances_textView_GameActivity_numbers.text = skipChances.toString()
         }
+        generateCard()
     }
 
     private fun isGameOver(): Boolean {
@@ -106,6 +106,7 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
                 currentScoreTextView,
                 fm
             )
+            generateCard()
         }
         if (isGameOver()) {
             gameViewModel.stopTimer()
@@ -119,6 +120,7 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
             currentScoreTextView,
             fm
         )
+        generateCard()
     }
 
     fun skipButton(view: View) {
@@ -128,14 +130,7 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
                 currentScoreTextView,
                 currentTeamName
             )
-    }
-
-    //TODO: move this function to MenuActivity?
-    private fun initializeRoom() {
-        Room.databaseBuilder(
-            applicationContext,
-            TeamDatabase::class.java, "table_score"
-        ).build()
+        generateCard()
     }
 
     private fun addTeamsToDB() {
@@ -153,5 +148,15 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         val intent = Intent(this@GameActivity, MenuActivity::class.java)
         startActivity(intent)
         finish()
+    }
+
+    private fun generateCard() {
+        val list = gameViewModel.generateCard()
+        main_word.text = list[0]
+        suggestion1.text = list[1]
+        suggestion2.text = list[2]
+        suggestion3.text = list[3]
+        suggestion4.text = list[4]
+        suggestion5.text = list[5]
     }
 }

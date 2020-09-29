@@ -1,5 +1,4 @@
-﻿id;main_word;s1;s2;s3;s4;s5
-1;KARA;Nagroda;Nauczka;Zbrodnia;Zły;Dostac
+﻿1;KARA;Nagroda;Nauczka;Zbrodnia;Zły;Dostac
 2;MINISTER;Teka;Do Spraw;Gospodarki;Rzad;Premier
 3;DWUTAKT;Koszykówka;Kosz;Boisko;Piłka;Krok
 4;PIWNICA;Dom;Pod Ziemia;Ciemna;Pod Baranami;Wino
@@ -774,7 +773,7 @@
 773;MAZGAJ;Beksa;Łzy;Dziecko;Płaksa;Ryczec
 774;GPS;Pozycja;Satelita;Lokalizacja;Nawigacja;Mapa
 775;BIAŁY KRUK;Ptak;Okaz;Rzadkosc;Czarny;Unikat
-776;"DÉJ&AGRAVE; VU";Uczucie;Matrix;Przeszłosc;Wydawac Sie;Wspomnienie
+776;DÉJA VU; VU;Uczucie;Matrix;Przeszłosc;Wydawac Sie;Wspomnienie
 777;KWESTIONOWAC;Prawda;Negowac;Zaprzeczac;Podważac;Watpliwosc
 778;BURSZTYN;Jantar;Biżuteria;żywica;Kamien;Morze
 779;SOJUSZ;Nato;Pakt;Zgoda;Porozumienie;Wojskowy
@@ -1166,7 +1165,7 @@
 1165;LAMINOWANIE;Folia;Usztywniac;Zgrzewac;Dokumenty;Papier
 1166;LINIA;Kreska;Czerwona;Cienka;Autowa;Prosta
 1167;EPIDEMIA;Grypa;Wirus;Dżuma;Zakazna;Choroba
-1168;WÓDKA;Czysta;0,5l;Alkohol;Wyborowa;Flaszka
+1168;WÓDKA;Czysta;0.5l;Alkohol;Wyborowa;Flaszka
 1169;KALORYFER;Ciepło;Okno;Miesnie;Grzejnik;żeberka
 1170;WIKINGOWIE;Północ;Skandynawia;Norwegia;Łodzie;Wojownik
 1171;KARTA DAN;Restauracja;Kelner;Spis;Menu;Jedzenie
@@ -1250,7 +1249,7 @@
 1249;HALUKS;Obcas;Stopa;Koslawy Paluch;Choroba;Odcisk
 1250;KRYPTA;Grób;Wampir;Opowiesc;Cmentarz;Trup
 1251;ANDROPAUZA;Menopauza;Hormony;Klimakterium;Starosc;Meżczyzna
-1252;TELEEXPRESS;Maciej Orłos;Wiadomosci;20-E65555555555039,4;Informacje;Tv
+1252;TELEEXPRESS;Maciej Orłos;Wiadomosci;20-E65555555555039.4;Informacje;Tv
 1253;MIKROFON;Mówic;Trzymac;Spiewac;Echo;Głos
 1254;KRAWAT;Garnitur;Koszula;Szyja;Wezeł;Mucha
 1255;KOLEJARZ;Bilety;Stacja;Pociag;Tory;Pracownik
@@ -2014,7 +2013,7 @@
 2013;CYRK;Klaun;Sztuczki;Namiot;Zwierzeta;Arena
 2014;ICHTIOLOGIA;Badania;Dziedzina;Wiedza;Ryby;Nauka
 2015;CZAJNIK;Woda;Gotowac;Elektryczny;Wrzec;Gwizdek
-2016;TABELA;Excel, Word;Kolumny I Wersy;Komórki;Linie;Dane
+2016;TABELA;Excel lub Word;Kolumny I Wersy;Komórki;Linie;Dane
 2017;AKT;Fotografia;Nagosc;Sad;Dokument;Prawny
 2018;APOKALIPSA;Objawienie Sw. Jana;Koniec Swiata;Zagłada;Jezdzcy;Nowy Testament
 2019;EJAKULACJA;Sex;Penis;Orgazm;Sperma;Wytrysk

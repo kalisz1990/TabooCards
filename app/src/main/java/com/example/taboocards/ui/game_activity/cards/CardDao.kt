@@ -1,4 +1,4 @@
-package com.example.taboocards.data.card
+package com.example.taboocards.ui.game_activity.cards
 
 import androidx.room.Dao
 import androidx.room.Insert

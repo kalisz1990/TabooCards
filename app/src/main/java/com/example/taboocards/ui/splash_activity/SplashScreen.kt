@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.example.taboocards.R
+import com.example.taboocards.ui.game_activity.csv.CSVReaderCustom
 import com.example.taboocards.ui.menu_activity.MenuActivity
 
 
@@ -15,7 +16,6 @@ class SplashScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
         startMainActivityWithDelay()
-
     }
 
     private fun startMainActivityWithDelay() {

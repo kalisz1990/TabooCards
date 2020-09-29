@@ -9,7 +9,6 @@ import org.koin.androidx.viewmodel.ext.android.getViewModel
 
 class MenuActivity : AppCompatActivity() {
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
@@ -27,6 +26,5 @@ class MenuActivity : AppCompatActivity() {
         val fm = supportFragmentManager
         menuViewModel.openSettingsDialog(fm)
     }
-
 
 }
