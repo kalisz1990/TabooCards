@@ -21,6 +21,7 @@ class TimerCoordinator(private val context: Context) {
                 textView.text = updateCountDownText(millisUntilFinished)
             }
 
+            //todo: zatrzymac timer gdy onPause
             override fun onFinish() {
                 countDownTimer?.cancel()
 
@@ -37,10 +38,7 @@ class TimerCoordinator(private val context: Context) {
     fun stopTimer() {
         countDownTimer?.cancel()
     }
-
-
 }
-
 
 private fun updateCountDownText(totalTime: Long): String {
     val minutes: Int = ((totalTime / secondInMilliseconds) / 60).toInt()

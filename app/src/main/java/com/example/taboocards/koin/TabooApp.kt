@@ -17,7 +17,6 @@ class TabooApp : Application() {
                     databaseModule
                 )
             )
-
         }
     }
 }

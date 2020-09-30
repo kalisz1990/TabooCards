@@ -2,9 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.taboocards">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/icon"
@@ -22,22 +19,16 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
         </activity>
 
         <activity
             android:name="com.example.taboocards.ui.menu_activity.MenuActivity"
             android:screenOrientation="portrait">
-
-
         </activity>
 
         <activity
             android:name="com.example.taboocards.ui.game_activity.GameActivity"
             android:screenOrientation="portrait">
-
-
         </activity>
     </application>
 
