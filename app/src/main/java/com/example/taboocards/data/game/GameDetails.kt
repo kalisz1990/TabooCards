@@ -6,7 +6,7 @@ class GameDetails {
     companion object {
         var team1GameDetails: String = ""
         var team2GameDetails: String = ""
-        var tourTimeGameDetails: Long = 100000L
+        var tourTimeGameDetails: Long = 90000L
         var pointsToWinGameDetails: String = "25"
     }
 }
