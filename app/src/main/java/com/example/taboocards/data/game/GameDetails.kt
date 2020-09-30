@@ -4,10 +4,9 @@ class GameDetails {
 
     //TODO: przerobić na baze danych?
     companion object {
-        var team1GameDetails: String = "dupa"
-        var team2GameDetails: String = "dupa2"
+        var team1GameDetails: String = ""
+        var team2GameDetails: String = ""
         var tourTimeGameDetails: Long = 100000L
-        var pointsToWinGameDetails: String = "10"
+        var pointsToWinGameDetails: String = "25"
     }
-
 }
