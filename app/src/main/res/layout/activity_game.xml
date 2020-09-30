@@ -26,7 +26,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="8"
             android:gravity="center"
-            android:text="Main word"
             android:textColor="#000000" />
 
         <TextView
@@ -35,7 +34,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:gravity="center"
-            android:text="suggestion1"
             android:textColor="#000000" />
 
         <TextView
@@ -44,7 +42,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:gravity="center"
-            android:text="suggestion2"
             android:textColor="#000000" />
 
         <TextView
@@ -53,7 +50,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:gravity="center"
-            android:text="suggestion3"
             android:textColor="#000000" />
 
         <TextView
@@ -62,7 +58,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:gravity="center"
-            android:text="suggestion4"
             android:textColor="#000000" />
 
         <TextView
@@ -71,7 +66,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:gravity="center"
-            android:text="suggestion5"
             android:textColor="#000000" />
 
     </LinearLayout>
@@ -138,28 +132,28 @@
 
     <Button
         android:id="@+id/ok_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="172dp"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="136dp"
         android:background="#3FDB17"
         android:onClick="okButton"
         android:text="@string/ok"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintHorizontal_bias="0.909"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/wrong_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="172dp"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="136dp"
         android:background="#DB1D17"
         android:onClick="wrongButton"
         android:text="@string/wrong"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button

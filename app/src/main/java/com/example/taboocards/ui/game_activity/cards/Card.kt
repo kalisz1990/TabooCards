@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "table_cards")
 data class Card(
-    @ColumnInfo(name = "id") var id: Int,
+    @ColumnInfo(name = "id") var id: String,
     @ColumnInfo(name = "main_word") var mainWord: String,
     @ColumnInfo(name = "s1") var word1: String,
     @ColumnInfo(name = "s2") var word2: String,

@@ -4,7 +4,7 @@ interface CardRepository {
 
     fun addCard(card: Card)
 
-    fun getCard(id: Int?): Card
+    fun getCard(id: String): Card
 
     fun deleteAllCards()
 }

@@ -12,7 +12,7 @@ interface CardDao {
     fun addCard(card: Card)
 
     @Query("SELECT * FROM table_cards WHERE id = :id")
-    fun getCard(id: Int?): Card
+    fun getCard(id: String): Card
 
     @Query("DELETE FROM table_cards")
     fun deleteAllCards()

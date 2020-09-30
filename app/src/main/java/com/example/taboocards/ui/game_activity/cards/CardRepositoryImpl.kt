@@ -8,7 +8,7 @@ class CardRepositoryImpl(
         cardDao.addCard(card)
     }
 
-    override fun getCard(id: Int?): Card {
+    override fun getCard(id: String): Card {
         return cardDao.getCard(id)
     }
 

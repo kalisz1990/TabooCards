@@ -28,4 +28,5 @@
     <string name="finish">Finish</string>
     <string name="get_ready">get ready</string>
     <string name="won">won!</string>
+    <string name="return_string">return</string>
 </resources>

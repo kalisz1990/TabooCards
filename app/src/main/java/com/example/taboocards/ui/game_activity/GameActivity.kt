@@ -56,7 +56,6 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
         skip_chances_textView_GameActivity_numbers.text = skipChances.toString()
         currentScoreTextView = score_team_1_game_activity
         currentTeamName = team1Name
-        generateCard()
     }
 
     private fun openStartDialog() {
@@ -142,7 +141,6 @@ class GameActivity : AppCompatActivity(), DialogInterface.OnDismissListener {
     private fun clearDatabase() {
         gameViewModel.clearDB()
     }
-
 
     override fun onBackPressed() {
         val intent = Intent(this@GameActivity, MenuActivity::class.java)
